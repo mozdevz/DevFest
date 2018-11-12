@@ -1,0 +1,160 @@
+{
+  "url": "https://devfestmaputo.firebaseapp.com/",
+  "startDate": "2017-09-18T09:00:00+03:00",
+  "endDate": "2017-09-18T19:00:00+03:00",
+  "analytics": {
+    "prod": "UA-43643469-8",
+    "dev": "UA-43643469-9"
+  },
+  "organizer": {
+    "name": "GDG Maputo",
+    "twitter": "gdgmaputo"
+  },
+  "webapp": {
+    "shortName": "DevFest",
+    "themeColor": "#F57C00",
+    "backgroundColor": "#F57C00"
+  },
+  "firebase": {
+    "name": "devfestmaputo",
+    "domain": "devfestmaputo.firebaseapp.com",
+    "database": "https://devfestmaputo.firebaseio.com",
+    "api": "AIzaSyBP7dIaa9ELiZujHIeL0d-W9JwpLmkN3xw",
+    "userSessionsPath": "/userSessions",
+    "ratingsPath": "/ratings",
+    "indexedDbSession": "hoverboard"
+  },
+  "mailchimp": {
+    "url": "https://gdg.us11.list-manage.com/subscribe/post?u=b7e853a79164ddfdbda3ed77b&amp;id=7993e39fbe",
+    "name": "b_b7e853a79164ddfdbda3ed77b_7993e39fbe"
+  },
+  "dateFormat": {
+    "locale": "en-US",
+    "blog": {"month": "short", "day": "numeric", "year": "numeric"}
+  },
+  "hashtag": "devfestmaputo",
+  "disqusShortName": "hoverboard-gdg-x",
+  "tweetsSource": "/data/tweets.json",
+  "partnershipProposition": "http://bit.ly/df16-sponsor",
+  "videosSessionsUrl": "https://www.youtube.com/playlist?list=PLPKbXANYPV8ejA-LEqim8-NhfZXylYHCP",
+  "enableSessionsRating": true,
+  "navigation": [
+    {
+      "route": "home",
+      "permalink": "/"
+    },
+    {
+      "route": "schedule",
+      "permalink": "/schedule/"
+    },
+    {
+      "route": "speakers",
+      "permalink": "/speakers/"
+    },
+    {
+      "route": "team",
+      "permalink": "/team/"
+    }
+  ],
+  "social": [
+    {
+      "name": "twitter",
+      "nickname": "GDGMaputo",
+      "url": "https://twitter.com/gdgmaputo"
+    },
+    {
+      "name": "gplus",
+      "nickname": "GDG Maputo",
+      "url": "https://plus.google.com/b/114866320150074768018/"
+    },
+    {
+      "name": "facebook",
+      "nickname": "GDG Maputo",
+      "url": "https://web.facebook.com/gdgmaputo/"
+    },
+    {
+      "name": "linkedin",
+      "nickname": "google-developers-group-maputo",
+      "url": "https://web.facebook.com/gdgmaputo/"
+    }
+  ],
+  "location": {
+    "apiKey": "",
+    "name": "Standard Bank Incubator",
+    "address": "Rua dos Desportistas #119, 1º andar, Maputo, mozambique",
+    "link": "https://www.facebook.com/expopivdennij",
+    "pointer": {
+      "latitude": -25.9768764,
+      "longitude":  32.5794532,
+      "zoom": 16
+    },
+    "mapCenter": {
+      "latitude": -25.9768764,
+      "longitude": 32.5794532
+    },
+    "images": [
+      "/images/backgrounds/sbincubator1.jpg",
+      "/images/backgrounds/sbincubator.jpg",
+      "/images/backgrounds/sbincubator2.jpg"
+    ]
+  },
+  "gallery": {
+    "photos": {
+      "big": "/images/backgrounds/people.jpg",
+      "small": [
+        "/images/backgrounds/2015.jpg",
+        "/images/backgrounds/food.jpg"
+      ]
+    }
+  },
+  "pages": {
+    "home": {
+      "title": "PÁGINA INICIAL",
+      "headerSettings": {
+        "backgroundColor": "#455A64",
+        "backgroundImage": "/images/backgrounds/home.png",
+        "fontColor": "#fff",
+        "tabBarColor": "#fff",
+        "hideLogo": true,
+        "minHeight": "360px"
+      }
+    },
+    "speakers": {
+      "title": "PALESTRANTES",
+      "headerSettings": {
+        "backgroundColor": "#3f51b5",
+		    "backgroundImage": "/images/backgrounds/palestra3.jpg",
+        "fontColor": "#fff",
+		    "hideLogo": true,
+        "tabBarColor": "#fff"
+      }
+    },
+    "schedule": {
+      "title": "Agenda",
+      "headerSettings": {
+      "backgroundColor": "#673ab7",
+        "fontColor": "#fff",
+		    "hideLogo": true,
+        "tabBarColor": "#fff"
+      }
+    },
+    "team": {
+      "title": "Equipe",
+      "headerSettings": {
+        "backgroundColor": "#009688",
+        "fontColor": "#fff",
+		    "hideLogo": true,
+        "tabBarColor": "#fff"
+      }
+    },
+    "cod": {
+      "title": "Código de Conducta",
+      "headerSettings": {
+        "backgroundColor": "#673ab7",
+        "fontColor": "#fff",
+		"hideLogo": true,
+        "tabBarColor": "#fff"
+      }
+    }
+  }
+}
