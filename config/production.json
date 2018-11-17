@@ -1,15 +1,15 @@
 {
   "basepath": "/",
-  "url": "https://hoverboard-master.firebaseapp.com/",
+  "url": "devfestmaputo.firebaseapp.com",
   "analytics": "UA-43643469-9",
   "prefix": "/",
   "firebase": {
-    "apiKey": "AIzaSyCaSkhtHekxAqXXzzbuNs2s6CpGdhZdta8",
+    "apiKey": "AIzaSyBP7dIaa9ELiZujHIeL0d-W9JwpLmkN3xw",
     "authDomain": "hoverboard-master.firebaseapp.com",
-    "databaseURL": "https://hoverboard-master.firebaseio.com",
-    "projectId": "hoverboard-master",
+    "databaseURL": "https://devfestmaputo.firebaseio.com",
+    "projectId": "devfestmaputo",
     "storageBucket": "hoverboard-master.appspot.com",
     "messagingSenderId": "516409946568"
   },
-  "googleMapApiKey": "AIzaSyDWy6O98n-ueoVaYPWRPve23vjm3JP08gw"
+  "googleMapApiKey": "AIzaSyDz0UxqqhVwitsTe4z0IQoNE56bqqnaf1c"
 }
