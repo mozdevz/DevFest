@@ -3,25 +3,25 @@
   "description": "O maior festival sobre tecnologias Google para developers organizado  pela comunidade GDG de Maputo! Tudo sobre Android, Web, Cloud, IoT,  e  mais.",
   "image": "images/social-share.jpg",
  "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
-  "dates": "25 DE NOVEMBRO DE 2017",
+  "dates": "24 DE NOVEMBRO DE 2018",
   "partnershipProposition": "https://bit.ly/dfua17-partners",
   "share": "Partilhar",
-  "followOur": "Follow our",
-  "followUs": "Follow us",
-  "emailUs": "Email us",
+  "followOur": "Siga o nosso",
+  "followUs": "Siga-nos",
+  "emailUs": "Envie-nos um email",
   "partnershipResources": "Partnership Resources",
   "eventResources": "Event Resources",
   "buyTicket": "COMPRAR BILHETE",
-  "signIn": "Sign in",
-  "signOut": "Sign out",
-  "viewHighlights": "View Highlights",
+  "signIn": "Entrar",
+  "signOut": "Sair",
+  "viewHighlights": "Ver destaques",
   "offlineMessage": "You can still work offline.",
-  "cachingComplete": "Caching complete! Future visits will work offline.",
-  "newVersionAvailable": "A new version of this app is available.",
-  "refresh": "Refresh",
-  "position": "Position",
-  "country": "Country",
-  "time": "Time",
+  "cachingComplete": "Cacheamento completo. As próximas visitas que fizer ao site, poderão ser offline.",
+  "newVersionAvailable": "Uma versão recente da página está disponível.",
+  "refresh": "Recarregar",
+  "position": "Posição",
+  "country": "País",
+  "time": "Hora",
   "faq": "/data/faq.md",
   "cod": "/data/cod.md",
   "footer": {
@@ -30,11 +30,11 @@
   "mySchedule": "Minha agenda",
   "footerRelBlock": [
     {
-      "title": "About",
+      "title": "Sobre",
       "links": [
         {
-          "name": "GDG Lviv",
-          "url": "http://lviv.gdg.org.ua/",
+          "name": "GDG Maputo",
+          "url": "https://www.meetup.com/GDG-Maputo/",
           "newTab": true
         },
         {
@@ -43,58 +43,28 @@
           "newTab": true
         },
         {
-          "name": "Meet the Team",
-          "url": "https://devfest.gdg.org.ua/team/",
+          "name": "A equipe",
+          "url": "https://devfestmaputo.firebaseapp.com/team/",
           "newTab": true
         }
       ]
     },
     {
-      "title": "Explore Past DevFests",
+      "title": "Veja os nossos eventos passados",
       "links": [
         {
-          "name": "DFUA 2013",
-          "url": "http://gdg-devfest-ua.appspot.com/",
-          "newTab": true
-        },
-        {
-          "name": "DFUA 2014",
-          "url": "https://dfua14.firebaseapp.com//",
-          "newTab": true
-        },
-        {
-          "name": "DFUA 2015",
-          "url": "https://dfua15.firebaseapp.com/",
-          "newTab": true
-        },
-        {
-          "name": "DFUA 2016",
-          "url": "https://dfua16.firebaseapp.com/",
+          "name": "DevfestMaputo2017 2017",
+          "url": "http://devfestmaputo17.firebaseapp.com/",
           "newTab": true
         }
       ]
     },
     {
-      "title": "Event Resources",
+      "title": "Links úteis sobre o evento",
       "links": [
-        {
-          "name": "Partnership Proposition",
-          "url": "https://devfest.gdg.org.ua/assets/GDG_DevFest_2016_partnership_proposition.pdf",
-          "newTab": true
-        },
-        {
-          "name": "Info Partnership Proposition",
-          "url": "https://devfest.gdg.org.ua/assets/GDG_DevFest_2016_partnership_proposition.pdf",
-          "newTab": true
-        },
-        {
-          "name": "Media Kit",
-          "url": "https://devfest.gdg.org.ua/assets/GDG_DevFest_2016_partnership_proposition.pdf",
-          "newTab": true
-        },
         {
           "name": "Call for Papers",
-          "url": "https://drive.google.com/open?id=10tPuu_7ASM8C70SotqRqIW5Uzos9BzALilMMQPg_JvA",
+          "url": "https://docs.google.com/forms/d/e/1FAIpQLSdPQ5SVgL8ie25FU93zJYavky42Y_z-K0buvdj4vuep0IkrWg/viewform?usp=sf_link",
           "newTab": true
         },
         {
@@ -256,18 +226,18 @@
     "image": "/images/team.jpg",
     "blocks": [
       {
-        "title": "Organizer",
-        "description": "<a href='http://lviv.gdg.org.ua' target='_blank'>GDG Lviv</a> with support of 10 GDGs from all around Ukraine is proud organizer of DevFest Ukraine",
+        "title": "ORGANIZADORES",
+        "description": "<a href='https://www.meetup.com/GDG-Maputo/' target='_blank'>GDG Maputo</a> Um grupo de geeks apaixonados por tecnologias google",
         "callToAction": {
-          "label": "Open team page",
+          "label": "Ver a equipe",
           "link": "/team"
         }
       },
       {
-        "title": "What is GDG?",
-        "description": "Google Developers Group (GDG) - is open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion",
+        "title": "O QUE É O GDG?",
+        "description": "Google Developer Group (GDG) Maputo é um grupo para desenvolveres estudantes e entusiastas com interesse em aprender tecnologias do google, ter experiência com productos como Android, GWT e outras API´s como o Google Maps, Google App Engine, Google Drive e muito mais. Nossas reuniões sempre serão abertas ao público em geral. Nós por vezes, co-sediamos uma reunião conjunta.",
         "callToAction": {
-          "label": "Read more",
+          "label": "Ler mais",
           "link": "https://developers.google.com/groups/",
           "newTab": true
         }
