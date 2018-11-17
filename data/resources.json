@@ -5,7 +5,7 @@
  "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
   "dates": "25 DE NOVEMBRO DE 2017",
   "partnershipProposition": "https://bit.ly/dfua17-partners",
-  "share": "Share",
+  "share": "Partilhar",
   "followOur": "Follow our",
   "followUs": "Follow us",
   "emailUs": "Email us",
@@ -27,10 +27,7 @@
   "footer": {
     "blog": "Blog"
   },
-  "mySchedule": {
-    "title": "My Schedule",
-    "browseSession": "Browse sessions"
-  },
+  "mySchedule": "Minha agenda",
   "footerRelBlock": [
     {
       "title": "About",
@@ -108,7 +105,7 @@
       ]
     }
   ],
-  "subscribeNote": "No spam, only the latest news and updates!",
+  "subscribeNote": "Sem nenhum spam. apenas updates!",
   "codeOfConduct": "Code of Conduct",
   "aboutBlock": {
     "title": "What you need to know, before you ask.",
@@ -145,7 +142,7 @@
   },
   "ticketsBlock": {
     "title": "Tickets",
-    "ticketsDetails": "Tickets grant access to all conference sections, coffee breaks, lunch and party. Accommodation is NOT included in the ticket price.",
+    "ticketsDetails": "Os bilhetes garantem acesso a todas as seções da conferência, coffee breaks e almoço.",
     "soldOut": "You missed it!",
     "notAvailableYet": "Not available yet",
     "save": "Save ${discount}% today"
@@ -179,11 +176,11 @@
       "link": "/blog/"
     }
   },
-  "speakers": {
+   "speakers": {
     "skills": "Skills",
     "previousYears": "Years",
     "previousYear": "Year"
-  },
+},
   "speakersBlock": {
     "title": "Rockstar speakers",
     "callToAction": {
@@ -214,7 +211,7 @@
       "description": "Get notified about the important conference updates",
       "label": "Subscribe"
     },
-    "yourEmail": "Your email",
+    "yourEmail": "Seu email",
     "emailAddress": "Email Address",
     "firstName": "First Name",
     "lastName": "Last Name",
@@ -222,11 +219,11 @@
     "emailRequired": "Please enter a valid email address.",
     "subscribe": "Subscribe",
     "subscribed": "Subscribed",
-    "close": "Close",
+    "close": "Fechado",
     "generalError": "Some error has occured. Please, try again later.",
     "toast": "Successfully subscribed!"
   },
-  "team": {
+ "team": {
     "description": "Google is known all around the world. Everyone is 'googling', checking on 'maps' and communicating in 'gmail'. For simple users, they are services that just works, but not for us. Developers see much more: APIs, scalability issues, complex technology stacks. And that is what GDG is about.<br><br> [Google Developers Group (GDG) Lviv](http://lviv.gdg.org.ua/) - is open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion.<br><br> Our goal is to organize space to connect the best industry experts with Ukrainian audience to boost development of IT."
   },
   "schedule": {
