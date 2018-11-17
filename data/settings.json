@@ -59,16 +59,16 @@
     },
     "speakers": {
       "title": "Speakers",
-      "metaDescription": "Hear from the Googlers, Partners, and Guest Speakers who are building the future of cloud. Check back often as we add more speakers, including our customers and partners.",
-      "description": "Hear from the Googlers, Partners, and Guest Speakers who are building the future of cloud. Check back often as we add more speakers, including our customers and partners.",
+      "metaDescription": "Venha aprender com os nossos experientes speakers convidados e empresas parceiras . Continuaremos a adicionar mais speakers a lista durante a semana. Volte mais tarde para ver mais novidades.",
+      "description": "Venha aprender com os nossos experientes speakers convidados e empresas parceiras . Continuaremos a adicionar mais speakers a lista durante a semana. Volte mais tarde para ver mais novidades.",
       "background": {
         "color": "#FFF"
       },
       "fontColor": "#424242"
     },
     "previousSpeakers": {
-      "title": "Previous Speakers",
-      "metaDescription": "Check who was with us last years",
+      "title": "Speakers de eventos passados",
+      "metaDescription": "Saiba quem esteve conosco no ano passado",
       "background": {
         "color": "#FFF"
       },
@@ -76,7 +76,7 @@
     },
     "schedule": {
       "title": "Schedule",
-      "metaDescription": "Choose your sessions to visit",
+      "metaDescription": "Escolha as sessões que mais te interessam",
       "background": {
         "color": "#fff"
       },
@@ -84,7 +84,7 @@
     },
     "team": {
       "title": "Team",
-      "metaDescription": "Get more info about organizers",
+      "metaDescription": "Saiba mais sobne os organizadores do GDG Maputo",
       "background": {
         "color": "#fff"
       },
@@ -99,8 +99,8 @@
       "fontColor": "#424242"
     },
     "cod": {
-      "title": "Code Of Conduct",
-      "metaDescription": "Lear more about our expectations for all those who participate in our community",
+      "title": "Codigo de conduta",
+      "metaDescription": "Saiba um pouco mais sobre a expectativas de quem se junta a comunidade",
       "background": {
         "color": "#fff"
       },
