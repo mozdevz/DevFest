@@ -23,7 +23,7 @@
   "country": "Country",
   "time": "Time",
   "faq": "/data/faq.md",
-  "cod": "Codigo de conduta",
+  "cod": "/data/cod.md",
   "footer": {
     "blog": "Blog"
   },
@@ -176,7 +176,11 @@
       "link": "/blog/"
     }
   },
-   "speakers": "Palestrantes",
+   "speakers": {
+    "skills": "Skills",
+    "previousYears": "Years",
+    "previousYear": "Year"
+},
   "speakersBlock": {
     "title": "Rockstar speakers",
     "callToAction": {
