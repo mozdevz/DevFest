@@ -47,14 +47,14 @@
     }
   },
   "gallery" : [
-    "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fgallery%2Fimg_4185.jpg?alt=media&token=ff3fd161-3d68-401a-90cd-74b90bd2a4d8",
-    "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fgallery%2Fimg_4411.jpg?alt=media&token=7fda0d66-a631-4816-bd85-b93ef49ed3a6",
-    "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fgallery%2Fimg_4577.jpg?alt=media&token=f14205b5-be75-447c-8bca-73a15ca2df41",
-    "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fgallery%2Fimg_4525.jpg?alt=media&token=0428f0e3-fda0-4119-8249-69f98e936ce5",
-    "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fgallery%2Fimg_4611.jpg?alt=media&token=b080143c-161c-4d9f-96f3-ebb6bdcdfd95",
-    "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fgallery%2Fimg_4720.jpg?alt=media&token=75de0c2d-8bd9-48bb-9117-1349c9bc381f",
-    "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fgallery%2Fimg_4646.jpg?alt=media&token=eafb0320-6f21-47bc-8ba4-8eec708f2076",
-    "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fgallery%2Fimg_5294.jpg?alt=media&token=72ab5141-d21b-4e71-a58b-faa2b00d1d02"
+    "https://firebasestorage.googleapis.com/v0/b/devfestmaputo.appspot.com/o/IMG_4854.JPG?alt=media&token=ca04a417-4df4-45b3-b15e-4422dc4d2591",
+    "https://firebasestorage.googleapis.com/v0/b/devfestmaputo.appspot.com/o/Copy%20of%2020180714_110051.jpg?alt=media&token=74a9e365-4da3-4d24-ab99-7f0ffb4742c0",
+    "https://firebasestorage.googleapis.com/v0/b/devfestmaputo.appspot.com/o/DSC_2055.JPG?alt=media&token=dafe3aba-d4ef-4b5e-bbc0-eb537b438283",
+    "https://firebasestorage.googleapis.com/v0/b/devfestmaputo.appspot.com/o/IMG_4682.JPG?alt=media&token=63be3d08-d3f0-4416-b4d4-7d7a6b7c8cc0",
+    "https://firebasestorage.googleapis.com/v0/b/devfestmaputo.appspot.com/o/20180714_135911%20(1).jpg?alt=media&token=834e27b5-0af5-4f91-923d-a67c6a860552",
+    "https://firebasestorage.googleapis.com/v0/b/devfestmaputo.appspot.com/o/DSC_2063.JPG?alt=media&token=e299bb5d-5b19-465a-af32-78f39fb1817e",
+    "https://firebasestorage.googleapis.com/v0/b/devfestmaputo.appspot.com/o/IMG_4788.JPG?alt=media&token=1329fd2c-1464-4911-b3b8-2bc3e9bb064e",
+    "https://firebasestorage.googleapis.com/v0/b/devfestmaputo.appspot.com/o/DSC_2058.JPG?alt=media&token=c45b8bbc-cfd3-408a-9319-4909bc894a35"
   ],
   "notifications" : {
     "config" : {
@@ -700,7 +700,7 @@
         "name" : "Blog"
       } ],
       "order" : 0,
-      "title" : "Organizador Principal"
+      "title" : "Organizador"
     }, {
       "name" : "Rosário Pereira Fernandes",
       "photo" : "/images/people/rosario.jpg",
@@ -723,9 +723,9 @@
         "name" : "Blog"
       } ],
       "order" : 1,
-      "title" : "Co-Organizador"
+      "title" : "Organizador"
     } ],
-    "title" : "Equipa Principal"
+    "title" : "Organização"
   }, {
     "members" : [ {
       "name" : "Olímpio Mugindene",
@@ -739,7 +739,7 @@
       "order" : 1,
       "title" : "Website"
     } ],
-    "title" : "Voluntários"
+    "title" : "Suporte"
   } ],
   "tickets" : [ {
     "available" : true,
