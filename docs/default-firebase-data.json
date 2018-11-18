@@ -113,7 +113,7 @@
       }, {
         "endTime" : "10:25",
         "sessions" : [ {
-          "items" : [ 140 ]
+          "items" : [ 130 ]
         } ],
         "startTime" : "09:45"
       }, {
@@ -457,12 +457,12 @@
       "title" : "Accessibility on Android"
     },
     "130" : {
-      "complexity" : "Intermediate",
-      "description" : "Wearable devices are one of the most popular things nowadays. Specially, after the Apple Watch, we finally get the whole picture of the entire list of products and their features. Now, we can talk about how we can design a user experience for this type of devices.\nEvery platform has it's own design principles and approaches. But, in the core, they all need to follow same core rules. So, how we combine this core requirements with Google's Material Design and use them on an Android Wear device? Let's learn!",
-      "language" : "English",
-      "speakers" : [ "constantine_mars" ],
-      "tags" : [ "Android" ],
-      "title" : "Designing an Android Wear Application"
+      "complexity" : "Iniciante",
+      "description" : "Por Anunciar",
+      "language" : "PT",
+      "speakers" : [ "malika_ibraimo" ],
+      "tags" : [ "Software" ],
+      "title" : "Por Anunciar"
     },
     "131" : {
       "complexity" : "Intermediate",
@@ -655,6 +655,25 @@
         "name" : "Twitter"
       } ],
       "order" : 5,
+      "title" : "Estudante"
+    },
+    "malika_ibraimo" : {
+      "bio" : "Estudante de Engenharia Informática no ISCTEM, ...",
+      "company" : "ISCTEM",
+      "companyLogo" : "/images/logos/gdg-lviv.svg",
+      "companyLogoUrl" : "http://isctem.ac.mz/images/logo_i.png",
+      "country" : "Maputo, Moçambique",
+      "featured" : true,
+      "name" : "Malika Ibraimo",
+      "photo" : "/images/people/malika.jpg",
+      "photoUrl" : "https://scontent.fmba3-1.fna.fbcdn.net/v/t1.0-1/c1.0.621.621/17342966_10208756166486953_4465985480742230029_n.jpg?_nc_cat=104&_nc_ht=scontent.fmba3-1.fna&oh=68e6a5179ae10670480fdde9cf406fe4&oe=5C8357FB",
+      "shortBio" : "Estudante de Engenharia Informática no ISCTEM, ...",
+      "socials" : [ {
+        "icon" : "facebook",
+        "link" : "https://www.facebook.com/malika291",
+        "name" : "Facebook"
+      } ],
+      "order" : 6,
       "title" : "Estudante"
     }
   },
