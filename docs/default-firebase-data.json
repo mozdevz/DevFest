@@ -111,6 +111,18 @@
         } ],
         "startTime" : "09:30"
       }, {
+        "endTime" : "10:25",
+        "sessions" : [ {
+          "items" : [ 140 ]
+        } ],
+        "startTime" : "09:45"
+      }, {
+        "endTime" : "11:05",
+        "sessions" : [ {
+          "items" : [ 140 ]
+        } ],
+        "startTime" : "10:25"
+      }, {
         "endTime" : "11:45",
         "sessions" : [ {
           "items" : [ 101]
@@ -143,7 +155,7 @@
         "sessions" : [ {
           "items" : [ 105 ]
         }, {
-          "items" : [ 126 ]
+          "items" : [ 140 ]
         } ],
         "startTime" : "14:20"
       }, {
@@ -157,17 +169,25 @@
         "sessions" : [ {
           "items" : [ 106 ]
         }, {
-          "items" : [ 111 ]
+          "items" : [ 140 ]
         } ],
         "startTime" : "15:30"
       }, {
-        "endTime" : "18:20",
+        "endTime" : "16:30",
         "sessions" : [ {
-          "items" : [ 106 ]
+          "items" : [ 140 ]
         }, {
-          "items" : [ 125 ]
+          "items" : [ 140 ]
         } ],
-        "startTime" : "17:40"
+        "startTime" : "16:00"
+      }, {
+        "endTime" : "17:00",
+        "sessions" : [ {
+          "items" : [ 140 ]
+        }, {
+          "items" : [ 140 ]
+        } ],
+        "startTime" : "16:30"
       }, {
         "endTime" : "17:30",
         "sessions" : [ {
@@ -501,9 +521,9 @@
       "title" : "Keynote"
     },
     "140" : {
-      "description" : "TBD",
-      "language" : "English",
-      "title" : "TBD"
+      "description" : "Por Anunciar",
+      "language" : "PT",
+      "title" : "Por Anunciar"
     }
   },
   "speakers" : {
