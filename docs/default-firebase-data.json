@@ -99,92 +99,67 @@
     "2018-11-24" : {
       "dateReadable" : "24 de Novembro",
       "timeslots" : [ {
-        "endTime" : "10:00",
+        "endTime" : "09:30",
         "sessions" : [ {
           "items" : [ 132 ]
         } ],
         "startTime" : "09:00"
       }, {
-        "endTime" : "10:15",
+        "endTime" : "09:45",
         "sessions" : [ {
           "items" : [ 136 ]
         } ],
-        "startTime" : "10:00"
+        "startTime" : "09:30"
       }, {
-        "endTime" : "11:00",
+        "endTime" : "11:45",
         "sessions" : [ {
-          "items" : [ 139 ]
+          "items" : [ 101]
         } ],
-        "startTime" : "10:15"
+        "startTime" : "11:05"
       }, {
-        "endTime" : "11:40",
-        "sessions" : [ {
-          "items" : [ 103, 112 ]
-        }, {
-          "items" : [ 120 ]
-        }, {
-          "extend" : 3,
-          "items" : [ 109 ]
-        } ],
-        "startTime" : "11:00"
-      }, {
-        "endTime" : "12:30",
-        "sessions" : [ {
-          "items" : [ 129 ]
-        }, {
-          "items" : [ 116 ]
-        } ],
-        "startTime" : "11:50"
-      }, {
-        "endTime" : "14:00",
+        "endTime" : "13:00",
         "sessions" : [ {
           "items" : [ 133 ]
         } ],
-        "startTime" : "12:30"
+        "startTime" : "12:00"
       }, {
-        "endTime" : "14:40",
+        "endTime" : "13:40",
         "sessions" : [ {
-          "items" : [ 101 ]
+          "items" : [ 103 ]
         }, {
           "items" : [ 118 ]
-        }, {
-          "extend" : 2,
-          "items" : [ 107 ]
         } ],
-        "startTime" : "14:00"
+        "startTime" : "13:00"
       }, {
-        "endTime" : "15:30",
+        "endTime" : "14:20",
         "sessions" : [ {
-          "items" : [ 140 ]
+          "items" : [ 102 ]
         }, {
           "items" : [ 126 ]
         } ],
-        "startTime" : "14:50"
+        "startTime" : "13:40"
       }, {
-        "endTime" : "16:00",
-        "sessions" : [ {
-          "items" : [ 134 ]
-        } ],
-        "startTime" : "15:30"
-      }, {
-        "endTime" : "16:40",
+        "endTime" : "15:00",
         "sessions" : [ {
           "items" : [ 105 ]
         }, {
-          "items" : [ 127 ]
-        }, {
-          "extend" : 3,
-          "items" : [ 119 ]
+          "items" : [ 126 ]
         } ],
-        "startTime" : "16:00"
+        "startTime" : "14:20"
       }, {
-        "endTime" : "17:30",
+        "endTime" : "15:30",
         "sessions" : [ {
-          "items" : [ 112 ]
+          "items" : [ 134 ]
+        } ],
+        "startTime" : "15:00"
+      }, {
+        "endTime" : "16:00",
+        "sessions" : [ {
+          "items" : [ 106 ]
         }, {
           "items" : [ 111 ]
         } ],
-        "startTime" : "16:50"
+        "startTime" : "15:30"
       }, {
         "endTime" : "18:20",
         "sessions" : [ {
@@ -194,11 +169,11 @@
         } ],
         "startTime" : "17:40"
       }, {
-        "endTime" : "22:30",
+        "endTime" : "17:30",
         "sessions" : [ {
           "items" : [ 137 ]
         } ],
-        "startTime" : "18:30"
+        "startTime" : "17:00"
       } ],
       "tracks" : [ {
         "title" : "Auditório 1"
@@ -209,60 +184,52 @@
   },
   "sessions" : {
     "101" : {
-      "complexity" : "Beginner",
-      "description" : "In this session, we will take a look at Windows and .NET support on Google Cloud Platform. We will build a simple ASP.NET app, deploy to Google Compute Engine and take a look at some of the tools and APIs available to .NET developers on Google Cloud Platform. ",
-      "language" : "English",
-      "presentation" : "https://speakerdeck.com/gdglviv/mete-atamel-windows-and-net-on-google-cloud-platform",
-      "speakers" : [ "mete_atamel", "adrian_kajda" ],
-      "tags" : [ "Cloud" ],
-      "title" : "Windows and .NET on Google Cloud Platform "
+      "complexity" : "Intermédio",
+      "description" : "Como e onde implementar o blockchain no sector financeiro.",
+      "language" : "Português",
+      "speakers" : [ "elton_laice" ],
+      "tags" : [ "Blockchain" ],
+      "title" : "Blockchain e os beneficios para sector financeiro e FinTech"
     },
     "102" : {
-      "complexity" : "Beginner",
-      "description" : "Do you remember the game Simon says from the 80s? I don’t know about you, but I know many that spent hours trying to press those specific sequences of red, green, blue and yellow buttons in the correct order. But why play on your own? We’ve implemented a gRPC server that allows you to play Simon with other players over the internet!\n\nIn this workshop we will dive into the toolset and libraries to build your very own Simon Says client for this server. We will have a message description in Protocol Buffers format and some stub code in several languages ready for you to play with. The goal for this workshop is for you to have a working client that you can use to play (and beat!) other attendees of the workshop.",
-      "language" : "English",
-      "speakers" : [ "mete_atamel" ],
-      "tags" : [ "Cloud" ],
-      "title" : "Hands-on gRPC experience building your own multiplayer game client"
+      "complexity" : "Iniciante",
+      "description" : "Mostrar as vantagens de desenvolver usando flutter e como é possível alcançar muito e maior desempenho sem precisar mexer muito para ambas plataformas iOS e Android",
+      "language" : "Português",
+      "speakers" : [ "igor_sambo" ],
+      "tags" : [ "Flutter", "Android", "iOS" ],
+      "title" : "Construindo aplicações complexas com a simplicidade do Flutter"
     },
     "103" : {
-      "complexity" : "Intermediate",
-      "description" : "Doze mode is just around the corner. \nIntroduced in Marshmallow, as the shy guy that was allowed to step in only when your device went to sleep. ZzzZzzzz\nWith the new N release, Doze mode becomes the rockstar. He rushes into the room with a big shabang by shooting all background services and network requests that forgot to get away. \nHe should no longer be shy. He just shoots and dances on bones of your scheduled alarms, while you wonder why this particular task is no longer running.\nWith the new Doze mode, you require to adapt your app architecture to the new reality.\nOn this talk, we will learn how to survive Doze mode using Job Scheduler, Content Provider and stay in one piece.",
-      "language" : "English",
-      "presentation" : "https://speakerdeck.com/gdglviv/yonatan-levin-knock-knock-whos-there-doze",
-      "speakers" : [ "yonatan_levin" ],
+      "complexity" : "Intermédio",
+      "description" : "Nesta apresentação vou dar uma breve descrição sobre a evolução da segurança do sistema operacional Android e seus APKs.\nEsta apresentação também descreverá uma comparação entre as diferentes vulnerabilidades de segurança de cada API do Android, do mais antigo ao presente.\nNo final vou demonstrar a fragilidade de um sistema android 5 (Lolipoop) contra ao andróide X através de um ataque de escalagem de privilégios onde ganharei acesso root do dispositivo usando o sistema operacional Linux, dando acesso a informações confidenciais do dispositivo.",
+      "language" : "Português",
+      "speakers" : [ "charmilo_narane" ],
       "tags" : [ "Android" ],
-      "title" : "Knock knock! Who's there? Doze."
+      "title" : "Android Security - Visão geral (Android X vs seus predecessores)"
     },
     "104" : {
-      "complexity" : "Beginner",
-      "description" : "It's no longer just about digitizing our environment. It’s rather about pervasive and ubiquitous computing. Almost all everyday things will turn into connected devices soon. This “Internet of Things” will allow the Web to be physically tangible. But what is the value, and how can one prevent IoT applications which just seem to be only more expensive and complicated than conventional solutions. Sascha will discuss the purpose and guide you through this complex topic showing inspiring solutions, tips from practice, and code samples in a variety of technologies from simple Bluetooth Eddystone Beacons to more sophisticated IoT platforms like Eclipse SmartHome.",
-      "language" : "English",
-      "presentation" : "https://speakerdeck.com/gdglviv/sascha-wolter-the-physical-web-context-is-king",
-      "speakers" : [ "sascha_wolter" ],
-      "tags" : [ "Web" ],
-      "title" : "The Physical Web: Context is King!",
-      "videoId" : "fLfQNp75kbc"
+      "complexity" : "Iniciante",
+      "description" : "Mineração de dados educacionais (MDE) é uma área de investigação emergente que mostrou ter um bom impacto no processo de ensino aprendizagem principalmente em ambientes de eniso Online. No entanto, ainda é preciso a criação de ferramentas que facilitam o MDE nestes ambientes. Pois caso contrário o processo se torna muito difícil pois envolve a colecta e tratamento de dados seguido de aplicação de mineração de dados para extração de padrões útil. Está apresentação de traz uma proposta de soluçao deste problema apoiado-se nos microservices e distribuição de sistemas. Como resultado é apresentado um framework onde torna todo o processo de MDE automático desde a colecta de dados até à criação de criação dos modelos.",
+      "language" : "Português",
+      "speakers" : [ "felermino_ali" ],
+      "tags" : [ "Machine Learning" ],
+      "title" : "Microservices for educational data mining"
     },
     "105" : {
-      "complexity" : "Intermediate",
-      "description" : "TBD",
-      "language" : "English",
-      "presentation" : "https://speakerdeck.com/gdglviv/rustem-arzymbetov-intro-to-tensorflow",
-      "speakers" : [ "rustem_arzymbetov" ],
-      "tags" : [ "Cloud" ],
-      "title" : "Intro to TensorFlow",
-      "videoId" : "e3cuSz1hEPs"
+      "complexity" : "Intermédio",
+      "description" : "Nesta apresentação pretendo primeiro explicar o que é o motionlayout, as suas vantagens e por que ele vem mudar o game das animações. Por fim irei apresentar alguns exemplos de como utilizar o motionlayout.",
+      "language" : "Português",
+      "speakers" : [ "edilson_ngulele" ],
+      "tags" : [ "Android" ],
+      "title" : "Conhecendo o MotionLayout"
     },
     "106" : {
-      "complexity" : "Beginner",
-      "description" : "Fuelio. Success story (I'll write more info later)",
-      "language" : "English",
-      "presentation" : "https://speakerdeck.com/gdglviv/adrian-kajda-fuelio-success-story",
-      "speakers" : [ "adrian_kajda" ],
-      "tags" : [ "Android" ],
-      "title" : "Fuelio. Success story",
-      "videoId" : "qK7ysoohsaM"
+      "complexity" : "Iniciante",
+      "description" : "Está apresentação, vou falar dos conceitos gerais de Machine Learning, aplicações, problemas que podemos resolver com ML e no final, falar de ML para desenvolvedores de software e entusiastas de ML.",
+      "language" : "Português",
+      "speakers" : [ "richaldo_elias" ],
+      "tags" : [ "Machine Learning" ],
+      "title" : "Intro to Machine Learning"
     },
     "107" : {
       "complexity" : "Beginner",
@@ -487,16 +454,16 @@
       "title" : "Deal with it: Android DataBinding explained"
     },
     "132" : {
-      "description" : "Get your badge, coffee, enjoy talking with tech edicts around",
+      "description" : "Pegue o seu crachá, camiseta e sticker.",
       "icon" : "registration",
       "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fregistration.jpg?alt=media&token=27328646-d323-4cca-904c-75f021bc3ffe",
-      "title" : "Registration & morning Coffee"
+      "title" : "Chegada dos Participantes"
     },
     "133" : {
       "description" : "Foooooooood!",
       "icon" : "lunch",
       "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Flunch.jpg?alt=media&token=bc82aaff-92cc-4dcc-a00e-2b6f30a40225",
-      "title" : "Lunch"
+      "title" : "Almoço"
     },
     "134" : {
       "description" : "Coffeeeeeee!",
@@ -511,17 +478,17 @@
       "title" : "Morning coffee"
     },
     "136" : {
-      "description" : "Official start of the conference. Greetings from the organizers, sponsors and partners.",
+      "description" : "Abertura Oficial da Conferência. Algumas palavras dos Organizadores e Parceiros.",
       "icon" : "opening",
       "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fopening.jpg?alt=media&token=aa52dd45-50c9-4e36-9485-c1f9138ecd6b",
-      "language" : "English",
-      "title" : "GDG DevFest Ukraine 2016 Opening"
+      "language" : "Português",
+      "title" : "Abertura do Evento"
     },
     "137" : {
       "description" : "Afterparty is a great time to have some fun and meet new people",
       "icon" : "party",
       "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fparty.jpg?alt=media&token=8e413f01-373a-40bf-bb87-1dcf1d8e6af1",
-      "title" : "Afterparty & Networking"
+      "title" : "Discuss & Networking"
     },
     "138" : {
       "description" : "Make sure you won't miss closing ceremony, all gifts from out sponsors and partners will find their owners during this session.",
