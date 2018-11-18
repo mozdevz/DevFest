@@ -1,6 +1,6 @@
 {
-"title": "GDG DevFest Maputo 2017",
-  "description": "O maior festival sobre tecnologias Google para developers organizado  pela comunidade GDG de Maputo! Tudo sobre Android, Web, Cloud, IoT,  e  mais.",
+"title": "GDG DevFest Maputo 2018",
+  "description": "O maior festival sobre tecnologias Google para developers organizado  pela comunidade GDG de Maputo! Tudo sobre Android, Web, Cloud, IoT, e  mais.",
   "image": "images/social-share.jpg",
  "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
   "dates": "24 DE NOVEMBRO DE 2018",
@@ -50,16 +50,6 @@
       ]
     },
     {
-      "title": "Veja os nossos eventos passados",
-      "links": [
-        {
-          "name": "DevfestMaputo2017 2017",
-          "url": "http://devfestmaputo17.firebaseapp.com/",
-          "newTab": true
-        }
-      ]
-    },
-    {
       "title": "Links úteis sobre o evento",
       "links": [
         {
@@ -93,32 +83,32 @@
     },
     "statisticsBlock": {
       "attendees": {
-        "label": "Attendees",
-        "number": "900"
+        "label": "Participantes",
+        "number": "150"
       },
       "days": {
-        "label": "Days",
-        "number": "2"
+        "label": "Horas",
+        "number": "8"
       },
       "sessions": {
-        "label": "Sessions",
-        "number": "50"
+        "label": "Sessões",
+        "number": "+15"
       },
       "tracks": {
-        "label": "Tracks",
-        "number": "4"
+        "label": "Trilhas",
+        "number": "2"
       }
     }
   },
   "ticketsBlock": {
-    "title": "Tickets",
+    "title": "Bilhetes",
     "ticketsDetails": "Os bilhetes garantem acesso a todas as seções da conferência, coffee breaks e almoço.",
     "soldOut": "You missed it!",
     "notAvailableYet": "Not available yet",
     "save": "Save ${discount}% today"
   },
   "partnersBlock": {
-    "title": "Partners",
+    "title": "Parceiros",
     "button": "Become a partner",
     "form": {
       "title": "Become a partner!",
@@ -154,7 +144,7 @@
   "speakersBlock": {
     "title": "Rockstar speakers",
     "callToAction": {
-      "label": "View all speakers",
+      "label": "Ver todos speakers",
       "link": "/speakers/"
     }
   },
@@ -174,7 +164,7 @@
     }
   },
   "mapBlock": {
-    "title": "Location"
+    "title": "Localização"
   },
   "subscribeBlock": {
     "callToAction": {
@@ -189,7 +179,7 @@
     "emailRequired": "Please enter a valid email address.",
     "subscribe": "Subscribe",
     "subscribed": "Subscribed",
-    "close": "Fechado",
+    "close": "Fechar",
     "generalError": "Some error has occured. Please, try again later.",
     "toast": "Successfully subscribed!"
   },
@@ -229,7 +219,7 @@
         "title": "ORGANIZADORES",
         "description": "<a href='https://www.meetup.com/GDG-Maputo/' target='_blank'>GDG Maputo</a> Um grupo de geeks apaixonados por tecnologias google",
         "callToAction": {
-          "label": "Ver a equipe",
+          "label": "Conheça a equipa",
           "link": "/team"
         }
       },
@@ -237,7 +227,7 @@
         "title": "O QUE É O GDG?",
         "description": "Google Developer Group (GDG) Maputo é um grupo para desenvolveres estudantes e entusiastas com interesse em aprender tecnologias do google, ter experiência com productos como Android, GWT e outras API´s como o Google Maps, Google App Engine, Google Drive e muito mais. Nossas reuniões sempre serão abertas ao público em geral. Nós por vezes, co-sediamos uma reunião conjunta.",
         "callToAction": {
-          "label": "Ler mais",
+          "label": "Saiba Mais",
           "link": "https://developers.google.com/groups/",
           "newTab": true
         }
@@ -245,11 +235,11 @@
     ]
   },
   "signInDialog": {
-    "alreadyHaveAccount": "You already have an account",
-    "alreadyUsed": "You've already used",
+    "alreadyHaveAccount": "Você já tem uma conta",
+    "alreadyUsed": "Você já utilizou",
     "signInToContinue": {
-      "part1": "Sign in with",
-      "part2": "to continue."
+      "part1": "Faça login com ",
+      "part2": "para continuar"
     }
   }
 }
