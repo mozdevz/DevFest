@@ -69,71 +69,31 @@
   "partners" : [ {
     "logos" : [ {
       "order" : 0,
-      "logoUrl" : "../images/logos/gdg-lviv.svg",
-      "name" : "GDG Lviv",
-      "url" : "https://plus.google.com/102444623953913144164"
+      "logoUrl" : "http://isctem.ac.mz/images/logo_i.png",
+      "name" : "Instituto Superior de Ciência e Tecnologia de Moçambique",
+      "url" : "http://isctem.ac.mz"
     } ],
     "order" : 0,
-    "title" : "Template Creator"
+    "title" : "Local do Evento"
   }, {
     "logos" : [ {
-      "order" : 0,
-      "logoUrl" : "../images/logos/google.svg",
-      "name" : "Google",
-      "url" : "https://www.google.com.ua/intl/en/about/"
-    }, {
       "order" : 1,
-      "logoUrl" : "../images/logos/gdg-x.svg",
-      "name" : "GDG[x]",
-      "url" : "https://github.com/gdg-x"
+      "logoUrl" : "https://talkiot.co.za/wp-content/uploads/2017/05/is-logo.png",
+      "name" : "Internet Solutions",
+      "url" : "https://www.is.co.mz/"
+    }, {
+      "order" : 0,
+      "logoUrl" : "https://marketmz-static.s3.amazonaws.com/site_media/media/companies/logos/Champier.png",
+      "name" : "Champier Lda",
+      "url" : "https://champier.co.mz"
     }, {
       "order" : 2,
-      "logoUrl" : "../images/logos/google.svg",
-      "name" : "Google",
-      "url" : "https://www.google.com.ua/intl/en/about/"
-    }, {
-      "order" : 3,
-      "logoUrl" : "../images/logos/gdg-x.svg",
-      "name" : "GDG[x]",
-      "url" : "https://github.com/gdg-x"
-    }, {
-      "order" : 4,
-      "logoUrl" : "../images/logos/google.svg",
-      "name" : "Google",
-      "url" : "https://www.google.com.ua/intl/en/about/"
-    }, {
-      "order" : 5,
-      "logoUrl" : "../images/logos/gdg-x.svg",
-      "name" : "GDG[x]",
-      "url" : "https://github.com/gdg-x"
-    }, {
-      "order" : 6,
-      "logoUrl" : "../images/logos/google.svg",
-      "name" : "Google",
-      "url" : "https://www.google.com.ua/intl/en/about/"
-    }, {
-      "order" : 7,
-      "logoUrl" : "../images/logos/gdg-x.svg",
-      "name" : "GDG[x]",
-      "url" : "https://github.com/gdg-x"
-    }, {
-      "order" : 8,
-      "logoUrl" : "../images/logos/google.svg",
-      "name" : "Google",
-      "url" : "https://www.google.com.ua/intl/en/about/"
-    }, {
-      "order" : 9,
-      "logoUrl" : "../images/logos/gdg-x.svg",
-      "name" : "GDG[x]",
-      "url" : "https://github.com/gdg-x"
-    }, {
-      "order" : 10,
-      "logoUrl" : "../images/logos/google.svg",
-      "name" : "Google",
-      "url" : "https://www.google.com.ua/intl/en/about/"
+      "logoUrl" : "http://mozdevz.org/wp-content/uploads/2017/03/MozDevz_Silver_high.png",
+      "name" : "MozDevz",
+      "url" : "http://mozdevz.org"
     } ],
     "order" : 1,
-    "title" : "General Partner"
+    "title" : "Outros"
   } ],
   "schedule" : {
     "2016-09-09" : {
