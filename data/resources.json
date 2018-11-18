@@ -184,7 +184,7 @@
     "toast": "Successfully subscribed!"
   },
  "team": {
-    "description": "Google is known all around the world. Everyone is 'googling', checking on 'maps' and communicating in 'gmail'. For simple users, they are services that just works, but not for us. Developers see much more: APIs, scalability issues, complex technology stacks. And that is what GDG is about.<br><br> [Google Developers Group (GDG) Lviv](http://lviv.gdg.org.ua/) - is open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion.<br><br> Our goal is to organize space to connect the best industry experts with Ukrainian audience to boost development of IT."
+    "description": "A Google é conhecida em todo o mundo. Todos estão 'pesquisando', verificando 'mapas' e se comunicando com o 'gmail'. Para utilizadores simples, estes são serviços que apenas funcionam, mas não para nós. Os desenvolvedores vêem muito mais: APIs, problemas de escalabilidade, pilhas complexas de tecnologia. E é com isso que o GDG trabalha. <br> <a href=\"http://google.com/+GDGMaputo/\">Google Developers Group (GDG) Maputo</a> - é um grupo para desenvolveres estudantes e entusiastas com interesse em aprender tecnologias do google, ter experiência com productos como Android, GWT e outras API´s como o Google Maps, Google App Engine, Google Drive e muito mais.Os nossos eventos serão organizados e avisados antecipadamente, traremos com muita emoção aquilo que são as novidades dos productos do google. <br> \"Disclaimer: GDG Maputo é um grupo independente, nossas actividades e as opiniões aqui expressas não devem, de forma alguma, ser ligadas a empresa da google\" "
   },
   "schedule": {
     "saveSessionsSignedOut": "Sign in to save sessions"
