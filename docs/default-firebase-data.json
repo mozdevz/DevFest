@@ -740,7 +740,12 @@
   "triggers" : {
     "images" : false
   },
-  "videos" : [],
+  "videos" : [{
+    "speakers" : "Yonatan Levin",
+    "thumbnail" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-firebase.appspot.com/o/images%2Fsessions%2F2017%2FGDG-(65).jpg?alt=media&token=f25f04cf-9a10-42ed-b2ff-e41fad910c39",
+    "title" : "Making mistakes and building products from 1st to 30M users",
+    "youtubeId" : "hUY8jg9-ieE"
+  }],
   "previousSpeakers": {
     "abdul_mueid" : {
       "bio" : "Abdul é um desenvolvedor web, possui uma vasta experiência com desenvolvimento de aplicações web e móveis, tendo iniciado a sua carreira quando ainda morava na vizinha africa do sul, antes de se mudar para Moçambique. Actualmente trabalha como sénior dyouth segment specialist na Vodacom e nos seus tempos livres mantém uma aplicação para o câmbio de divisas denominada ezfx.mobi .",
