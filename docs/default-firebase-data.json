@@ -313,7 +313,7 @@
     },
     "113" : {
       "complexity" : "Intermédio",
-      "description" : "Brevemente",
+      "description" : "Projectos de desenvolvimento de Software nunca chegam ao fim, e ao longo do tempo de desenvolvimento, várias tecnlogias adoptadas ficam obsoletas. Assim, é necessário encontrar estratégias para migrar projectos para tecnologias ou versoes mais recentes das ferramentas usadas. Nesta apresentacao pretendo mostrar estratégias usadas para migrar o SIGA, em desenvolvimento a 10 anos, de CakePHP2 para Laravel",
       "language" : "PT",
       "speakers" : [ "elisio_leonardo" ],
       "tags" : [ "PHP" ],
@@ -526,7 +526,7 @@
   "speakers" : {
     "elton_laice" : {
       "bio" : "A 23 year-old youth, technology entrepreneur, full-stack developer and co-founder of kurrula-ia, codelaice, voluntariado.co.mz.",
-      "company" : "Codelaice",
+      "company" : "Kurrula-ia, Codelaice",
       "companyLogo" : "/images/logos/gdg-lviv.svg",
       "companyLogoUrl" : "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
       "country" : "Maputo, Moçambique",
@@ -541,7 +541,7 @@
         "name" : "Twitter"
       } ],
       "order" : 0,
-      "title" : "Engenheiro de Software & Co-founder"
+      "title" : "Tech Enterpreneur, Desenvolvedor Full-Stack& Co-founder"
     },
     "igor_sambo" : {
       "bio" : "Estudante de Engenharia Informática e de Telecomunicações, 3o ano no Instituto Superior de Transportes e Comunicação. Gosta de Programar e pretende ser expert arm Flutter e já apresentou um Study Jam sobre o assunto e continua fazendo pesquisas acerca.",
@@ -590,7 +590,7 @@
       "title" : "Estudante, Web & Mobile developer"
     },
     "elisio_leonardo" : {
-      "bio" : "",
+      "bio" : "Auto-entitulado \"Melhor Web Developer de Moz\", Elísio Leonardo é estudante de Informática na UEM, criador do maior sistema integrado de gestão académica de Moçambique e do maior portal de Informática em Moçambique, www.infomoz.net",
       "company" : "Universidade Eduardo Mondlane",
       "companyLogo" : "/images/logo.png",
       "companyLogoUrl" : "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
@@ -599,7 +599,7 @@
       "name" : "Elísio Leonardo",
       "photo" : "/images/people/Elisio.jpg",
       "photoUrl" : "https://scontent-jnb1-1.xx.fbcdn.net/v/t1.0-9/43666971_10217587634221366_948466299514650624_n.jpg?_nc_cat=107&_nc_eui2=AeEHFUtXIG-_UAymXH-be6SYudpoQRk_-zbMBLTUP4Igw9nu8Ypp4Ev7Q7lzKxxwuhO7HggXF3k_Basx1LpN2zIe5mVPEL06A8W82xUVRvDA5g&_nc_ht=scontent-jnb1-1.xx&oh=696ec4103d9924b6cf94789e33c426da&oe=5C69C43B",
-      "shortBio" : "",
+      "shortBio" : "Auto-entitulado \"Melhor Web Developer de Moz\", Elísio Leonardo é estudante de Informática na ...",
       "socials" : [ {
         "icon" : "github",
         "link" : "https://github.com/backstageel",
@@ -673,24 +673,32 @@
       "order" : 6,
       "title" : "Estudante"
     },
-    "malika_ibraimo" : {
-      "bio" : "Estudante de Engenharia Informática no ISCTEM, ...",
-      "company" : "ISCTEM",
-      "companyLogo" : "/images/logos/gdg-lviv.svg",
-      "companyLogoUrl" : "http://isctem.ac.mz/images/logo_i.png",
-      "country" : "Maputo, Moçambique",
+    "dario_mungoi" : {
+      "bio" : "",
+      "company" : "Shopify",
+      "companyLogo" : "/images/logos/shopify.png",
+      "companyLogoUrl" : "https://upload.wikimedia.org/wikipedia/en/thumb/e/e7/Shopify_logo.svg/512px-Shopify_logo.svg.png",
+      "country" : "Ottawa, Canada",
       "featured" : true,
-      "name" : "Malika Ibraimo",
-      "photo" : "/images/people/malika.jpg",
-      "photoUrl" : "https://scontent.fmba3-1.fna.fbcdn.net/v/t1.0-1/c1.0.621.621/17342966_10208756166486953_4465985480742230029_n.jpg?_nc_cat=104&_nc_ht=scontent.fmba3-1.fna&oh=68e6a5179ae10670480fdde9cf406fe4&oe=5C8357FB",
-      "shortBio" : "Estudante de Engenharia Informática no ISCTEM, ...",
+      "name" : "Dário Mungoi",
+      "photo" : "/images/people/dario.jpeg",
+      "photoUrl" : "https://avatars1.githubusercontent.com/u/4487034?s=460&v=4",
+      "shortBio" : "Former Android GDE, Design Sprint Master & Senior Android Developer",
       "socials" : [ {
-        "icon" : "facebook",
-        "link" : "https://www.facebook.com/malika291",
-        "name" : "Facebook"
+        "icon" : "github",
+        "link" : "https://www.github.com/realdm",
+        "name" : "Github"
+      }, {
+        "icon" : "instagram",
+        "link" : "https://www.instagram.com/dmungoi",
+        "name" : "Instagram"
+      }, {
+        "icon" : "website",
+        "link" : "https://medium.com/@mungoidario",
+        "name" : "Blog"
       } ],
-      "order" : 6,
-      "title" : "Estudante"
+      "order" : 7,
+      "title" : "Senior Android Developer"
     }
   },
   "team" : [ {
