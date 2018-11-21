@@ -3,7 +3,7 @@
   "description": "O maior festival sobre tecnologias Google para developers organizado  pela comunidade GDG de Maputo! Tudo sobre Android, Web, Cloud, IoT, e  mais.",
   "image": "images/social-share.jpg",
  "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
-  "dates": "24 DE NOVEMBRO DE 2018",
+  "dates": "08 DE DEZEMBRO DE 2018",
   "partnershipProposition": "https://bit.ly/dfua17-partners",
   "share": "Partilhar",
   "followOur": "Siga o nosso",
@@ -92,7 +92,7 @@
       },
       "sessions": {
         "label": "Sessões",
-        "number": "+15"
+        "number": "16*"
       },
       "tracks": {
         "label": "Trilhas",
@@ -157,7 +157,7 @@
   },
   "galleryBlock": {
     "title": "Alguns dos nossos eventos",
-    "description": "Veja alguma das fotos de momentos marcantes dos nossos eventos",
+    "description": "Veja alguma fotos de momentos marcantes dos nossos eventos",
     "callToAction": {
       "label": "Ver todas fotos",
       "link": "https://photos.google.com/b/114866320150074768018/albums"
