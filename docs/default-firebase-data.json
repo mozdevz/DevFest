@@ -96,8 +96,8 @@
     "title" : "Outros"
   } ],
   "schedule" : {
-    "2018-11-24" : {
-      "dateReadable" : "24 de Novembro",
+    "2018-12-08" : {
+      "dateReadable" : "08 de Dezembro",
       "timeslots" : [ {
         "endTime" : "09:30",
         "sessions" : [ {
@@ -117,17 +117,23 @@
         } ],
         "startTime" : "09:45"
       }, {
-        "endTime" : "11:05",
+        "endTime" : "10:55",
         "sessions" : [ {
           "items" : [ 140 ]
         } ],
         "startTime" : "10:25"
       }, {
-        "endTime" : "11:45",
+        "endTime" : "11:25",
         "sessions" : [ {
           "items" : [ 101]
         } ],
-        "startTime" : "11:05"
+        "startTime" : "10:55"
+      }, {
+        "endTime" : "12:00",
+        "sessions" : [ {
+          "items" : [ 113]
+        } ],
+        "startTime" : "11:25"
       }, {
         "endTime" : "13:00",
         "sessions" : [ {
@@ -139,7 +145,7 @@
         "sessions" : [ {
           "items" : [ 103 ]
         }, {
-          "items" : [ 118 ]
+          "items" : [ 131 ]
         } ],
         "startTime" : "13:00"
       }, {
@@ -147,7 +153,7 @@
         "sessions" : [ {
           "items" : [ 102 ]
         }, {
-          "items" : [ 126 ]
+          "items" : [ 120 ]
         } ],
         "startTime" : "13:40"
       }, {
@@ -155,7 +161,7 @@
         "sessions" : [ {
           "items" : [ 105 ]
         }, {
-          "items" : [ 140 ]
+          "items" : [ 116 ]
         } ],
         "startTime" : "14:20"
       }, {
@@ -169,7 +175,7 @@
         "sessions" : [ {
           "items" : [ 106 ]
         }, {
-          "items" : [ 140 ]
+          "items" : [ 117 ]
         } ],
         "startTime" : "15:30"
       }, {
@@ -306,13 +312,12 @@
       "title" : "Building web apps in 2016"
     },
     "113" : {
-      "complexity" : "Intermediate",
-      "description" : "Microservices is coming with a certain workload and constraints. Let's try to see how Google Cloud Platform and App Engine can help the overall microservices implementation.",
-      "language" : "English",
-      "presentation" : "https://speakerdeck.com/gdglviv/jean-baptiste-clion-microservices-in-google-app-engine",
-      "speakers" : [ "jean-baptiste_clion" ],
-      "tags" : [ "Cloud" ],
-      "title" : "Microservices in Google App Engine"
+      "complexity" : "Intermédio",
+      "description" : "Brevemente",
+      "language" : "PT",
+      "speakers" : [ "elisio_leonardo" ],
+      "tags" : [ "PHP" ],
+      "title" : "Migrando 10 anos de desenvolvimento para o laravel"
     },
     "114" : {
       "complexity" : "Intermediate",
@@ -333,22 +338,18 @@
       "videoId" : "WqULb6bdwwg"
     },
     "116" : {
-      "complexity" : "Beginner",
-      "description" : "One of my favourite things about the web are ASCII smileys. They're sweet, fun and simply make the web a better place. How could anyone not like them ¯(ツ)/¯?\n\nThis talk is an overdose of smileys, because they're the perfect excuse to get started with Polymer. Polymer is a library built on top of the Web Components standards that helps developers create reusable components for the modern web. And since I know that everybody has been wondering how one could take over the world by creating a suite of Polymer animated emoticon components, we're going to do exactly that.",
-      "language" : "English",
-      "presentation" : "http://carmenpopoviciu.github.io/on-polymer-and-smileys/",
-      "speakers" : [ "aleksander_piotrowski" ],
-      "tags" : [ "Web" ],
-      "title" : "On Polymer and smileys... or Polysmileys"
+      "complexity" : "Intermédio",
+      "description" : "Brevemente",
+      "language" : "PT",
+      "tags" : [ "Analytics" ],
+      "title" : "Usando o Google Analytics como ferramenta para Business Intelligence"
     },
     "117" : {
-      "complexity" : "Beginner",
-      "description" : "Data is becoming one of the main decision-makers in an organisation. The more data we have the more challenges we face every day. Every decision we make will have long-term implications. In the talk we will go through different approaches to the data pipelines: from a simple in-house built, with comparison to open source solutions based on Apache stack(Apache Kafka, Apache Samza, Spark) and finally hosted auto-scaling solutions based Amazon(S3, Kinesis, Lambda, EMR) or Google(Pub/Sub, Dataflow, BigQuery). The talk covers the main aspects of data collecting processes altogether with further implications for data processing, highlighting appropriate solutions and architectures for the particular use-cases. ",
-      "language" : "English",
-      "presentation" : "https://speakerdeck.com/gdglviv/sergii-khomenko-building-data-pipelines-from-simple-to-more-advanced-hands-on-experience",
-      "speakers" : [ "carmen_popovicu" ],
-      "tags" : [ "Cloud" ],
-      "title" : "Building data pipelines: from simple to more advanced - hands-on experience"
+      "complexity" : "Iniciante",
+      "description" : "Brevemente",
+      "language" : "PT",
+      "tags" : [ "Firebase", "Payments" ],
+      "title" : "Primeiros passos com a API do M-pesa"
     },
     "118" : {
       "complexity" : "Intermediate",
@@ -369,13 +370,11 @@
       "title" : "Hands-on with UI testing for Android developers"
     },
     "120" : {
-      "complexity" : "Beginner",
-      "description" : "\"Remember back when AJAX completely changed what was possible in the desktop web? Progressive web apps are that same fundamental shift for the mobile web.\" said Rahul Row-Chowdhury (Google’s product lead for chrome and the web platform) on stage at Google I/O 2016. - Progressive web apps use service workers, app shell, push notifications, RAIL and other capabilities to deliver an app-like user experience.",
-      "language" : "English",
-      "presentation" : "https://speakerdeck.com/gdglviv/jakub-skvara-progressive-web-apps-prepare-your-web-for-2017",
-      "speakers" : [ "jana_moudra" ],
-      "tags" : [ "Web" ],
-      "title" : "Progressive web apps - prepare your web for 2017"
+      "complexity" : "Iniciante",
+      "description" : "Brevemente",
+      "language" : "PT",
+      "tags" : [ "Internet" ],
+      "title" : "A Internet e as suas aplicações"
     },
     "121" : {
       "complexity" : "Intermediate",
@@ -458,20 +457,18 @@
     },
     "130" : {
       "complexity" : "Iniciante",
-      "description" : "Por Anunciar",
+      "description" : "Brevemente",
       "language" : "PT",
       "speakers" : [ "malika_ibraimo" ],
       "tags" : [ "Software" ],
-      "title" : "Por Anunciar"
+      "title" : "Engenharia de Software - Porquê perder tempo?"
     },
     "131" : {
-      "complexity" : "Intermediate",
-      "description" : "In this talk, I will reveal you all the deepest secrets of using MVVM architecture in Android. \nWe will discuss on how to organise your application, views, models, how to retrieve data from the model requested from the view via data binding. \nLightweight Activities and Fragments, is it even possible? \n\nYes, and I will show you how to achieve this with MVVM and DataBinding!",
-      "language" : "English",
-      "presentation" : "https://speakerdeck.com/gdglviv/roman-herasymenko-deal-with-it-android-databinding-explained",
-      "speakers" : [ "resul_caner__yildirim" ],
-      "tags" : [ "Android" ],
-      "title" : "Deal with it: Android DataBinding explained"
+      "complexity" : "Intermédio",
+      "description" : "Brevemente",
+      "language" : "PT",
+      "tags" : [ "Internet" ],
+      "title" : "DNS - A infraestrutra da Internet"
     },
     "132" : {
       "description" : "Pegue o seu crachá, camiseta e sticker.",
@@ -592,24 +589,24 @@
       "order" : 2,
       "title" : "Estudante, Web & Mobile developer"
     },
-    "felermino_ali" : {
-      "bio" : "Docente da faculdade de engenharia e também na universidade católica, mestrado em ciências de computação na Malásia, especialização em pesquisa na área mineração de dados para educação, participou em várias conferências internacionais onde tem partilhado algumas das pesquisas feitas",
-      "company" : "Universidade Lurio - Faculdade de Engenharia",
-      "companyLogo" : "/images/logos/gdg-lviv.svg",
+    "elisio_leonardo" : {
+      "bio" : "",
+      "company" : "Universidade Eduardo Mondlane",
+      "companyLogo" : "/images/logo.png",
       "companyLogoUrl" : "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
       "country" : "Maputo, Moçambique",
       "featured" : true,
-      "name" : "Felermino Ali",
-      "photo" : "/images/people/felermino.png",
-      "photoUrl" : "https://avatars1.githubusercontent.com/u/7754458?s=460&v=4",
-      "shortBio" : "Docente da faculdade de engenharia e também na universidade católica, mestrado em ciências de com...",
+      "name" : "Elísio Leonardo",
+      "photo" : "/images/people/Elisio.jpg",
+      "photoUrl" : "https://scontent-jnb1-1.xx.fbcdn.net/v/t1.0-9/43666971_10217587634221366_948466299514650624_n.jpg?_nc_cat=107&_nc_eui2=AeEHFUtXIG-_UAymXH-be6SYudpoQRk_-zbMBLTUP4Igw9nu8Ypp4Ev7Q7lzKxxwuhO7HggXF3k_Basx1LpN2zIe5mVPEL06A8W82xUVRvDA5g&_nc_ht=scontent-jnb1-1.xx&oh=696ec4103d9924b6cf94789e33c426da&oe=5C69C43B",
+      "shortBio" : "",
       "socials" : [ {
         "icon" : "github",
-        "link" : "https://github.com/felerminoali",
+        "link" : "https://github.com/backstageel",
         "name" : "GitHub"
       } ],
       "order" : 3,
-      "title" : "Docente"
+      "title" : ""
     },
     "edilson_ngulele" : {
       "bio" : "Edilson is an Android developer by passion. Enjoys coding, writing and talking about code. If he's not doing one of these, he's certainly reading about code or self-awareness.",
@@ -655,6 +652,25 @@
         "name" : "Twitter"
       } ],
       "order" : 5,
+      "title" : "Estudante"
+    },
+    "malika_ibraimo" : {
+      "bio" : "Estudante de Engenharia Informática no ISCTEM, ...",
+      "company" : "ISCTEM",
+      "companyLogo" : "/images/logos/gdg-lviv.svg",
+      "companyLogoUrl" : "http://isctem.ac.mz/images/logo_i.png",
+      "country" : "Maputo, Moçambique",
+      "featured" : true,
+      "name" : "Malika Ibraimo",
+      "photo" : "/images/people/malika.jpg",
+      "photoUrl" : "https://scontent.fmba3-1.fna.fbcdn.net/v/t1.0-1/c1.0.621.621/17342966_10208756166486953_4465985480742230029_n.jpg?_nc_cat=104&_nc_ht=scontent.fmba3-1.fna&oh=68e6a5179ae10670480fdde9cf406fe4&oe=5C8357FB",
+      "shortBio" : "Estudante de Engenharia Informática no ISCTEM, ...",
+      "socials" : [ {
+        "icon" : "facebook",
+        "link" : "https://www.facebook.com/malika291",
+        "name" : "Facebook"
+      } ],
+      "order" : 6,
       "title" : "Estudante"
     },
     "malika_ibraimo" : {
@@ -794,7 +810,7 @@
       "id" : "abdul_mueid",
       "name" : "Abdul Mueid",
       "order" : 0,
-      "photoUrl" : "https://dfua16.firebaseapp.com//images/people/adrian_kajda.jpg",
+      "photoUrl" : "https://scontent-jnb1-1.xx.fbcdn.net/v/t1.0-9/23130508_10155936380186177_7253168212351185328_n.jpg?_nc_cat=111&_nc_eui2=AeFjz9RORu62ahj7Z31A9n-OgDElZcongoILvmB-CImpeaCiG-uNoDLJCNmwKCg7z90dd5f2L6OIzf5gI0-ukbHXFhrek8YiH-0xgXpXbA_IUA&_nc_ht=scontent-jnb1-1.xx&oh=07a1dc6f8997ee528970d3f56b514c82&oe=5C81C377",
       "sessions" : {
         "2017" : [ {
           "presentation" : "",
@@ -822,7 +838,7 @@
       "id" : "paulo_braga",
       "name" : "Paulo Braga",
       "order" : 1,
-      "photoUrl" : "https://storage.googleapis.com/dfua17.appspot.com/images/people/aleksander_piotrowski.jpg",
+      "photoUrl" : "",
       "sessions" : {
         "2017" : [ {
           "presentation" : "",
@@ -842,7 +858,7 @@
       "id" : "leonel_machava",
       "name" : "Leonel Machava",
       "order" : 2,
-      "photoUrl" : "https://storage.googleapis.com/dfua17.appspot.com/images/people/minashkin_anton.jpg",
+      "photoUrl" : "https://scontent-jnb1-1.xx.fbcdn.net/v/t1.0-9/249127_378050588920021_700869876_n.jpg?_nc_cat=108&_nc_eui2=AeEkijcFFNpyyYL3qIcD7uga_LNbCi9CoJF9OU4zYs95dD3emCjS6Xu6CfTvF0_Lwh23KEehmZF_I6qpbUUH-3C6tPMR9kVB__Z6eP6bttPViA&_nc_ht=scontent-jnb1-1.xx&oh=98e3596afc017968b2bb25dba79ca86e&oe=5C72DFDF",
       "sessions" : {
         "2017" : [ {
           "presentation" : "",
@@ -866,7 +882,7 @@
       "id" : "nelio_macombo",
       "name" : "Nélio Macombo",
       "order" : 3,
-      "photoUrl" : "https://storage.googleapis.com/dfua17.appspot.com/images/people/minashkin_anton.jpg",
+      "photoUrl" : "https://scontent-jnb1-1.xx.fbcdn.net/v/t1.0-9/21231669_1683563248354966_7442823199804098272_n.jpg?_nc_cat=104&_nc_eui2=AeGxf3_YC8MLhZIqZ9woEKDmS50vEeOGjJiN1Dwde-AOPhmKHrqkX0JgUgB0zYzaa_BF2zSLDE1vVKnOrxasKuiZztJ5uFK3cWeyDeuuYaqaGw&_nc_ht=scontent-jnb1-1.xx&oh=4ccfedc96f67ac83258b0facc048ce4e&oe=5C6E85CC",
       "sessions" : {
         "2017" : [ {
           "presentation" : "",
@@ -893,7 +909,7 @@
       "id" : "bhavika",
       "name" : "Bhavika Rugnath",
       "order" : 4,
-      "photoUrl" : "https://storage.googleapis.com/dfua17.appspot.com/images/people/minashkin_anton.jpg",
+      "photoUrl" : "https://scontent-jnb1-1.xx.fbcdn.net/v/t1.0-9/1604834_10151979234968533_577332830_n.jpg?_nc_cat=103&_nc_eui2=AeE52adb5zAQ0P90WQ88f7BpGJvI8QW5GMeqH7Yb6qUcxoq-J4_U9d-vs8zt56aLFHonYOJ7Rf44jFDAZYYQL7Jrfl08Z6Hav_vxLBWHYcML5w&_nc_ht=scontent-jnb1-1.xx&oh=aac34229322b155468828f43719c921d&oe=5C6B284A",
       "sessions" : {
         "2017" : [ {
           "presentation" : "https://drive.google.com/open?id=1dioNgr6o2VFKxbWJgNbnPNKAfsmeZB6a",
@@ -920,7 +936,7 @@
       "id" : "amarildo_come",
       "name" : "Amarildo Comé",
       "order" : 5,
-      "photoUrl" : "https://storage.googleapis.com/dfua17.appspot.com/images/people/minashkin_anton.jpg",
+      "photoUrl" : "https://scontent-jnb1-1.xx.fbcdn.net/v/t1.0-9/1186102_589856314403896_1546624202_n.jpg?_nc_cat=101&_nc_eui2=AeGA4tlLPL_SsQD7iwcHYHmSDa351qOnxsOXskVsOGeGLlmVK3tJgnRe5jbj9nDwhawAYOb2wA3jxEeDORtA771YfVRraJBtOMbd0kVaNMTrTg&_nc_ht=scontent-jnb1-1.xx&oh=bc2f96423994d18eefbe34fca2b8fa29&oe=5C7D8A93",
       "sessions" : {
         "2017" : [ {
           "presentation" : "https://drive.google.com/open?id=1dioNgr6o2VFKxbWJgNbnPNKAfsmeZB6a",
@@ -951,7 +967,7 @@
       "id" : "dava",
       "name" : "José Pedro Dava",
       "order" : 6,
-      "photoUrl" : "https://storage.googleapis.com/dfua17.appspot.com/images/people/minashkin_anton.jpg",
+      "photoUrl" : "https://scontent-jnb1-1.xx.fbcdn.net/v/t1.0-9/18767417_10209465836347514_4482235571143926730_n.jpg?_nc_cat=103&_nc_eui2=AeHYoMbO9Bip8XXKr_7LwbrhIMTsoXlzL_PYKM-50BMf4FKTQplkRbPsKfxdeKT4Ch2uLVTIo6l-Jn79I2-DqY4zTReanj8IoqKQCvUtZ5SpWg&_nc_ht=scontent-jnb1-1.xx&oh=1aeb974d060c71036a31d335b1fcd7b1&oe=5CAE36A8",
       "sessions" : {
         "2017" : [ {
           "presentation" : "",
