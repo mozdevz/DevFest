@@ -212,7 +212,7 @@
     "101" : {
       "complexity" : "Intermédio",
       "description" : "Como e onde implementar o blockchain no sector financeiro.",
-      "language" : "Português",
+      "language" : "PT",
       "speakers" : [ "elton_laice" ],
       "tags" : [ "Blockchain" ],
       "title" : "Blockchain e os beneficios para sector financeiro e FinTech"
@@ -220,7 +220,7 @@
     "102" : {
       "complexity" : "Iniciante",
       "description" : "Mostrar as vantagens de desenvolver usando flutter e como é possível alcançar muito e maior desempenho sem precisar mexer muito para ambas plataformas iOS e Android",
-      "language" : "Português",
+      "language" : "PT",
       "speakers" : [ "igor_sambo" ],
       "tags" : [ "Flutter", "Android", "iOS" ],
       "title" : "Construindo aplicações complexas com a simplicidade do Flutter"
@@ -228,7 +228,7 @@
     "103" : {
       "complexity" : "Intermédio",
       "description" : "Nesta apresentação vou dar uma breve descrição sobre a evolução da segurança do sistema operacional Android e seus APKs.\nEsta apresentação também descreverá uma comparação entre as diferentes vulnerabilidades de segurança de cada API do Android, do mais antigo ao presente.\nNo final vou demonstrar a fragilidade de um sistema android 5 (Lolipoop) contra ao andróide X através de um ataque de escalagem de privilégios onde ganharei acesso root do dispositivo usando o sistema operacional Linux, dando acesso a informações confidenciais do dispositivo.",
-      "language" : "Português",
+      "language" : "PT",
       "speakers" : [ "charmilo_narane" ],
       "tags" : [ "Android" ],
       "title" : "Android Security - Visão geral (Android X vs seus predecessores)"
@@ -236,7 +236,7 @@
     "104" : {
       "complexity" : "Iniciante",
       "description" : "Mineração de dados educacionais (MDE) é uma área de investigação emergente que mostrou ter um bom impacto no processo de ensino aprendizagem principalmente em ambientes de eniso Online. No entanto, ainda é preciso a criação de ferramentas que facilitam o MDE nestes ambientes. Pois caso contrário o processo se torna muito difícil pois envolve a colecta e tratamento de dados seguido de aplicação de mineração de dados para extração de padrões útil. Está apresentação de traz uma proposta de soluçao deste problema apoiado-se nos microservices e distribuição de sistemas. Como resultado é apresentado um framework onde torna todo o processo de MDE automático desde a colecta de dados até à criação de criação dos modelos.",
-      "language" : "Português",
+      "language" : "PT",
       "speakers" : [ "felermino_ali" ],
       "tags" : [ "Machine Learning" ],
       "title" : "Microservices for educational data mining"
@@ -244,7 +244,7 @@
     "105" : {
       "complexity" : "Intermédio",
       "description" : "Nesta apresentação pretendo primeiro explicar o que é o motionlayout, as suas vantagens e por que ele vem mudar o game das animações. Por fim irei apresentar alguns exemplos de como utilizar o motionlayout.",
-      "language" : "Português",
+      "language" : "PT",
       "speakers" : [ "edilson_ngulele" ],
       "tags" : [ "Android" ],
       "title" : "Conhecendo o MotionLayout"
@@ -252,7 +252,7 @@
     "106" : {
       "complexity" : "Iniciante",
       "description" : "Está apresentação, vou falar dos conceitos gerais de Machine Learning, aplicações, problemas que podemos resolver com ML e no final, falar de ML para desenvolvedores de software e entusiastas de ML.",
-      "language" : "Português",
+      "language" : "PT",
       "speakers" : [ "richaldo_elias" ],
       "tags" : [ "Machine Learning" ],
       "title" : "Intro to Machine Learning"
@@ -339,10 +339,11 @@
     },
     "116" : {
       "complexity" : "Intermédio",
-      "description" : "Brevemente",
+      "description" : "“Os dados podem ser o maior activo de uma Empresa/Organização”\nEsta afirmação só faz sentido se estes dados estiverem disponíveis de forma eficiente para apoio a tomada de decisão dos gestores de uma determinada Empresa/Organização!\nO mercado precisa de jovens capazes de apoiar nesta vertente, vamos conversar sobre isto.",
       "language" : "PT",
+      "speakers" : [ "losdelau" ],
       "tags" : [ "Analytics" ],
-      "title" : "Usando o Google Analytics como ferramenta para Business Intelligence"
+      "title" : "Business Intelligence nas Empresas/Organizações Moçambicanas"
     },
     "117" : {
       "complexity" : "Iniciante",
@@ -498,7 +499,7 @@
       "description" : "Abertura Oficial da Conferência. Algumas palavras dos Organizadores e Parceiros.",
       "icon" : "opening",
       "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fopening.jpg?alt=media&token=aa52dd45-50c9-4e36-9485-c1f9138ecd6b",
-      "language" : "Português",
+      "language" : "PT",
       "title" : "Abertura do Evento"
     },
     "137" : {
@@ -699,6 +700,21 @@
       } ],
       "order" : 7,
       "title" : "Senior Android Developer"
+    },
+    "losdelau" : {
+      "bio" : "Formado em Sistemas Informáticos pelo Instituto de Transportes e Comunicações. Estudante do curso de Licenciatura em Informática no Departamento de Matemática e Informática da Universidade Eduardo Mondlane.",
+      "company" : "EXI, LDA",
+      "companyLogo" : "",
+      "companyLogoUrl" : "",
+      "country" : "Maputo, Mozambique",
+      "featured" : true,
+      "name" : "Losdelau Ricardo Macamo",
+      "photo" : "",
+      "photoUrl" : "",
+      "shortBio" : "Formado em Sistemas Informáticos pelo Instituto de Transportes e Comunicações. Estudante do curso de Licenciatura em Informática no Departamento de Matemática e Informática da Universidade Eduardo Mondlane.",
+      "socials" : [ ],
+      "order" : 8,
+      "title" : "Analista de Business Intelligence"
     }
   },
   "team" : [ {
