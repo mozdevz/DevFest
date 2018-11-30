@@ -227,7 +227,7 @@
     },
     "103" : {
       "complexity" : "Intermédio",
-      "description" : "Nesta apresentação vou dar uma breve descrição sobre a evolução da segurança do sistema operacional Android e seus APKs.\nEsta apresentação também descreverá uma comparação entre as diferentes vulnerabilidades de segurança de cada API do Android, do mais antigo ao presente.\nNo final vou demonstrar a fragilidade de um sistema android 5 (Lolipoop) contra ao andróide X através de um ataque de escalagem de privilégios onde ganharei acesso root do dispositivo usando o sistema operacional Linux, dando acesso a informações confidenciais do dispositivo.",
+      "description" : "Uma breve descrição sobre a evolução da segurança do sistema operacional Android e seus APKs.\nTambém descreverá uma comparação entre as diferentes vulnerabilidades de segurança de cada API do Android, do mais antigo ao presente.\nPor fim, demonstrar a fragilidade de um sistema android 5 (Lolipoop) contra ao andróide X através de um ataque de escalagem de privilégios onde ganharei acesso root do dispositivo usando o sistema operacional Linux, dando acesso a informações confidenciais do dispositivo.",
       "language" : "PT",
       "speakers" : [ "charmilo_narane" ],
       "tags" : [ "Android" ],
@@ -243,7 +243,7 @@
     },
     "105" : {
       "complexity" : "Intermédio",
-      "description" : "Nesta apresentação pretendo primeiro explicar o que é o motionlayout, as suas vantagens e por que ele vem mudar o game das animações. Por fim irei apresentar alguns exemplos de como utilizar o motionlayout.",
+      "description" : "Edilson irá explicar o que é o motionlayout, as suas vantagens e por que ele vem mudar o game das animações. Por fim, apresentar alguns exemplos de como utilizar o motionlayout.",
       "language" : "PT",
       "speakers" : [ "edilson_ngulele" ],
       "tags" : [ "Android" ],
@@ -251,7 +251,7 @@
     },
     "106" : {
       "complexity" : "Iniciante",
-      "description" : "Está apresentação, vou falar dos conceitos gerais de Machine Learning, aplicações, problemas que podemos resolver com ML e no final, falar de ML para desenvolvedores de software e entusiastas de ML.",
+      "description" : "Richaldo falará dos conceitos gerais de Machine Learning, aplicações, problemas que podemos resolver com ML e no final, falar de ML para desenvolvedores de software e entusiastas de ML.",
       "language" : "PT",
       "speakers" : [ "richaldo_elias" ],
       "tags" : [ "Machine Learning" ],
@@ -458,7 +458,7 @@
     },
     "130" : {
       "complexity" : "Iniciante",
-      "description" : "Brevemente",
+      "description" : "Malika irá falar sobre a importância de planear e documentar um software, bem como os desfaios  encontrados. É uma tarefa ignorada por muitos, mas desempenha um papel muito importante no produto final.",
       "language" : "PT",
       "speakers" : [ "malika_ibraimo" ],
       "tags" : [ "Software" ],
