@@ -697,6 +697,10 @@
         "icon" : "website",
         "link" : "https://medium.com/@mungoidario",
         "name" : "Blog"
+      }, {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/DarioMungoi",
+        "name" : "Twitter"
       } ],
       "order" : 7,
       "title" : "Senior Android Developer"
@@ -709,10 +713,22 @@
       "country" : "Maputo, Mozambique",
       "featured" : true,
       "name" : "Losdelau Ricardo Macamo",
-      "photo" : "",
-      "photoUrl" : "",
+      "photo" : "/images/people/losdelau.jpg",
+      "photoUrl" : "https://scontent.fdur4-1.fna.fbcdn.net/v/t1.0-9/25446225_1498448633605373_408158583358536407_n.jpg?_nc_cat=100&_nc_ht=scontent.fdur4-1.fna&oh=2f4be211c658e2b518967b39eb410490&oe=5CA48D4D",
       "shortBio" : "Formado em Sistemas Informáticos pelo Instituto de Transportes e Comunicações. Estudante do curso de Licenciatura em Informática no Departamento de Matemática e Informática da Universidade Eduardo Mondlane.",
-      "socials" : [ ],
+      "socials" : [  {
+        "icon" : "facebook",
+        "link" : "https://www.facebook.com/losdelau.fullbuster",
+        "name" : "Facebook"
+      }, {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/losdelau-ricardo-54a5888b8",
+        "name" : "LinkedIn"
+      }, {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/lodeslau",
+        "name" : "Twitter"
+      } ],
       "order" : 8,
       "title" : "Analista de Business Intelligence"
     }
