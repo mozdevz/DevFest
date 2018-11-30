@@ -526,7 +526,7 @@
   },
   "speakers" : {
     "elton_laice" : {
-      "bio" : "A 23 year-old youth, technology entrepreneur, full-stack developer and co-founder of kurrula-ia, codelaice, voluntariado.co.mz.",
+      "bio" : "23 anos de idade, empreendedor tecnológico, desenvolvedor full-stack e co-fundador da kurrula-ia, codelaice, voluntariado.co.mz.",
       "company" : "Kurrula-ia, Codelaice",
       "companyLogo" : "/images/logo.png",
       "companyLogoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfestmaputo.appspot.com/o/logo.png?alt=media&token=516663cb-88d6-45a5-a98d-eab5409dea58",
@@ -535,7 +535,7 @@
       "name" : "Elton Laice",
       "photo" : "/images/people/laice.jpg",
       "photoUrl" : "https://pbs.twimg.com/profile_images/990671742610956291/ju_825IK_400x400.jpg",
-      "shortBio" : "A 23 year-old youth, technology entrepreneur, full-stack developer and co-founder of kurrula-ia, ...",
+      "shortBio" : "23 anos de idade, empreendedor tecnológico, desenvolvedor full-stack e co-fundador da kurrula-ia...",
       "socials" : [ {
         "icon" : "twitter",
         "link" : "https://twitter.com/eltonlaice",
@@ -610,7 +610,7 @@
       "title" : ""
     },
     "edilson_ngulele" : {
-      "bio" : "Edilson is an Android developer by passion. Enjoys coding, writing and talking about code. If he's not doing one of these, he's certainly reading about code or self-awareness.",
+      "bio" : "Edilson é um desenvolvedor Android por paixão. Gosta de programar, escrever e falar sobre código. Quando não está a fazer uma destas coisas, ele está certamente a ler sobre código ou autoconsciência.",
       "company" : "ISUTC",
       "companyLogo" : "/images/logo.png",
       "companyLogoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfestmaputo.appspot.com/o/logo.png?alt=media&token=516663cb-88d6-45a5-a98d-eab5409dea58",
@@ -619,7 +619,7 @@
       "name" : "Edilson Ngulele",
       "photo" : "/images/people/Edilson.jpeg",
       "photoUrl" : "https://avatars2.githubusercontent.com/u/19359776?s=460&v=4",
-      "shortBio" : "Edilson is an Android developer by passion. Enjoys coding, writing and talking about code. If he's...",
+      "shortBio" : "Edilson é um desenvolvedor Android por paixão. Gosta de programar, escrever e falar sobre código...",
       "socials" : [ {
         "icon" : "github",
         "link" : "https://github.com/EdNgulele",
