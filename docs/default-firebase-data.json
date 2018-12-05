@@ -258,13 +258,13 @@
       "title" : "Intro to Machine Learning"
     },
     "107" : {
-      "complexity" : "Beginner",
-      "description" : "There's been much discussion about Progressive Web Apps. They're still a relatively new model. In this talk, I'll summarise few options and techniques for getting started with your own Progressive Web App",
+      "complexity" : "Iniciante",
+      "description" : "Introdução a Chatbots Passos basicos para construir um assistente",
       "extend" : 2,
-      "language" : "English",
-      "speakers" : [ "gerard_sans" ],
-      "tags" : [ "Web" ],
-      "title" : "Introduction to Progressive Web Apps in Angular 2"
+      "language" : "PT",
+      "speakers" : [ "lars" ],
+      "tags" : [ "Assistant", "DialogFlow" ],
+      "title" : "Suporte na Linha de Cliente com Chatbot"
     },
     "108" : {
       "complexity" : "Intermediate",
@@ -732,6 +732,25 @@
       } ],
       "order" : 8,
       "title" : "Analista de Business Intelligence"
+    },
+    "lars" : {
+      "bio" : "CEO da MozDevelopment, Co-Fundador da Mukheru Express. Especialista Senior de Canais Digitais na Vodacom. Formado com Mestrado em Computação Aplicada e Mestrado em Administração de Empresas. Certificado Expert em Java Web Applications. Certificado Scrum Master e Scrum Development",
+      "company" : "Vodacom",
+      "companyLogo" : "/images/logo.png",
+      "companyLogoUrl" : "https://pbs.twimg.com/profile_images/919765502276272128/sIprPyYO_400x400.jpg",
+      "country" : "Maputo, Mozambique",
+      "featured" : true,
+      "name" : "Lars Lemos",
+      "photo" : "/images/people/lars.jpeg",
+      "photoUrl" : "https://avatars0.githubusercontent.com/u/4475142?s=460&v=4",
+      "shortBio" : "CEO da MozDevelopment, Co-Fundador da Mukheru Express. Especialista Senior de Canais Digitais na ...",
+      "socials" : [ {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/lars-albino-lemos-28446152",
+        "name" : "LinkedIn"
+      } ],
+      "order" : 9,
+      "title" : "Especialista Senior de Canais Digitais"
     }
   },
   "team" : [ {
@@ -801,20 +820,20 @@
   "tickets" : [ {
     "available" : true,
     "currency" : "MZN",
-    "ends" : "23 Nov",
+    "ends" : "07 Dez",
     "info" : "Requer um cartão de estudante do ISCTEM válido",
     "name" : "Estudante ISCTEM",
-    "price" : 50,
+    "price" : 100,
     "soldOut" : false,
     "starts" : "18 Nov",
     "url" : "https://bilhetesonline.co.mz/evento/eventoDetalhes/a389097b-b108-4771-a575-0fdd566e3827"
   }, {
     "available" : true,
     "currency" : "MZN",
-    "ends" : "23 Nov",
+    "ends" : "07 Dez",
     "info" : "Requer um cartão de estudante válido",
     "name" : "Estudante",
-    "price" : 100,
+    "price" : 200,
     "regular" : false,
     "soldOut" : false,
     "starts" : "18 Nov",
@@ -822,11 +841,11 @@
   }, {
     "available" : true,
     "currency" : "MZN",
-    "ends" : "23 Nov",
+    "ends" : "07 Dez",
     "inDemand" : false,
     "info" : "Bilhetes normais",
     "name" : "Normal",
-    "price" : 200,
+    "price" : 400,
     "primary" : true,
     "regular" : true,
     "soldOut" : false,
