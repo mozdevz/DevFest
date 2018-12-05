@@ -349,7 +349,8 @@
       "complexity" : "Iniciante",
       "description" : "Brevemente",
       "language" : "PT",
-      "tags" : [ "Firebase", "Payments" ],
+      "speakers" : [ "dario_mungoi" ],
+      "tags" : [ "Android", "Firebase", "Payments" ],
       "title" : "Primeiros passos com a API do M-pesa"
     },
     "118" : {
@@ -887,7 +888,11 @@
           "videoId" : ""
         } ]
       },
-      "socials" : [ ],
+      "socials" : [ {
+        "icon" : "website",
+        "link" : "#",
+        "name" : "Website"
+      } ],
       "title" : "Software Developer"
     },
     "leonel_machava" : {
