@@ -751,6 +751,25 @@
       } ],
       "order" : 9,
       "title" : "Especialista Senior de Canais Digitais"
+    },
+    "tiago" : {
+      "bio" : "Tiago is a Mozambican social entrepreneur, researcher, and developer of IT services for development impact. As the co-founder of UX Information Technologies he was responsible for product development of emprego.co.mz (career platform), biscate.co.mz (informal work platform), mopa.co.mz (participatory monitoring platform), and soma.co.mz (savings groups platform). Additionally, he worked as a technical consultant for projects from the World Bank, USAID, UNICEF, GIZ, Microsoft, among others, and has also supported multiple aspiring entrepreneurs as a tech trainer for the US State Department’s Tech Camp, as a Country Ambassador for Seed Stars World, as a mentor for Startup Weekend, and as a speaker and trainer at various tech conferences. Tiago holds a BA from Universidade da Beira Interior (Portugal) in Multimedia Design, and a MSc from Leiden University (the Netherlands) in Media Technology.",
+      "company" : "UX Information Technologies",
+      "companyLogo" : "/images/logos/ux.svg",
+      "companyLogoUrl" : "http://www.ux.co.mz/img/logo.svg",
+      "country" : "Maputo, Mozambique",
+      "featured" : true,
+      "name" : "Tiago Borges Coelho",
+      "photo" : "/images/people/Tiago.jpg",
+      "photoUrl" : "https://scontent.fdur4-1.fna.fbcdn.net/v/t1.0-9/39558010_10156608483511382_87820656590192640_n.jpg?_nc_cat=100&_nc_ht=scontent.fdur4-1.fna&oh=591a4cbb0440986459527c393bd4b709&oe=5CB0FBD7",
+      "shortBio" : "Tiago is a Mozambican social entrepreneur, researcher, and developer of IT services for develop...",
+      "socials" : [  {
+        "icon" : "website",
+        "link" : "https://ux.co.mz",
+        "name" : "UX Website"
+      } ],
+      "order" : 10,
+      "title" : "Co-Fundador"
     }
   },
   "team" : [ {
