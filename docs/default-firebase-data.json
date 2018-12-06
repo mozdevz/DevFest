@@ -455,7 +455,7 @@
     },
     "131" : {
       "complexity" : "Intermédio",
-      "description" : "Brevemente",
+      "description" : "Alguma vez você já se perguntou como a internet funciona?\nNesta apresentação falarei sobre DNS (Sistema de Nomes de Domínio) que é a parte central para o funcionamento da Internet, explicarei o que é este sistema, os tipos de DNS, para que eles servem, e sua relação com os domínios e servidores de alojamento. Sem esse sistema, a internet como conhecemos hoje provavelmente seria diferente, pois ele permite que a navegação na internet seja muito mais rápida, e ainda auxilia na proteção, detectando sites falsos e outras ameaças!",
       "language" : "PT",
       "speakers" : [ "idriss_matos" ],
       "tags" : [ "Internet" ],
