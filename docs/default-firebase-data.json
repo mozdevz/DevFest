@@ -459,7 +459,7 @@
     },
     "130" : {
       "complexity" : "Iniciante",
-      "description" : "Malika irá falar sobre a importância de planear e documentar um software, bem como os desfaios  encontrados. É uma tarefa ignorada por muitos, mas desempenha um papel muito importante no produto final.",
+      "description" : "Malika irá falar sobre a importância de planear e documentar um software, bem como os desafios  encontrados. É uma tarefa ignorada por muitos, mas desempenha um papel muito importante no produto final.",
       "language" : "PT",
       "speakers" : [ "malika_ibraimo" ],
       "tags" : [ "Software" ],
@@ -752,21 +752,29 @@
       "order" : 9,
       "title" : "Especialista Senior de Canais Digitais"
     },
-    "tiago" : {
-      "bio" : "Tiago is a Mozambican social entrepreneur, researcher, and developer of IT services for development impact. As the co-founder of UX Information Technologies he was responsible for product development of emprego.co.mz (career platform), biscate.co.mz (informal work platform), mopa.co.mz (participatory monitoring platform), and soma.co.mz (savings groups platform). Additionally, he worked as a technical consultant for projects from the World Bank, USAID, UNICEF, GIZ, Microsoft, among others, and has also supported multiple aspiring entrepreneurs as a tech trainer for the US State Department’s Tech Camp, as a Country Ambassador for Seed Stars World, as a mentor for Startup Weekend, and as a speaker and trainer at various tech conferences. Tiago holds a BA from Universidade da Beira Interior (Portugal) in Multimedia Design, and a MSc from Leiden University (the Netherlands) in Media Technology.",
-      "company" : "UX Information Technologies",
-      "companyLogo" : "/images/logos/ux.svg",
-      "companyLogoUrl" : "http://www.ux.co.mz/img/logo.svg",
+    "idriss_matos" : {
+      "bio" : "Idriss Matos é um Gerente de TI autodidata com sólida experiência em tecnologia e habilidades de gerenciamento superior de projectos, apaixonado por Design de Experiência do Usuário (UXD), Computação em Nuvem, Web e Aplicativos Móveis. Actualmente ele é o Director do Departamento de Tecnologia da MozDomains onde ele se concentra em questões científicas e tecnológicas dentro da organização.",
+      "company" : "ITCORE Mocambique, Lda",
+      "companyLogo" : "/images/logo.png",
+      "companyLogoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfestmaputo.appspot.com/o/logo.png?alt=media&token=516663cb-88d6-45a5-a98d-eab5409dea58",
       "country" : "Maputo, Mozambique",
       "featured" : true,
-      "name" : "Tiago Borges Coelho",
-      "photo" : "/images/people/Tiago.jpg",
-      "photoUrl" : "https://scontent.fdur4-1.fna.fbcdn.net/v/t1.0-9/39558010_10156608483511382_87820656590192640_n.jpg?_nc_cat=100&_nc_ht=scontent.fdur4-1.fna&oh=591a4cbb0440986459527c393bd4b709&oe=5CB0FBD7",
-      "shortBio" : "Tiago is a Mozambican social entrepreneur, researcher, and developer of IT services for develop...",
-      "socials" : [  {
+      "name" : "Idriss Matos",
+      "photo" : "/images/people/Idriss.png",
+      "photoUrl" : "https://lh3.googleusercontent.com/cHAx5P0uEqLh0jp0ehYdvNWsYGPopGJ8ALJrUtIJM53nxPjDCtzfnYWxE4tZv6GRbiDft4eQa73wA3Qbfwu_J6akCutxKciMrj4st5yFxIwwY322jtU0mH_f_RMbfu-uM1h2p1OBk2vOQnJ5BMn6jYCeupZsMYIYvFDU6k3teCXXjl_jNOuww4hhz-8woEbza9xrlBB8kOlefEtETIIM4TVdO22zz_ZlSAOdBdbMSAfTd-wCZLC-kXtwW9E9JWTHju9ZSj-pgYsFY70XIO2XfCe1uHVfpjnbkmezRQvKb-LA0i7FFKGN0Q8x7ah_ejplCWIFKn99Bvkvf64GxVAXWYZJYrC3XkVBM5xs09i6B1BZyEoilYgErN2P8Ft4wLNXc0iEjSNp3fNoKzo1EUMxhd_jkkESbotIVcksFNibtRAch0S0Bp32JkPCyObXdmE3iyVRRIWXVs6brNJWt-8lqjiAHkvnRilT7ZhpX4umc9RFrUe4BJ3fZh3PnH2xkcH8TM2WgHFEZCfycRY007tqUY7oq8gIo6wD6lc_z4gX4RMFljRIUfEPpSZJG82WmeUVHVwFcCdPx-ibel-TkDIxU6YYB7598E-DfO7JPMC38sc-Y767PVGt1MHANwv4JJNio2JHV7pjHKCCQFJt0Lk7eoGJJvc-twEc2uKzMnW3shvJb-huAdBXb21XTzMjkYI96D9hBkOkfDjb8sGjZhY=s500-no",
+      "shortBio" : "Idriss Matos é um Gerente de TI autodidata com sólida experiência em tecnologia e habilidades de...",
+      "socials" : [ {
+        "icon" : "facebook",
+        "link" : "https://www.facebook.com/idrismatos/",
+        "name" : "Facebook"
+      }, {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/idriss-matos-2b174037/",
+        "name" : "LinkedIn"
+      }, {
         "icon" : "website",
-        "link" : "https://ux.co.mz",
-        "name" : "UX Website"
+        "link" : "https://medium.com/@idrissmatos",
+        "name" : "Medium"
       } ],
       "order" : 10,
       "title" : "Co-Fundador"
