@@ -203,7 +203,8 @@
       "language" : "PT",
       "speakers" : [ "elton_laice" ],
       "tags" : [ "Blockchain" ],
-      "title" : "Blockchain e os beneficios para sector financeiro e FinTech"
+      "title" : "Blockchain e os beneficios para sector financeiro e FinTech",
+      "presentation": "https://drive.google.com/file/d/1atVbRN2w-DEFqC_zcDS7i0VGFBAtfjs6/view?usp=sharing"
     },
     "102" : {
       "complexity" : "Iniciante",
@@ -211,7 +212,8 @@
       "language" : "PT",
       "speakers" : [ "igor_sambo" ],
       "tags" : [ "Flutter", "Android", "iOS" ],
-      "title" : "Construindo aplicações complexas com a simplicidade do Flutter"
+      "title" : "Construindo aplicações complexas com a simplicidade do Flutter",
+      "presentation": "https://drive.google.com/open?id=1-3M18p5yqK4We5nArR5ehjHeBvlNlnEDvVbACX-gQvs"
     },
     "103" : {
       "complexity" : "Intermédio",
@@ -219,7 +221,8 @@
       "language" : "PT",
       "speakers" : [ "charmilo_narane" ],
       "tags" : [ "Android" ],
-      "title" : "Android Security - Visão geral (Android X vs seus predecessores)"
+      "title" : "Android Security - Visão geral (Android X vs seus predecessores)",
+      "presentation": "https://drive.google.com/open?id=1A2lDUjs82fwxWQ-zVUeT5oqS-ISbjSSW2yj3rloHXGY"
     },
     "104" : {
       "complexity" : "Iniciante",
@@ -235,7 +238,8 @@
       "language" : "PT",
       "speakers" : [ "edilson_ngulele" ],
       "tags" : [ "Android" ],
-      "title" : "Conhecendo o MotionLayout"
+      "title" : "Conhecendo o MotionLayout",
+      "presentation": ""
     },
     "106" : {
       "complexity" : "Iniciante",
@@ -243,7 +247,8 @@
       "language" : "PT",
       "speakers" : [ "richaldo_elias" ],
       "tags" : [ "Machine Learning" ],
-      "title" : "Intro to Machine Learning"
+      "title" : "Intro to Machine Learning",
+      "presentation": ""
     },
     "107" : {
       "complexity" : "Iniciante",
@@ -305,7 +310,8 @@
       "language" : "PT",
       "speakers" : [ "elisio_leonardo" ],
       "tags" : [ "PHP" ],
-      "title" : "Migrando 10 anos de desenvolvimento para o laravel"
+      "title" : "Migrando 10 anos de desenvolvimento para o laravel",
+      "presentation": "https://drive.google.com/open?id=1f6S4Yechq43kvcHmBgLM9oBWGgJiVrjCfxuDtD1q_nU"
     },
     "114" : {
       "complexity" : "Intermediate",
@@ -331,7 +337,8 @@
       "language" : "PT",
       "speakers" : [ "losdelau" ],
       "tags" : [ "Analytics" ],
-      "title" : "Business Intelligence nas Empresas/Organizações Moçambicanas"
+      "title" : "Business Intelligence nas Empresas/Organizações Moçambicanas",
+      "presentation": "https://drive.google.com/open?id=1l3oSvF1kjVBPdZDB2-k1eYOjypy-VmtjRTj-VVU0Dos"
     },
     "117" : {
       "complexity" : "Iniciante",
@@ -339,7 +346,8 @@
       "language" : "PT",
       "speakers" : [ "dario_mungoi" ],
       "tags" : [ "Android", "Firebase", "Payments" ],
-      "title" : "Primeiros passos com a API do M-pesa"
+      "title" : "Primeiros passos com a API do M-pesa",
+      "presentation": "https://drive.google.com/open?id=1KKhb5UWMR2gawH5EM79kzllB1oRc9WXjpsbjBMNk7Xo"
     },
     "118" : {
       "complexity" : "Intermediate",
@@ -451,7 +459,8 @@
       "language" : "PT",
       "speakers" : [ "malika_ibraimo" ],
       "tags" : [ "Software" ],
-      "title" : "Engenharia de Software - Porquê perder tempo?"
+      "title" : "Engenharia de Software - Porquê perder tempo?",
+      "presentation": "https://drive.google.com/open?id=1SIAbcAT9PXIBcwzFdKTnk9wM96hy73X-"
     },
     "131" : {
       "complexity" : "Intermédio",
@@ -459,7 +468,8 @@
       "language" : "PT",
       "speakers" : [ "idriss_matos" ],
       "tags" : [ "Internet" ],
-      "title" : "DNS - A infraestrutra da Internet"
+      "title" : "DNS - A infraestrutra da Internet",
+      "presentation": ""
     },
     "132" : {
       "description" : "Pegue o seu crachá, camiseta e sticker.",
