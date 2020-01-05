@@ -23,7 +23,8 @@
   "country": "País",
   "time": "Hora",
   "faq": "/data/faq.md",
-  "cod": "/data/cod.md",
+  "coc": "/data/coc.md",
+  "timezoneOffset": "-180",
   "footer": {
     "blog": "Blog"
   },
@@ -38,8 +39,13 @@
           "newTab": true
         },
         {
-          "name": "Google Developers Group",
-          "url": "https://developers.google.com/",
+          "name": "GDG",
+          "url": "https://developers.google.com/groups/",
+          "newTab": true
+        },
+        {
+          "name": "DevFest",
+          "url": "https://devfest.withgoogle.com/",
           "newTab": true
         },
         {
@@ -67,8 +73,16 @@
   ],
   "subscribeNote": "Sem nenhum spam. apenas updates!",
   "codeOfConduct": "Code of Conduct",
+  "codeOfConductBlock": {
+    "organization": "DevFest",
+    "form": "https://bit.ly/2RstTJ8",
+    "contacts": [
+      "Organizer Oleh Zasadnyy, [+38 093 486 6460](tel:+380934866460), o.zasadnyy@gdg.org.ua",
+      "Organizer Sofiya Huts, [+38 093 486 1425](tel:+380934861425), s.huts@gdg.org.ua"
+    ]
+  },
   "aboutBlock": {
-    "title": "What you need to know, before you ask.",
+    "title": "About",
     "callToAction": {
       "featuredSessions": {
         "description": "GDG DevFest Ukraine brings together the world class experts in Android, Web and Cloud technologies to Lviv for 2 days of sessions, workshops and showcases.",
@@ -142,7 +156,7 @@
     "previousYear": "Year"
 },
   "speakersBlock": {
-    "title": "Rockstar speakers",
+    "title": "Speakers",
     "callToAction": {
       "label": "Ver todos speakers",
       "link": "/speakers/"
@@ -189,6 +203,20 @@
   "schedule": {
     "saveSessionsSignedOut": "Sign in to save sessions"
   },
+  "feedback": {
+    "save": "Save",
+    "headline": "Review session",
+    "leaveFeedback": "to leave feedback",
+    "sendFeedbackSignedOut": "Sign in to leave feedback",
+    "feedbackRecorded": "Your saved",
+    "feedbackDeleted": "Feedback deleted",
+    "helperText": "Comments will be anonymously provided to speakers",
+    "somethingWentWrong": "Something went wrong",
+    "contentCaption": "Content quality",
+    "styleCaption": "Presentation style",
+    "deleteFeedback": "Delete",
+    "sessionClosed": "Session reviews are not open"
+  },
   "sessionDetails": {
     "contentLevel": "Content level",
     "viewPresentation": "View presentation",
@@ -231,6 +259,15 @@
           "link": "https://developers.google.com/groups/",
           "newTab": true
         }
+      },
+      {
+        "title": "What is DevFest?",
+        "description": "DevFests are community-led developer events hosted by Google Developer Groups around the globe.",
+        "callToAction": {
+          "label": "Read more",
+          "link": "https://devfest.withgoogle.com/",
+          "newTab": true
+        }
       }
     ]
   },
@@ -241,5 +278,15 @@
       "part1": "Faça login com ",
       "part2": "para continuar"
     }
+  },
+  "filters": {
+    "title": "Filters",
+    "results": "Results",
+    "tags": "Tags",
+    "complexity": "Complexity",
+    "clear": "Clear all"
+  },
+  "addToHomeScreen": {
+    "cta": "Add to Home Screen"
   }
 }

@@ -11,10 +11,7 @@
 
 <dom-module id="previous-speakers-page">
   <template>
-    <style is="custom-style" include="shared-styles flex flex-alignment positioning"></style>
-
-    <style>
-
+    <style include="shared-styles flex flex-alignment positioning">
       :host {
         display: block;
         height: 100%;
@@ -137,7 +134,7 @@
       font-color="{$ heroSettings.previousSpeakers.fontColor $}"
       active="[[active]]"
     >
-      <div class="hero-title highlight-font">{$ heroSettings.previousSpeakers.title $}</div>
+      <div class="hero-title">{$ heroSettings.previousSpeakers.title $}</div>
       <p class="hero-details">{$ heroSettings.previousSpeakers.details $}</p>
     </hero-block>
 

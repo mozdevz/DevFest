@@ -9,11 +9,8 @@
 
 <dom-module id="team-page">
   <template>
-    <style is="custom-style" include="shared-styles flex flex-alignment"></style>
-
-    <style>
-
-      :host  {
+    <style include="shared-styles flex flex-alignment">
+      :host {
         display: block;
       }
 
@@ -124,7 +121,7 @@
       font-color="{$ heroSettings.team.fontColor $}"
       active="[[active]]"
     >
-      <div class="hero-title highlight-font">{$ heroSettings.team.title $}</div>
+      <div class="hero-title">{$ heroSettings.team.title $}</div>
       <p class="hero-description">{$ heroSettings.team.description $}</p>
     </hero-block>
 
@@ -175,7 +172,7 @@
     class TeamPage extends ReduxMixin(Polymer.Element) {
       static get is() {return 'team-page';}
 
-       static get properties() {
+      static get properties() {
         return {
           active: Boolean,
           team: {

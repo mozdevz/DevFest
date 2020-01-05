@@ -23,6 +23,7 @@
         title: '',
       },
       heroSettings: {},
+      addToHomescreen: null,
     },
     routing: {
       route: 'home',
@@ -38,6 +39,10 @@
         data: {},
       },
       [DIALOGS.SESSION]: {
+        isOpened: false,
+        data: {},
+      },
+      [DIALOGS.FEEDBACK]: {
         isOpened: false,
         data: {},
       },
@@ -59,6 +64,14 @@
       fetching: false,
       fetchingError: null,
       list: [],
+    },
+    feedback: {
+      adding: false,
+      addingError: null,
+      fetching: false,
+      fetchingError: null,
+      deleting: false,
+      deletingError: null,
     },
     blog: {
       fetching: false,
@@ -86,12 +99,10 @@
       obj: {},
     },
     sessions: {
-      list: {
-        fetching: false,
-        fetchingError: null,
-        list: [],
-        obj: {},
-      },
+      fetching: false,
+      fetchingError: null,
+      list: [],
+      obj: {},
       featured: {},
       featuredFetching: false,
       featuredError: null,
@@ -115,6 +126,10 @@
     notifications: {
       status: NOTIFICATIONS_STATUS.DEFAULT,
     },
+    filters: {
+      tags: [],
+      complexity: [],
+    },
   };
 
   const appReducer = (state = initialState, action) => {
@@ -124,6 +139,7 @@
       dialogs: dialogsReducer(state.dialogs, action),
       tickets: ticketsReducer(state.tickets, action),
       partners: partnersReducer(state.partners, action),
+      feedback: feedbackReducer(state.feedback, action),
       videos: videosReducer(state.videos, action),
       blog: blogReducer(state.blog, action),
       speakers: speakersReducer(state.speakers, action),
@@ -136,15 +152,16 @@
       subscribed: subscribeReducer(state.subscribed, action),
       toast: toastReducer(state.toast, action),
       notifications: notificationsReducer(state.notifications, action),
+      filters: filtersReducer(state.filters, action),
     };
   };
 
   const store = Redux.createStore(
-    appReducer,
-    Redux.compose(
-      Redux.applyMiddleware(window.ReduxThunk.default),
+      appReducer,
+      Redux.compose(
+          Redux.applyMiddleware(window.ReduxThunk.default),
       window.__REDUX_DEVTOOLS_EXTENSION__ ? window.__REDUX_DEVTOOLS_EXTENSION__() : (f) => f
-    )
+      )
   );
 
   ReduxMixin = PolymerRedux(store);

@@ -16,7 +16,7 @@
   "dateFormat": {
     "locale": "en-US"
   },
-  "hashtag": "DevFest18",
+  "hashtag": "DevFest",
   "disabledSchedule": false,
   "navigation": [
     {
@@ -98,9 +98,9 @@
       },
       "fontColor": "#424242"
     },
-    "cod": {
-      "title": "Código de conduta",
-      "metaDescription": "Saiba um pouco mais sobre as expectativas de quem se junta a comunidade",
+    "coc": {
+      "title": "Code of Conduct",
+      "metaDescription": "Lear more about our expectations for all those who participate in our community",
       "background": {
         "color": "#fff"
       },
@@ -157,10 +157,6 @@
     ],
     "share": [
       {
-        "name": "gplus",
-        "url": "https://plus.google.com/share?url="
-      },
-      {
         "name": "facebook",
         "url": "https://www.facebook.com/sharer.php?u="
       },
@@ -171,10 +167,6 @@
     ]
   },
   "mailto": "gdgmaputo@gmail.com",
-  "mailchimp": {
-    "url": "https://gdg.us11.list-manage.com/subscribe/post?u=b7e853a79164ddfdbda3ed77b&amp;id=7993e39fbe",
-    "name": "b_b7e853a79164ddfdbda3ed77b_7993e39fbe"
-  },
   "signInProviders": {
     "providersData": [
       {

@@ -9,10 +9,7 @@
 
 <dom-module id="map-block">
   <template>
-    <style is="custom-style" include="shared-styles flex flex-alignment positioning"></style>
-
-    <style>
-
+    <style include="shared-styles flex flex-alignment positioning">
       :host {
         margin: 32px auto;
         display: block;
@@ -43,14 +40,9 @@
           margin: 64px auto 72px;
         }
 
-        .map-container {
-          height: 640px;
-          overflow: hidden;
-        }
-
         good-map {
           display: block;
-          height: 664px;
+          height: 640px;
         }
 
         .description-card {
@@ -58,6 +50,7 @@
           padding: 24px;
           max-width: 320px;
           transform: translateY(80px);
+          border-radius: var(--border-radius);
         }
 
         .address {
@@ -68,16 +61,14 @@
     </style>
 
     <template is="dom-if" if="[[viewport.isTabletPlus]]">
-      <div class="map-container">
-        <good-map
-          id="map"
-          api-key="{$ googleMapApiKey $}"
-          latitude="{$ location.mapCenter.latitude $}"
-          longitude="{$ location.mapCenter.longitude $}"
-          zoom="{$ location.pointer.zoom $}"
-          map-options="[[options]]"
-        ></good-map>
-      </div>
+      <good-map
+        id="map"
+        api-key="{$ googleMapApiKey $}"
+        latitude="{$ location.mapCenter.latitude $}"
+        longitude="{$ location.mapCenter.longitude $}"
+        zoom="{$ location.pointer.zoom $}"
+        map-options="[[options]]"
+      ></good-map>
     </template>
 
     <div class="container" layout vertical end-justified fit$="[[viewport.isTabletPlus]]">
@@ -89,7 +80,7 @@
         <div class="bottom-info" layout horizontal justified center>
           <span class="address">{$ location.address $}</span>
           <a
-            href="https://www.google.com/maps/dir/?api=1&destination={$ location.pointer.latitude $},{$ location.pointer.longitude $}"
+            href="https://www.google.com/maps/dir/?api=1&destination={$ location.address $}"
             target="_blank"
             rel="noopener noreferrer"
           >

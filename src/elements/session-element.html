@@ -6,19 +6,18 @@
 
 <link rel="import" href="../mixins/utils-functions.html">
 <link rel="import" href="../mixins/redux-mixin.html">
+<link rel="import" href="./text-truncate.html">
 <link rel="import" href="./shared-styles.html">
 
 <dom-module id="session-element">
   <template>
-    <style is="custom-style" include="shared-styles flex flex-alignment positioning"></style>
-
-    <style>
-
+    <style include="shared-styles flex flex-alignment positioning">
       :host {
         display: block;
         background-color: var(--primary-background-color);
         border-bottom: 1px solid var(--border-light-color);
         height: 100%;
+        border-radius: var(--border-radius);
       }
 
       .session {
@@ -63,7 +62,7 @@
         padding-bottom: 40px;
       }
 
-      .bookmark-session {
+      .bookmark-session, .feedback-action {
         color: var(--secondary-text-color);
       }
 
@@ -71,13 +70,17 @@
         color: var(--default-primary-color);
       }
 
-      .bookmark-session:hover {
+      .bookmark-session:hover, .feedback-action:hover {
         color: var(--default-primary-color);
       }
 
       .session-title {
         font-size: 20px;
         line-height: 1.2;
+      }
+
+      .session-description {
+        margin-top: 8px;
       }
 
       .session-meta {
@@ -136,7 +139,7 @@
 
     <a
       class="session"
-      href$="/schedule/[[dayName]]?sessionId=[[session.id]]"
+      href$="/schedule/[[dayName]]?[[toggleQueryParam(queryParams, 'sessionId', session.id)]]"
       featured$="[[isFeatured]]"
       layout vertical
       relative
@@ -149,6 +152,9 @@
       <div class="session-header" layout horizontal justified>
         <div flex>
           <h3 class="session-title">[[session.title]]</h3>
+          <text-truncate lines="3">
+            <div class="session-description">[[summary]]</div>
+          </text-truncate>
         </div>
         <span class="language">[[slice(session.language, 2)]]</span>
       </div>
@@ -157,11 +163,20 @@
         <div class="session-meta">
           <div hidden$="[[!session.complexity]]">[[session.complexity]]</div>
         </div>
-        <iron-icon
-          class="bookmark-session"
-          icon="hoverboard:[[_getFeaturedSessionIcon(featuredSessions, session.id)]]"
-          on-tap="_toggleFeaturedSession"
-        ></iron-icon>
+        <div class="session-actions">
+          <iron-icon
+            class="feedback-action"
+            hidden="[[!_acceptingFeedback()]]"
+            icon="hoverboard:insert-comment"
+            on-tap="_toggleFeedback"
+          ></iron-icon>
+          <iron-icon
+            class="bookmark-session"
+            hidden="[[_acceptingFeedback()]]"
+            icon="hoverboard:[[_getFeaturedSessionIcon(featuredSessions, session.id)]]"
+            on-tap="_toggleFeaturedSession"
+          ></iron-icon>
+        </div>
       </div>
 
       <div class="session-footer">
@@ -174,7 +189,7 @@
           </div>
           <div hidden$="[[!session.tags.length]]">
             <template is="dom-repeat" items="[[session.tags]]" as="tag">
-              <span class="tag" style$="color: [[_getTagColor(tag)]]">[[tag]]</span>
+              <span class="tag" style$="color: [[getVariableColor(tag)]]">[[tag]]</span>
             </template>
           </div>
         </div>
@@ -191,7 +206,7 @@
 
               <div class="speaker-details" flex>
                 <div class="speaker-name">[[speaker.name]]</div>
-                <div class="speaker-title">[[speaker.company]] / [[speaker.country]]</div>
+                <div class="speaker-title">[[_join(speaker.company, speaker.country)]]</div>
               </div>
             </div>
           </template>
@@ -207,7 +222,7 @@
 
     // eslint-disable-next-line no-undef
     class SessionElement extends UtilsFunctions(
-      ReduxMixin(Polymer.GestureEventListeners(Polymer.Element))
+        ReduxMixin(Polymer.GestureEventListeners(Polymer.Element))
     ) {
       static get is() {
         return 'session-element';
@@ -218,22 +233,20 @@
           user: Object,
           session: Object,
           featuredSessions: Object,
+          queryParams: String,
           sessionColor: {
             type: String,
-            computed: '_getTagColor(session.mainTag)',
+            computed: 'getVariableColor(session.mainTag)',
           },
           isFeatured: {
             type: String,
             computed: '_isFeatured(featuredSessions, session.id)',
           },
+          summary: {
+            type: String,
+            computed: '_summary(session.description)',
+          },
         };
-      }
-
-      _getTagColor(value) {
-        if (ShadyCSS) {
-          return ShadyCSS.getComputedStyleValue(this, `--${this.generateClassName(value)}`);
-        }
-        return getComputedStyle(this, `--${this.generateClassName(value)}`);
       }
 
       _isFeatured(featuredSessions, sessionId) {
@@ -243,6 +256,15 @@
 
       _getEnding(number) {
         return number > 1 ? 's' : '';
+      }
+
+      _summary(description = '') {
+        const indexes = [
+          description.indexOf('\n'),
+          description.indexOf('<br'),
+          description.length,
+        ].filter((index) => index > 0);
+        return description.slice(0, Math.min(...indexes));
       }
 
       _getFeaturedSessionIcon(featuredSessions, sessionId) {
@@ -270,6 +292,29 @@
         });
 
         this.dispatch(sessionsActions.setUserFeaturedSessions(this.user.uid, sessions));
+      }
+
+      _toggleFeedback(event) {
+        event.preventDefault();
+        event.stopPropagation();
+        dialogsActions.openDialog(DIALOGS.FEEDBACK, this.session);
+      }
+
+      _acceptingFeedback() {
+        const ONE_WEEK_MS = 7 * 24 * 60 * 60 * 1000;
+        const ONE_MINUTE_MS = 60 * 1000;
+        const now = new Date();
+        const convertedTimezoneDate = new Date(
+            new Date(`${this.session.day} ${this.session.startTime}`).getTime() +
+          (parseInt('{$ timezoneOffset $}') - now.getTimezoneOffset()) * ONE_MINUTE_MS
+        );
+
+        const diff = now - convertedTimezoneDate;
+        return diff > 0 && diff < ONE_WEEK_MS;
+      }
+
+      _join(company, country) {
+        return [company, country].filter(Boolean).join(' / ');
       }
     }
 

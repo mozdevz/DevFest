@@ -13,10 +13,7 @@
 
 <dom-module id="blog-list-page">
   <template>
-    <style is="custom-style" include="shared-styles flex flex-alignment positioning"></style>
-
-    <style>
-
+    <style include="shared-styles flex flex-alignment positioning">
       :host {
         display: block;
       }
@@ -99,7 +96,7 @@
       font-color="{$ heroSettings.blog.fontColor $}"
       active="[[active]]"
     >
-      <div class="hero-title highlight-font">{$ heroSettings.blog.title $}</div>
+      <div class="hero-title">{$ heroSettings.blog.title $}</div>
       <p class="hero-description">{$ heroSettings.blog.description $}</p>
     </hero-block>
 

@@ -3,6 +3,7 @@
 const TOGGLE_DRAWER = 'app/Drawer/TOGGLE_DRAWER';
 const SET_VIEWPORT_SIZE = 'app/Viewport/SET_VIEWPORT_SIZE';
 const SET_HERO_SETTINGS = 'app/Hero/SET_HERO_SETTINGS';
+const SET_ADD_TO_HOMESCREEN = 'app/APP/SET_ADD_TO_HOMESCREEN';
 // router
 const SET_ROUTE = 'app/Routing/SET_ROUTE';
 const SET_SUB_ROUTE = 'app/Routing/SET_SUB_ROUTE';
@@ -15,6 +16,7 @@ const DIALOGS = {
   SPEAKER: 'speaker',
   PREVIOUS_SPEAKER: 'previousSpeaker',
   SESSION: 'session',
+  FEEDBACK: 'feedback',
   SUBSCRIBE: 'subscribe',
   SIGNIN: 'signin',
 };
@@ -26,6 +28,21 @@ const HIDE_TOAST = 'app/Toast/HIDE_TOAST';
 const FETCH_TICKETS = 'app/Tickets/FETCH_TICKETS';
 const FETCH_TICKETS_FAILURE = 'app/Tickets/FETCH_TICKETS_FAILURE';
 const FETCH_TICKETS_SUCCESS = 'app/Tickets/FETCH_TICKETS_SUCCESS';
+
+// feedback
+const FETCH_PREVIOUS_FEEDBACK = 'app/Feedback/FETCH_PREVIOUS_FEEDBACK';
+const FETCH_PREVIOUS_FEEDBACK_FAILURE = 'app/Feedback/FETCH_PREVIOUS_FEEDBACK_FAILURE';
+const FETCH_PREVIOUS_FEEDBACK_SUCCESS = 'app/Feedback/FETCH_PREVIOUS_FEEDBACK_SUCCESS';
+
+const SEND_FEEDBACK = 'app/Feedback/SEND_FEEDBACK';
+const SEND_FEEDBACK_FAILURE = 'app/Feedback/SEND_FEEDBACK_FAILURE';
+const SEND_FEEDBACK_SUCCESS = 'app/Feedback/SEND_FEEDBACK_SUCCESS';
+
+const DELETE_FEEDBACK = 'app/Feedback/DELETE_FEEDBACK';
+const DELETE_FEEDBACK_FAILURE = 'app/Feedback/DELETE_FEEDBACK_FAILURE';
+const DELETE_FEEDBACK_SUCCESS = 'app/Feedback/DELETE_FEEDBACK_SUCCESS';
+
+const WIPE_PREVIOUS_FEEDBACK = 'app/Feedback/WIPE_PREVIOUS_FEEDBACK';
 
 // partners
 const FETCH_PARTNERS = 'app/Partners/FETCH_PARTNERS';
@@ -90,8 +107,10 @@ const FETCH_TEAM_SUCCESS = 'app/Team/FETCH_TEAM_SUCCESS';
 // user
 const SIGN_IN = 'app/Auth/SIGN_IN';
 const SIGN_OUT = 'app/Auth/SIGN_OUT';
+
 // subscribe
 const SUBSCRIBE = 'app/Subscribe/SUBSCRIBE';
+
 // notifications
 const UPDATE_NOTIFICATIONS_STATUS = 'app/Notifications/UPDATE_NOTIFICATIONS_STATUS';
 const NOTIFICATIONS_STATUS = {
@@ -99,3 +118,6 @@ const NOTIFICATIONS_STATUS = {
   DENIED: 'denied',
   DEFAULT: 'default',
 };
+
+// filters
+const SET_FILTERS = 'app/Filters/SET_FILTERS';

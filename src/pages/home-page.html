@@ -17,10 +17,7 @@
 
 <dom-module id="home-page">
   <template>
-    <style is="custom-style" include="shared-styles flex flex-alignment"></style>
-
-    <style>
-
+    <style include="shared-styles flex flex-alignment">
       :host {
         display: block;
         height: 100%;
@@ -98,7 +95,7 @@
 
       @media (min-height: 500px) {
         hero-block {
-          height: calc(100% + 57px);
+          height: calc(100vh + 57px);
           max-height: calc(100vh + 1px);
         }
 
@@ -117,7 +114,7 @@
 
       @media (min-width: 812px) {
         hero-block {
-          height: calc(100% + 65px);
+          height: calc(100vh + 65px);
         }
 
         .hero-logo {
@@ -186,7 +183,7 @@
     </hero-block>
     <about-block></about-block>
     <speakers-block></speakers-block>
-    <!--subscribe-block></subscribe-block-->
+    <subscribe-block></subscribe-block>
     <tickets-block></tickets-block>
     <gallery-block></gallery-block>
     <about-organizer-block></about-organizer-block>

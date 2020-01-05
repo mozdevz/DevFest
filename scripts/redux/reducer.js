@@ -17,6 +17,10 @@ const uiReducer = (state = initialState.ui, action) => {
       return Object.assign({}, state, {
         heroSettings: Object.assign({}, state.heroSettings, action.value),
       });
+    case SET_ADD_TO_HOMESCREEN:
+      return Object.assign({}, state, {
+        addToHomescreen: action.value,
+      });
     default:
       return state;
   }
@@ -127,6 +131,83 @@ const partnersReducer = (state = initialState.partners, action) => {
       return Object.assign({}, state, {
         adding: false,
       });
+
+    default:
+      return state;
+  }
+};
+
+const feedbackReducer = (state = initialState.feedback, action) => {
+  switch (action.type) {
+    case FETCH_PREVIOUS_FEEDBACK:
+      return Object.assign({}, state, {
+        fetching: true,
+        fetchingError: null,
+      });
+
+    case FETCH_PREVIOUS_FEEDBACK_FAILURE:
+      return Object.assign({}, state, {
+        fetching: false,
+        fetchingError: action.payload.error,
+      });
+
+    case FETCH_PREVIOUS_FEEDBACK_SUCCESS:
+      return Object.assign({}, state, {
+        fetching: false,
+        [action.payload.collection]: Object.assign(
+            {},
+            state[action.payload.collection],
+            { [action.payload.dbItem]: action.payload.previousFeedback }
+        ),
+      });
+
+    case SEND_FEEDBACK:
+      return Object.assign({}, state, {
+        adding: true,
+        addingError: null,
+      });
+
+    case SEND_FEEDBACK_FAILURE:
+      return Object.assign({}, state, {
+        adding: false,
+        addingError: action.payload.error,
+      });
+
+    case SEND_FEEDBACK_SUCCESS:
+      return Object.assign({}, state, {
+        adding: false,
+        [action.payload.collection]:
+          Object.assign({}, state[action.payload.collection], {
+            [action.payload.dbItem]: {
+              contentRating: action.payload.contentRating,
+              styleRating: action.payload.styleRating,
+              comment: action.payload.comment,
+            },
+          }),
+      });
+
+    case DELETE_FEEDBACK:
+      return Object.assign({}, state, {
+        deleting: true,
+        deletingError: null,
+      });
+
+    case DELETE_FEEDBACK_FAILURE:
+      return Object.assign({}, state, {
+        deleting: false,
+        deletingError: action.payload.error,
+      });
+
+    case DELETE_FEEDBACK_SUCCESS:
+      return Object.assign({}, state, {
+        deleting: false,
+        [action.payload.collection]: {
+          [action.payload.dbItem]: null,
+        },
+      });
+
+    case WIPE_PREVIOUS_FEEDBACK:
+      return initialState.feedback;
 
     default:
       return state;
@@ -247,40 +328,32 @@ const sessionsReducer = (state = initialState.sessions, action) => {
   switch (action.type) {
     case FETCH_SESSIONS:
       return Object.assign({}, state, {
-        list: {
-          fetching: true,
-          fetchingError: null,
-          list: [],
-          obj: {},
-          objBySpeaker: {},
-        },
+        fetching: true,
+        fetchingError: null,
+        list: [],
+        obj: {},
+        objBySpeaker: {},
       });
 
     case FETCH_SESSIONS_FAILURE:
       return Object.assign({}, state, {
-        list: {
-          fetching: false,
-          fetchingError: action.payload.error,
-        },
+        fetching: false,
+        fetchingError: action.payload.error,
       });
 
     case FETCH_SESSIONS_SUCCESS:
       return Object.assign({}, state, {
-        list: {
-          fetching: false,
-          list: action.payload.list,
-          obj: action.payload.obj,
-          objBySpeaker: action.payload.objBySpeaker,
-        },
+        fetching: false,
+        list: action.payload.list,
+        obj: action.payload.obj,
+        objBySpeaker: action.payload.objBySpeaker,
       });
 
     case UPDATE_SESSIONS:
       return Object.assign({}, state, {
-        list: {
-          list: action.payload.list,
-          obj: action.payload.obj,
-          objBySpeaker: action.payload.objBySpeaker,
-        },
+        list: action.payload.list,
+        obj: action.payload.obj,
+        objBySpeaker: action.payload.objBySpeaker,
       });
 
     case FETCH_USER_FEATURED_SESSIONS:
@@ -407,6 +480,15 @@ const notificationsReducer = (state = initialState.notifications, action) => {
         status: action.status,
         token: action.token,
       });
+    default:
+      return state;
+  }
+};
+
+const filtersReducer = (state = initialState.filters, action) => {
+  switch (action.type) {
+    case SET_FILTERS:
+      return Object.assign({}, state, action.payload);
     default:
       return state;
   }
