@@ -5,11 +5,12 @@
   "prefix": "/",
   "firebase": {
     "apiKey": "AIzaSyBP7dIaa9ELiZujHIeL0d-W9JwpLmkN3xw",
-    "authDomain": "hoverboard-master.firebaseapp.com",
+    "authDomain": "devfestmaputo.firebaseapp.com",
     "databaseURL": "https://devfestmaputo.firebaseio.com",
     "projectId": "devfestmaputo",
-    "storageBucket": "hoverboard-master.appspot.com",
-    "messagingSenderId": "516409946568"
+    "storageBucket": "devfestmaputo.appspot.com",
+    "messagingSenderId": "615670629752",
+    "appId": "1:615670629752:web:1f9610d927e67c20f7f48d"
   },
   "googleMapApiKey": "AIzaSyDz0UxqqhVwitsTe4z0IQoNE56bqqnaf1c"
 }
