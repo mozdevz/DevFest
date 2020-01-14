@@ -42,7 +42,7 @@
   ],
   "heroSettings": {
     "home": {
-      "description": "Venha aprender o máximo sobre web, Android, Firebase, Blockchain, Machine learning e outras tecnologias Google",
+      "description": "Venha aprender o máximo sobre Web, Android, Firebase, Flutter e outras tecnologias Google",
       "background": {
         "color": "#673ab7",
         "image": "/images/backgrounds/home.jpg"
@@ -59,8 +59,8 @@
     },
     "speakers": {
       "title": "Speakers",
-      "metaDescription": "Venha aprender com os nossos oradores experientes e empresas parceiras. Continuaremos a adicionar mais oradores à lista durante a semana. Volte mais tarde para ver mais novidades.",
-      "description": "Venha aprender com os nossos experientes oradores convidados e empresas parceiras . Continuaremos a adicionar mais speakers a lista durante a semana. Volte mais tarde para ver mais novidades.",
+      "metaDescription": "Venha aprender com os nossos oradores experientes e empresas parceiras.",
+      "description": "Venha aprender com os nossos oradores experientes e empresas parceiras. Continuaremos a adicionar mais oradores à medida que a data do evento se aproxima. Volte mais tarde para ver novidades.",
       "background": {
         "color": "#FFF"
       },
