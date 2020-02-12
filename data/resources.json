@@ -1,9 +1,9 @@
 {
-"title": "GDG DevFest Maputo 2018",
-  "description": "O maior festival sobre tecnologias Google para developers organizado  pela comunidade GDG de Maputo! Tudo sobre Android, Web, Cloud, IoT, e  mais.",
+"title": "GDG DevFest Maputo 2019",
+  "description": "O maior festival sobre tecnologias Google para developers organizado pela comunidade GDG Maputo! Tudo sobre Android, Web, Cloud, Firebase, IoT, e muito mais.",
   "image": "images/social-share.jpg",
- "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
-  "dates": "08 DE DEZEMBRO DE 2018",
+ "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev, firebase",
+  "dates": "29 de Fevereiro de 2020",
   "partnershipProposition": "https://bit.ly/dfua17-partners",
   "share": "Partilhar",
   "followOur": "Siga o nosso",
@@ -15,7 +15,7 @@
   "signIn": "Entrar",
   "signOut": "Sair",
   "viewHighlights": "Ver destaques",
-  "offlineMessage": "You can still work offline.",
+  "offlineMessage": "Podes continuar offline.",
   "cachingComplete": "Cacheamento completo. As próximas visitas que fizer ao site, poderão ser offline.",
   "newVersionAvailable": "Uma versão recente da página está disponível.",
   "refresh": "Recarregar",
@@ -50,7 +50,7 @@
         },
         {
           "name": "A equipe",
-          "url": "https://devfestmaputo.firebaseapp.com/team/",
+          "url": "https://devfestmaputo.web.app/team/",
           "newTab": true
         }
       ]
@@ -60,7 +60,7 @@
       "links": [
         {
           "name": "Call for Papers",
-          "url": "https://docs.google.com/forms/d/e/1FAIpQLSdPQ5SVgL8ie25FU93zJYavky42Y_z-K0buvdj4vuep0IkrWg/viewform?usp=sf_link",
+          "url": "https://bit.ly/devfest19c4p",
           "newTab": true
         },
         {
@@ -77,8 +77,8 @@
     "organization": "DevFest",
     "form": "https://bit.ly/2RstTJ8",
     "contacts": [
-      "Organizer Oleh Zasadnyy, [+38 093 486 6460](tel:+380934866460), o.zasadnyy@gdg.org.ua",
-      "Organizer Sofiya Huts, [+38 093 486 1425](tel:+380934861425), s.huts@gdg.org.ua"
+      "Organizer Osvaldo Maria, [+258 82 512 9245](tel:+258825129245), mekymaria@gmail.com",
+      "Organizer Rosário Fernandes, [+258 84 447 1329](tel:+258844471329), rosariofernandes51@gmail.com"
     ]
   },
   "aboutBlock": {
@@ -102,11 +102,11 @@
       },
       "days": {
         "label": "Horas",
-        "number": "8"
+        "number": "7"
       },
       "sessions": {
         "label": "Sessões",
-        "number": "16*"
+        "number": "16"
       },
       "tracks": {
         "label": "Trilhas",
@@ -186,9 +186,9 @@
       "label": "Subscribe"
     },
     "yourEmail": "Seu email",
-    "emailAddress": "Email Address",
-    "firstName": "First Name",
-    "lastName": "Last Name",
+    "emailAddress": "Endereço de email",
+    "firstName": "Primeiro Nome",
+    "lastName": "Último Nome",
     "formTitle": "Get the latest updates, insights and news about GDG DevFest Ukraine sent to your inbox.",
     "emailRequired": "Please enter a valid email address.",
     "subscribe": "Subscribe",
@@ -201,33 +201,33 @@
     "description": "A Google é conhecida em todo o mundo. Todos estão 'pesquisando', verificando 'mapas' e se comunicando com o 'gmail'. Para utilizadores simples, estes são serviços que apenas funcionam, mas não para nós. Os desenvolvedores vêem muito mais: APIs, problemas de escalabilidade, pilhas complexas de tecnologia. E é com isso que o GDG trabalha. <br> <a href=\"http://google.com/+GDGMaputo/\">Google Developers Group (GDG) Maputo</a> - é um grupo para desenvolveres estudantes e entusiastas com interesse em aprender tecnologias do google, ter experiência com productos como Android, GWT e outras API´s como o Google Maps, Google App Engine, Google Drive e muito mais.Os nossos eventos serão organizados e avisados antecipadamente, traremos com muita emoção aquilo que são as novidades dos productos do google. <br> \"Disclaimer: GDG Maputo é um grupo independente, nossas actividades e as opiniões aqui expressas não devem, de forma alguma, ser ligadas a empresa da google\" "
   },
   "schedule": {
-    "saveSessionsSignedOut": "Sign in to save sessions"
+    "saveSessionsSignedOut": "Faça o login para guardar sessões"
   },
   "feedback": {
-    "save": "Save",
-    "headline": "Review session",
-    "leaveFeedback": "to leave feedback",
-    "sendFeedbackSignedOut": "Sign in to leave feedback",
+    "save": "Salvar",
+    "headline": "Deixar feedback",
+    "leaveFeedback": "para deixar feedback",
+    "sendFeedbackSignedOut": "Faça o login para deixar feedback",
     "feedbackRecorded": "Your saved",
-    "feedbackDeleted": "Feedback deleted",
-    "helperText": "Comments will be anonymously provided to speakers",
-    "somethingWentWrong": "Something went wrong",
-    "contentCaption": "Content quality",
-    "styleCaption": "Presentation style",
-    "deleteFeedback": "Delete",
-    "sessionClosed": "Session reviews are not open"
+    "feedbackDeleted": "Feedback eliminado",
+    "helperText": "Comentários serão deixados de forma anónima",
+    "somethingWentWrong": "Algo correu mal",
+    "contentCaption": "Qualidade do conteúdo",
+    "styleCaption": "Estilo da apresentação",
+    "deleteFeedback": "Eliminar",
+    "sessionClosed": "Feedback não está disponível"
   },
   "sessionDetails": {
     "contentLevel": "Content level",
-    "viewPresentation": "View presentation",
-    "viewVideo": "View video",
-    "speakers": "Speakers"
+    "viewPresentation": "Ver apresentação",
+    "viewVideo": "Ver vídeo",
+    "speakers": "Oradores"
   },
   "speakerDetails": {
-    "sessions": "Sessions"
+    "sessions": "Sessões"
   },
   "notifications": {
-    "default": "Enable notifications",
+    "default": "Activar Notificações",
     "enabled": "We will miss you but you can unsubscribe anytime",
     "blocked": "We can't send you notifications right now. Please enable notifications in your browser",
     "subscribe": "Subscribe",
@@ -261,7 +261,7 @@
         }
       },
       {
-        "title": "What is DevFest?",
+        "title": "O que é DevFest?",
         "description": "DevFests are community-led developer events hosted by Google Developer Groups around the globe.",
         "callToAction": {
           "label": "Read more",
@@ -280,11 +280,11 @@
     }
   },
   "filters": {
-    "title": "Filters",
-    "results": "Results",
+    "title": "Filtros",
+    "results": "Resultados",
     "tags": "Tags",
-    "complexity": "Complexity",
-    "clear": "Clear all"
+    "complexity": "Complexidade",
+    "clear": "Limpar tudo"
   },
   "addToHomeScreen": {
     "cta": "Add to Home Screen"
