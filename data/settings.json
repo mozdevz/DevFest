@@ -109,20 +109,20 @@
   },
   "location": {
     "label": "Localização ",
-    "name": "ISCTEM - O Instituto Superior de Ciências e Tecnologia de Moçambique",
+    "name": "Incubadora do Standard Bank",
     "city": "Maputo",
     "short": "Maputo, Moçambique",
-    "address": "Campus do Isctem, Rua 1394 - Zona FACIM, 322 - Maputo",
+    "address": "Rua dos Desportistas nº 119, 1º andar",
     "pointer": {
-      "latitude": -25.975426,
-      "longitude": 32.581716,
+      "latitude": -25.9769053,
+      "longitude": 32.5793995,
       "zoom": 5
     },
     "mapCenter": {
-      "latitude": -25.975426,
-      "longitude": 32.581716
+      "latitude": -25.9768627,
+      "longitude": 32.5799536
     },
-    "description": "O Instituto Superior de Ciências e Tecnologia de Moçambique, ISCTEM, é uma instituição de ensino superior dedicada à criação, transmissão, crítica, difusão e partilha do saber, da cultura, da ciência e tecnologia,..."
+    "description": "Espaço de Co-working"
   },
   "mediaQueries": {
     "xs": {

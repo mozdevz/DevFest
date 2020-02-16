@@ -11,7 +11,7 @@
   "emailUs": "Envie-nos um email",
   "partnershipResources": "Partnership Resources",
   "eventResources": "Event Resources",
-  "buyTicket": "COMPRAR BILHETE",
+  "buyTicket": "REGISTRAR-ME",
   "signIn": "Entrar",
   "signOut": "Sair",
   "viewHighlights": "Ver destaques",
@@ -98,7 +98,7 @@
     "statisticsBlock": {
       "attendees": {
         "label": "Participantes",
-        "number": "150"
+        "number": "120"
       },
       "days": {
         "label": "Horas",
