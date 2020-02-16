@@ -87,8 +87,8 @@
     "title" : "Outros"
   } ],
   "schedule" : {
-    "2018-12-08" : {
-      "dateReadable" : "08 de Dezembro",
+    "2020-02-29" : {
+      "dateReadable" : "29 de Fevereiro",
       "timeslots" : [ {
         "endTime" : "09:30",
         "sessions" : [ {
@@ -104,25 +104,25 @@
       }, {
         "endTime" : "10:25",
         "sessions" : [ {
-          "items" : [ 130 ]
+          "items" : [ 140 ]
         } ],
         "startTime" : "09:45"
       }, {
         "endTime" : "10:55",
         "sessions" : [ {
-          "items" : [ 106 ]
+          "items" : [ 140 ]
         } ],
         "startTime" : "10:25"
       }, {
         "endTime" : "11:25",
         "sessions" : [ {
-          "items" : [ 101]
+          "items" : [ 140]
         } ],
         "startTime" : "10:55"
       }, {
         "endTime" : "12:00",
         "sessions" : [ {
-          "items" : [ 113]
+          "items" : [ 140]
         } ],
         "startTime" : "11:25"
       }, {
@@ -134,25 +134,25 @@
       }, {
         "endTime" : "13:40",
         "sessions" : [ {
-          "items" : [ 103 ]
+          "items" : [ 140 ]
         }, {
-          "items" : [ 131 ]
+          "items" : [ 140 ]
         } ],
         "startTime" : "13:00"
       }, {
         "endTime" : "14:20",
         "sessions" : [ {
-          "items" : [ 102 ]
+          "items" : [ 140 ]
         }, {
-          "items" : [ 116 ]
+          "items" : [ 140 ]
         } ],
         "startTime" : "13:40"
       }, {
         "endTime" : "15:00",
         "sessions" : [ {
-          "items" : [ 105 ]
+          "items" : [ 140 ]
         }, {
-          "items" : [ 107 ]
+          "items" : [ 140 ]
         } ],
         "startTime" : "14:20"
       }, {
@@ -164,7 +164,7 @@
       }, {
         "endTime" : "16:20",
         "sessions" : [ {
-          "items" : [ 117 ]
+          "items" : [ 140 ]
         } ],
         "startTime" : "15:40"
       }, {
@@ -181,9 +181,9 @@
         "startTime" : "17:00"
       } ],
       "tracks" : [ {
-        "title" : "Auditório 1"
+        "title" : "Sala 1"
       }, {
-        "title" : "Auditório 2"
+        "title" : "Sala 2"
       } ]
     }
   },
