@@ -65,7 +65,7 @@
   "partners" : [ {
     "logos" : [ {
       "order" : 0,
-      "logoUrl" : "http://isctem.ac.mz/images/logo_i.png",
+      "logoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfestmaputo.appspot.com/o/LogoStandardBank.png?alt=media&token=6954db48-257c-47c8-af0a-4787ecfe4e2b",
       "name" : "Incubadora do Standard Bank em Maputo",
       "url" : "https://www.facebook.com/pages/Standard-Bank-Incubadora/143688529818559"
     } ],
@@ -74,7 +74,7 @@
   }, {
     "logos" : [ {
       "order" : 0,
-      "logoUrl" : "https://www.tvcabo.mz/images/logoTVCaboShare.png",
+      "logoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfestmaputo.appspot.com/o/LogoTvCabo.png?alt=media&token=83e70e2d-2c39-4802-a161-abc421b87d68",
       "name" : "tvcabo",
       "url" : "https://www.tvcabo.mz/residencial/"
     }, {
@@ -840,37 +840,13 @@
   "tickets" : [ {
     "available" : true,
     "currency" : "MZN",
-    "ends" : "07 Dez",
-    "info" : "Requer um cartão de estudante do ISCTEM válido",
-    "name" : "Estudante ISCTEM",
-    "price" : 100,
+    "ends" : "28 Fev",
+    "info" : "Use este link para registrar-se",
+    "name" : "Registro Normal",
+    "price" : 0,
     "soldOut" : false,
-    "starts" : "18 Nov",
-    "url" : "https://bilhetesonline.co.mz/evento/eventoDetalhes/a389097b-b108-4771-a575-0fdd566e3827"
-  }, {
-    "available" : true,
-    "currency" : "MZN",
-    "ends" : "07 Dez",
-    "info" : "Requer um cartão de estudante válido",
-    "name" : "Estudante",
-    "price" : 200,
-    "regular" : false,
-    "soldOut" : false,
-    "starts" : "18 Nov",
-    "url" : "https://bilhetesonline.co.mz/evento/eventoDetalhes/a389097b-b108-4771-a575-0fdd566e3827"
-  }, {
-    "available" : true,
-    "currency" : "MZN",
-    "ends" : "07 Dez",
-    "inDemand" : false,
-    "info" : "Bilhetes normais",
-    "name" : "Normal",
-    "price" : 400,
-    "primary" : true,
-    "regular" : true,
-    "soldOut" : false,
-    "starts" : "18 Nov",
-    "url" : "https://bilhetesonline.co.mz/evento/eventoDetalhes/a389097b-b108-4771-a575-0fdd566e3827"
+    "starts" : "17 Fev",
+    "url" : "https://www.meetup.com/GDG-Maputo/events/267667589"
   } ],
   "triggers" : {
     "images" : false
