@@ -55,7 +55,7 @@
   "notifications" : {
     "config" : {
       "icon" : "",
-      "timezone" : "+03:00"
+      "timezone" : "+02:00"
     },
     "messages" : { },
     "subscribers" : { },
@@ -65,25 +65,20 @@
   "partners" : [ {
     "logos" : [ {
       "order" : 0,
-      "logoUrl" : "http://isctem.ac.mz/images/logo_i.png",
-      "name" : "Instituto Superior de Ciência e Tecnologia de Moçambique",
-      "url" : "http://isctem.ac.mz"
+      "logoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfestmaputo.appspot.com/o/LogoStandardBank.png?alt=media&token=6954db48-257c-47c8-af0a-4787ecfe4e2b",
+      "name" : "Incubadora do Standard Bank em Maputo",
+      "url" : "https://www.facebook.com/pages/Standard-Bank-Incubadora/143688529818559"
     } ],
     "order" : 0,
     "title" : "Local do Evento"
   }, {
     "logos" : [ {
-      "order" : 1,
-      "logoUrl" : "https://talkiot.co.za/wp-content/uploads/2017/05/is-logo.png",
-      "name" : "Internet Solutions",
-      "url" : "https://www.is.co.mz/"
-    }, {
       "order" : 0,
-      "logoUrl" : "https://marketmz-static.s3.amazonaws.com/site_media/media/companies/logos/Champier.png",
-      "name" : "Champier Lda",
-      "url" : "https://champier.co.mz"
+      "logoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfestmaputo.appspot.com/o/LogoTvCabo.png?alt=media&token=83e70e2d-2c39-4802-a161-abc421b87d68",
+      "name" : "tvcabo",
+      "url" : "https://www.tvcabo.mz/residencial/"
     }, {
-      "order" : 2,
+      "order" : 1,
       "logoUrl" : "http://mozdevz.org/wp-content/uploads/2017/03/MozDevz_Silver_high.png",
       "name" : "MozDevz",
       "url" : "http://mozdevz.org"
@@ -92,8 +87,8 @@
     "title" : "Outros"
   } ],
   "schedule" : {
-    "2018-12-08" : {
-      "dateReadable" : "08 de Dezembro",
+    "2020-02-29" : {
+      "dateReadable" : "29 de Fevereiro",
       "timeslots" : [ {
         "endTime" : "09:30",
         "sessions" : [ {
@@ -109,25 +104,25 @@
       }, {
         "endTime" : "10:25",
         "sessions" : [ {
-          "items" : [ 130 ]
+          "items" : [ 140 ]
         } ],
         "startTime" : "09:45"
       }, {
         "endTime" : "10:55",
         "sessions" : [ {
-          "items" : [ 106 ]
+          "items" : [ 140 ]
         } ],
         "startTime" : "10:25"
       }, {
         "endTime" : "11:25",
         "sessions" : [ {
-          "items" : [ 101]
+          "items" : [ 140]
         } ],
         "startTime" : "10:55"
       }, {
         "endTime" : "12:00",
         "sessions" : [ {
-          "items" : [ 113]
+          "items" : [ 140]
         } ],
         "startTime" : "11:25"
       }, {
@@ -139,25 +134,25 @@
       }, {
         "endTime" : "13:40",
         "sessions" : [ {
-          "items" : [ 103 ]
+          "items" : [ 140 ]
         }, {
-          "items" : [ 131 ]
+          "items" : [ 140 ]
         } ],
         "startTime" : "13:00"
       }, {
         "endTime" : "14:20",
         "sessions" : [ {
-          "items" : [ 102 ]
+          "items" : [ 140 ]
         }, {
-          "items" : [ 116 ]
+          "items" : [ 140 ]
         } ],
         "startTime" : "13:40"
       }, {
         "endTime" : "15:00",
         "sessions" : [ {
-          "items" : [ 105 ]
+          "items" : [ 140 ]
         }, {
-          "items" : [ 107 ]
+          "items" : [ 140 ]
         } ],
         "startTime" : "14:20"
       }, {
@@ -169,7 +164,7 @@
       }, {
         "endTime" : "16:20",
         "sessions" : [ {
-          "items" : [ 117 ]
+          "items" : [ 140 ]
         } ],
         "startTime" : "15:40"
       }, {
@@ -186,9 +181,9 @@
         "startTime" : "17:00"
       } ],
       "tracks" : [ {
-        "title" : "Auditório 1"
+        "title" : "Sala 1"
       }, {
-        "title" : "Auditório 2"
+        "title" : "Sala 2"
       } ]
     }
   },
@@ -510,7 +505,28 @@
       "title" : "Por Anunciar"
     }
   },
-  "speakers" : {
+  "speakers": {
+    "coming_soon" : {
+      "bio" : "Em breve adicionaremos os speakers deste evento",
+      "company" : "GDG Maputo",
+      "companyLogo" : "/images/logo.png",
+      "companyLogoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfestmaputo.appspot.com/o/logo.png?alt=media&token=516663cb-88d6-45a5-a98d-eab5409dea58",
+      "country" : "Maputo, Moçambique",
+      "featured" : true,
+      "name" : "Brevemente",
+      "photo" : "/images/people/laice.jpg",
+      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfestmaputo.appspot.com/o/logo.png?alt=media&token=516663cb-88d6-45a5-a98d-eab5409dea58",
+      "shortBio" : "Em breve",
+      "socials" : [ {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/gdgmaputo",
+        "name" : "Twitter"
+      } ],
+      "order" : 0,
+      "title" : "Developer"
+    }
+  },
+  "previousSpeakers" : {
     "elton_laice" : {
       "bio" : "23 anos de idade, empreendedor tecnológico, desenvolvedor full-stack e co-fundador da kurrula-ia, codelaice, voluntariado.co.mz.",
       "company" : "Kurrula-ia, Codelaice",
@@ -520,7 +536,7 @@
       "featured" : true,
       "name" : "Elton Laice",
       "photo" : "/images/people/laice.jpg",
-      "photoUrl" : "https://pbs.twimg.com/profile_images/990671742610956291/ju_825IK_400x400.jpg",
+      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfestmaputo.appspot.com/o/speakers2018%2Flaice.jpg?alt=media&token=01612be8-2af8-464b-a882-3f3234bb3db6",
       "shortBio" : "23 anos de idade, empreendedor tecnológico, desenvolvedor full-stack e co-fundador da kurrula-ia...",
       "socials" : [ {
         "icon" : "twitter",
@@ -539,7 +555,7 @@
       "featured" : true,
       "name" : "Igor Sambo",
       "photo" : "/images/people/sambo.jpg",
-      "photoUrl" : "https://pbs.twimg.com/profile_images/945591259925766144/oIsHCqEa_400x400.jpg",
+      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfestmaputo.appspot.com/o/speakers2018%2Fsambo.jpg?alt=media&token=a8a38984-fe36-44c5-8d44-1af90691830f",
       "shortBio" : "Estudante de Engenharia Informática e de Telecomunicações, 3o ano no Instituto Superior de Transp...",
       "socials" : [ {
         "icon" : "twitter",
@@ -562,7 +578,7 @@
       "featured" : true,
       "name" : "Charmilo Narane",
       "photo" : "/images/people/charmilo.jpg",
-      "photoUrl" : "https://instagram.fmba3-1.fna.fbcdn.net/vp/682b98e38f7cc292eeffdc68140c2a42/5C7BE617/t51.2885-15/e15/11385526_1614041865543999_852211271_n.jpg",
+      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfestmaputo.appspot.com/o/speakers2018%2Fcharmilo.jpg?alt=media&token=55fdc3d6-72cd-4b94-81c2-fb50296de8dd",
       "shortBio" : "Charmilo é apenas um dos vários entusiastas da tecnologia que acreditam que com apenas um comp...",
       "socials" : [ {
         "icon" : "instagram",
@@ -585,7 +601,7 @@
       "featured" : true,
       "name" : "Elísio Leonardo",
       "photo" : "/images/people/Elisio.jpg",
-      "photoUrl" : "https://scontent-jnb1-1.xx.fbcdn.net/v/t1.0-9/43666971_10217587634221366_948466299514650624_n.jpg?_nc_cat=107&_nc_eui2=AeEHFUtXIG-_UAymXH-be6SYudpoQRk_-zbMBLTUP4Igw9nu8Ypp4Ev7Q7lzKxxwuhO7HggXF3k_Basx1LpN2zIe5mVPEL06A8W82xUVRvDA5g&_nc_ht=scontent-jnb1-1.xx&oh=696ec4103d9924b6cf94789e33c426da&oe=5C69C43B",
+      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfestmaputo.appspot.com/o/speakers2018%2FElisio.jpg?alt=media&token=dc80e17b-b8fe-45c8-84bd-ff2e6f3b18b6",
       "shortBio" : "Auto-entitulado \"Melhor Web Developer de Moz\", Elísio Leonardo é estudante de Informática na ...",
       "socials" : [ {
         "icon" : "github",
@@ -604,7 +620,7 @@
       "featured" : true,
       "name" : "Edilson Ngulele",
       "photo" : "/images/people/Edilson.jpeg",
-      "photoUrl" : "https://avatars2.githubusercontent.com/u/19359776?s=460&v=4",
+      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfestmaputo.appspot.com/o/speakers2018%2FEdilson.jpeg?alt=media&token=f6cc038f-29b4-4878-a4cf-71eb874ba90c",
       "shortBio" : "Edilson é um desenvolvedor Android por paixão. Gosta de programar, escrever e falar sobre código...",
       "socials" : [ {
         "icon" : "github",
@@ -623,7 +639,7 @@
       "featured" : true,
       "name" : "Richaldo Elias",
       "photo" : "/images/people/richaldo.jpg",
-      "photoUrl" : "https://pbs.twimg.com/profile_images/986760922898292737/f0_es_bP_400x400.jpg",
+      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfestmaputo.appspot.com/o/speakers2018%2Frichaldo.jpg?alt=media&token=500e7f03-851c-4a80-a76d-c27b87d803f9",
       "shortBio" : "Estudante de Engenharia Informática, que tem sonho de resolver problemas do mundo, e para que isso...",
       "socials" : [ {
         "icon" : "facebook",
@@ -650,7 +666,7 @@
       "featured" : true,
       "name" : "Malika Ibraimo",
       "photo" : "/images/people/malika.jpg",
-      "photoUrl" : "https://scontent.fmba3-1.fna.fbcdn.net/v/t1.0-1/c1.0.621.621/17342966_10208756166486953_4465985480742230029_n.jpg?_nc_cat=104&_nc_ht=scontent.fmba3-1.fna&oh=68e6a5179ae10670480fdde9cf406fe4&oe=5C8357FB",
+      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfestmaputo.appspot.com/o/speakers2018%2Fmalika.jpg?alt=media&token=bb9a83ca-c9fd-4012-902f-e40f098f9d3d",
       "shortBio" : "Estudante de Engenharia Informática no ISCTEM, ...",
       "socials" : [ {
         "icon" : "facebook",
@@ -700,7 +716,7 @@
       "featured" : true,
       "name" : "Losdelau Ricardo Macamo",
       "photo" : "/images/people/losdelau.jpg",
-      "photoUrl" : "https://scontent.fdur4-1.fna.fbcdn.net/v/t1.0-9/25446225_1498448633605373_408158583358536407_n.jpg?_nc_cat=100&_nc_ht=scontent.fdur4-1.fna&oh=2f4be211c658e2b518967b39eb410490&oe=5CA48D4D",
+      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfestmaputo.appspot.com/o/speakers2018%2Flosdelau.jpg?alt=media&token=09b1ad9c-d28e-4fed-95bd-f3b93d1addb3",
       "shortBio" : "Formado em Sistemas Informáticos pelo Instituto de Transportes e Comunicações. Estudante do curso de Licenciatura em Informática no Departamento de Matemática e Informática da Universidade Eduardo Mondlane.",
       "socials" : [  {
         "icon" : "facebook",
@@ -727,7 +743,7 @@
       "featured" : true,
       "name" : "Lars Lemos",
       "photo" : "/images/people/Lars.jpeg",
-      "photoUrl" : "https://avatars0.githubusercontent.com/u/4475142?s=460&v=4",
+      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfestmaputo.appspot.com/o/speakers2018%2FLars.jpeg?alt=media&token=c1708e4e-f1b8-41d5-b9c5-724cf8b4697a",
       "shortBio" : "CEO da MozDevelopment, Co-Fundador da Mukheru Express. Especialista Senior de Canais Digitais na ...",
       "socials" : [ {
         "icon" : "linkedin",
@@ -746,7 +762,7 @@
       "featured" : true,
       "name" : "Idriss Matos",
       "photo" : "/images/people/Idriss.png",
-      "photoUrl" : "https://lh3.googleusercontent.com/cHAx5P0uEqLh0jp0ehYdvNWsYGPopGJ8ALJrUtIJM53nxPjDCtzfnYWxE4tZv6GRbiDft4eQa73wA3Qbfwu_J6akCutxKciMrj4st5yFxIwwY322jtU0mH_f_RMbfu-uM1h2p1OBk2vOQnJ5BMn6jYCeupZsMYIYvFDU6k3teCXXjl_jNOuww4hhz-8woEbza9xrlBB8kOlefEtETIIM4TVdO22zz_ZlSAOdBdbMSAfTd-wCZLC-kXtwW9E9JWTHju9ZSj-pgYsFY70XIO2XfCe1uHVfpjnbkmezRQvKb-LA0i7FFKGN0Q8x7ah_ejplCWIFKn99Bvkvf64GxVAXWYZJYrC3XkVBM5xs09i6B1BZyEoilYgErN2P8Ft4wLNXc0iEjSNp3fNoKzo1EUMxhd_jkkESbotIVcksFNibtRAch0S0Bp32JkPCyObXdmE3iyVRRIWXVs6brNJWt-8lqjiAHkvnRilT7ZhpX4umc9RFrUe4BJ3fZh3PnH2xkcH8TM2WgHFEZCfycRY007tqUY7oq8gIo6wD6lc_z4gX4RMFljRIUfEPpSZJG82WmeUVHVwFcCdPx-ibel-TkDIxU6YYB7598E-DfO7JPMC38sc-Y767PVGt1MHANwv4JJNio2JHV7pjHKCCQFJt0Lk7eoGJJvc-twEc2uKzMnW3shvJb-huAdBXb21XTzMjkYI96D9hBkOkfDjb8sGjZhY=s500-no",
+      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfestmaputo.appspot.com/o/speakers2018%2FIdriss.png?alt=media&token=2c7eec6f-36cf-47bc-89aa-2fcf6f8c5c56",
       "shortBio" : "Idriss Matos é um Gerente de TI autodidata com sólida experiência em tecnologia e habilidades de...",
       "socials" : [ {
         "icon" : "facebook",
@@ -769,12 +785,8 @@
     "members" : [ {
       "name" : "Osvaldo Maria",
       "photo" : "/images/people/osvaldo.jpg",
-      "photoUrl" : "https://scontent.fmba3-1.fna.fbcdn.net/v/t1.0-9/23379902_1565383383527404_5972979159198492150_n.jpg?_nc_cat=103&_nc_ht=scontent.fmba3-1.fna&oh=b08293d00273818dabeeb02c5b4e2bea&oe=5CAFF304",
+      "photoUrl" : "https://avatars1.githubusercontent.com/u/11247633?s=460&v=4",
       "socials" : [ {
-        "icon" : "gplus",
-        "link" : "https://plus.google.com/105883588486935559526",
-        "name" : "Google+"
-      }, {
         "icon" : "facebook",
         "link" : "https://www.facebook.com/osvaldoomaria",
         "name" : "Facebook"
@@ -792,12 +804,8 @@
     }, {
       "name" : "Rosário Pereira Fernandes",
       "photo" : "/images/people/rosario.jpg",
-      "photoUrl" : "https://pbs.twimg.com/profile_images/1046781564380692481/8FubDZrE_400x400.jpg",
+      "photoUrl" : "https://avatars3.githubusercontent.com/u/16766726?s=460&v=4",
       "socials" : [ {
-        "icon" : "gplus",
-        "link" : "https://plus.google.com/+RosarioPereiraFernandes",
-        "name" : "Google+"
-      }, {
         "icon" : "facebook",
         "link" : "https://www.facebook.com/rosariopfernandes",
         "name" : "Facebook"
@@ -832,37 +840,13 @@
   "tickets" : [ {
     "available" : true,
     "currency" : "MZN",
-    "ends" : "07 Dez",
-    "info" : "Requer um cartão de estudante do ISCTEM válido",
-    "name" : "Estudante ISCTEM",
-    "price" : 100,
+    "ends" : "28 Fev",
+    "info" : "Use este link para registrar-se",
+    "name" : "Registro Normal",
+    "price" : 0,
     "soldOut" : false,
-    "starts" : "18 Nov",
-    "url" : "https://bilhetesonline.co.mz/evento/eventoDetalhes/a389097b-b108-4771-a575-0fdd566e3827"
-  }, {
-    "available" : true,
-    "currency" : "MZN",
-    "ends" : "07 Dez",
-    "info" : "Requer um cartão de estudante válido",
-    "name" : "Estudante",
-    "price" : 200,
-    "regular" : false,
-    "soldOut" : false,
-    "starts" : "18 Nov",
-    "url" : "https://bilhetesonline.co.mz/evento/eventoDetalhes/a389097b-b108-4771-a575-0fdd566e3827"
-  }, {
-    "available" : true,
-    "currency" : "MZN",
-    "ends" : "07 Dez",
-    "inDemand" : false,
-    "info" : "Bilhetes normais",
-    "name" : "Normal",
-    "price" : 400,
-    "primary" : true,
-    "regular" : true,
-    "soldOut" : false,
-    "starts" : "18 Nov",
-    "url" : "https://bilhetesonline.co.mz/evento/eventoDetalhes/a389097b-b108-4771-a575-0fdd566e3827"
+    "starts" : "17 Fev",
+    "url" : "https://www.meetup.com/GDG-Maputo/events/267667589"
   } ],
   "triggers" : {
     "images" : false
@@ -872,196 +856,5 @@
     "thumbnail" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-firebase.appspot.com/o/images%2Fsessions%2F2017%2FGDG-(65).jpg?alt=media&token=f25f04cf-9a10-42ed-b2ff-e41fad910c39",
     "title" : "Making mistakes and building products from 1st to 30M users",
     "youtubeId" : "hUY8jg9-ieE"
-  }],
-  "previousSpeakers": {
-    "abdul_mueid" : {
-      "bio" : "Abdul é um desenvolvedor web, possui uma vasta experiência com desenvolvimento de aplicações web e móveis, tendo iniciado a sua carreira quando ainda morava na vizinha africa do sul, antes de se mudar para Moçambique. Actualmente trabalha como sénior dyouth segment specialist na Vodacom e nos seus tempos livres mantém uma aplicação para o câmbio de divisas denominada ezfx.mobi .",
-      "company" : "Vodacom",
-      "companyLogo" : "https://dfua16.firebaseapp.com//images/logos/sygic.svg",
-      "country" : "Mozambique",
-      "id" : "abdul_mueid",
-      "name" : "Abdul Mueid",
-      "order" : 0,
-      "photoUrl" : "https://scontent-jnb1-1.xx.fbcdn.net/v/t1.0-9/23130508_10155936380186177_7253168212351185328_n.jpg?_nc_cat=111&_nc_eui2=AeFjz9RORu62ahj7Z31A9n-OgDElZcongoILvmB-CImpeaCiG-uNoDLJCNmwKCg7z90dd5f2L6OIzf5gI0-ukbHXFhrek8YiH-0xgXpXbA_IUA&_nc_ht=scontent-jnb1-1.xx&oh=07a1dc6f8997ee528970d3f56b514c82&oe=5C81C377",
-      "sessions" : {
-        "2017" : [ {
-          "presentation" : "",
-          "tags" : [ "Software" ],
-          "title" : "Técnicas para estimar o preço de projectos de software",
-          "videoId" : ""
-        } ]
-      },
-      "socials" : [ {
-        "icon" : "linkedin",
-        "link" : "https://www.linkedin.com/in/amakhtar/",
-        "name" : "LinkedIn"
-      }, {
-        "icon" : "github",
-        "link" : "https://github.com/abdulmueid",
-        "name" : "GitHub"
-      } ],
-      "title" : "Senior Data and Internet Specialist"
-    },
-    "paulo_braga" : {
-      "bio" : "Paulo é um desenvolvedor de aplicações web, apaixonado pela sua profissão. Actualmente trabalha como desenvolvedor de software no banco único",
-      "company" : "Banco Único",
-      "companyLogo" : "https://storage.googleapis.com/dfua17.appspot.com/images/logos/applause.png",
-      "country" : "Maputo",
-      "id" : "paulo_braga",
-      "name" : "Paulo Braga",
-      "order" : 1,
-      "photoUrl" : "",
-      "sessions" : {
-        "2017" : [ {
-          "presentation" : "",
-          "tags" : [ "Web" ],
-          "title" : "Build to Scale",
-          "videoId" : ""
-        } ]
-      },
-      "socials" : [ {
-        "icon" : "website",
-        "link" : "#",
-        "name" : "Website"
-      } ],
-      "title" : "Software Developer"
-    },
-    "leonel_machava" : {
-      "bio" : "Leonel Machava tem uma forte paixão pela computação e eletrônica, é autodidata nesses dois assuntos. Começou a programar quando tinha 13 anos. começou com o QuickBasic e logo migrou para o Visual Basic 6. E agora considera-se mestre em Assembly, Java, C, C ++, Python, PHP, VB.NET, C #, Pascal, Prolog, Camlight, entre outros. Dentre as suas áreas de actuação estão o desenvolvimento de sistemas operativos, desenho de círcuitos eletrónicos e inteligência artificial",
-      "company" : "TopTal",
-      "companyLogo" : "https://storage.googleapis.com/dfua17.appspot.com/images/logos/epam.svg",
-      "country" : "Maputo",
-      "id" : "leonel_machava",
-      "name" : "Leonel Machava",
-      "order" : 2,
-      "photoUrl" : "https://scontent-jnb1-1.xx.fbcdn.net/v/t1.0-9/249127_378050588920021_700869876_n.jpg?_nc_cat=108&_nc_eui2=AeEkijcFFNpyyYL3qIcD7uga_LNbCi9CoJF9OU4zYs95dD3emCjS6Xu6CfTvF0_Lwh23KEehmZF_I6qpbUUH-3C6tPMR9kVB__Z6eP6bttPViA&_nc_ht=scontent-jnb1-1.xx&oh=98e3596afc017968b2bb25dba79ca86e&oe=5C72DFDF",
-      "sessions" : {
-        "2017" : [ {
-          "presentation" : "",
-          "tags" : [ "Web" ],
-          "title" : "Desenvolvimento de aplicações profissionais com ReactJS",
-          "videoId" : ""
-        } ]
-      },
-      "socials" : [ {
-        "icon" : "website",
-        "link" : "http://codentronix.com/about/",
-        "name" : "Website"
-      } ],
-      "title" : "Software Engineer"
-    },
-    "nelio_macombo" : {
-      "bio" : "Nélio Macombo a.k.a \"full flow\" é Licenciado em Engenharia Informática pela Universidade Eduardo Mondlane(UEM), e possui especialização em Design e Engenharia de Software pelo C.E.S.A.R EDU, Brasil.\r\nNélio actualmente trabalha na Vodacom Moçambique, e ocupa a posição de Presidente na MozDevz.\r\nNos tempos livres gosta de ver seriados, filmes, e alguns talks no TED.\r\n\r\n\"Nada melhor que partilhar ideias, sobre Comunidade, Tecnologias e Experiencias com a malta que txuna as cenas! e como speaker do DevFest estarei a todo gás para transformar isto numa Festa Dev\" ",
-      "company" : "Vodacom",
-      "companyLogo" : "https://storage.googleapis.com/dfua17.appspot.com/images/logos/epam.svg",
-      "country" : "Maputo",
-      "id" : "nelio_macombo",
-      "name" : "Nélio Macombo",
-      "order" : 3,
-      "photoUrl" : "https://scontent-jnb1-1.xx.fbcdn.net/v/t1.0-9/21231669_1683563248354966_7442823199804098272_n.jpg?_nc_cat=104&_nc_eui2=AeGxf3_YC8MLhZIqZ9woEKDmS50vEeOGjJiN1Dwde-AOPhmKHrqkX0JgUgB0zYzaa_BF2zSLDE1vVKnOrxasKuiZztJ5uFK3cWeyDeuuYaqaGw&_nc_ht=scontent-jnb1-1.xx&oh=4ccfedc96f67ac83258b0facc048ce4e&oe=5C6E85CC",
-      "sessions" : {
-        "2017" : [ {
-          "presentation" : "",
-          "tags" : [ "Community" ],
-          "title" : "MozDevz: Desafios, Oportunidades e o Futuro Tech",
-          "videoId" : ""
-        } ]
-      },
-      "socials" : [ {
-        "icon" : "https://www.linkedin.com/in/n%C3%A9lio-macombo-bb05295a/",
-        "name" : "LinkedIn"
-      }, {
-        "icon" : "facebook",
-        "link" : "https://web.facebook.com/nelio.macombo",
-        "name" : "Facebook"
-      } ],
-      "title" : "IT Supervisor"
-    },
-    "bhavika" : {
-      "bio" : "Bhavika é uma desenvolvedora web que actua também como docente na Universidade Eduardo Mondlane. Sua maior paixão é o uso de tecnologias para resolução de desafios da sociedade, com foco na area de educação. Trabalha como gestora de projectos do ITIS, instituição da qual foi co-fundadora.",
-      "company" : "ITIS",
-      "companyLogo" : "https://storage.googleapis.com/dfua17.appspot.com/images/logos/epam.svg",
-      "country" : "Maputo",
-      "id" : "bhavika",
-      "name" : "Bhavika Rugnath",
-      "order" : 4,
-      "photoUrl" : "https://scontent-jnb1-1.xx.fbcdn.net/v/t1.0-9/1604834_10151979234968533_577332830_n.jpg?_nc_cat=103&_nc_eui2=AeE52adb5zAQ0P90WQ88f7BpGJvI8QW5GMeqH7Yb6qUcxoq-J4_U9d-vs8zt56aLFHonYOJ7Rf44jFDAZYYQL7Jrfl08Z6Hav_vxLBWHYcML5w&_nc_ht=scontent-jnb1-1.xx&oh=aac34229322b155468828f43719c921d&oe=5C6B284A",
-      "sessions" : {
-        "2017" : [ {
-          "presentation" : "https://drive.google.com/open?id=1dioNgr6o2VFKxbWJgNbnPNKAfsmeZB6a",
-          "tags" : [ "Software" ],
-          "title" : "11 Desafios comuns em Gestão de Projectos de Software",
-          "videoId" : ""
-        } ]
-      },
-      "socials" : [ {
-        "icon" : "https://www.linkedin.com/in/bhavika-rugnath-93026a60//",
-        "name" : "LinkedIn"
-      }, {
-        "icon" : "facebook",
-        "link" : "https://web.facebook.com/bhavika.rugnath",
-        "name" : "Facebook"
-      } ],
-      "title" : "Gestora de Projectos e Docente"
-    },
-    "amarildo_come" : {
-      "bio" : "Amarildo é um desenvolvedor web fullstack que actua também como docente na Universidade Eduardo Mondlane. sua maior paixão é área de ensino, onde ajuda a formar e potencializar jovens desenvolvedores. Está também envolvido em acções de empreendedorismo através do ITIS, instituição da qual foi co-fundador",
-      "company" : "ITIS",
-      "companyLogo" : "https://storage.googleapis.com/dfua17.appspot.com/images/logos/epam.svg",
-      "country" : "Maputo",
-      "id" : "amarildo_come",
-      "name" : "Amarildo Comé",
-      "order" : 5,
-      "photoUrl" : "https://scontent-jnb1-1.xx.fbcdn.net/v/t1.0-9/1186102_589856314403896_1546624202_n.jpg?_nc_cat=101&_nc_eui2=AeGA4tlLPL_SsQD7iwcHYHmSDa351qOnxsOXskVsOGeGLlmVK3tJgnRe5jbj9nDwhawAYOb2wA3jxEeDORtA771YfVRraJBtOMbd0kVaNMTrTg&_nc_ht=scontent-jnb1-1.xx&oh=bc2f96423994d18eefbe34fca2b8fa29&oe=5C7D8A93",
-      "sessions" : {
-        "2017" : [ {
-          "presentation" : "https://drive.google.com/open?id=1dioNgr6o2VFKxbWJgNbnPNKAfsmeZB6a",
-          "tags" : [ "Software" ],
-          "title" : "11 Desafios comuns em Gestão de Projectos de Software",
-          "videoId" : ""
-        } ]
-      },
-      "socials" : [ {
-        "icon" : "https://www.linkedin.com/in/amarildo-come-48989362/",
-        "name" : "LinkedIn"
-      }, {
-        "icon" : "github",
-        "link" : "https://github.com/comeab",
-        "name" : "github"
-      }, {
-        "icon" : "facebook",
-        "link" : "https://web.facebook.com/comeama",
-        "name" : "Facebook"
-      } ],
-      "title" : "Software Developer e Docente"
-    },
-    "dava" : {
-      "bio" : "Desenvolvedor Web e também amante de tecnologias google, Dava é co-fundador e web developer no moovi. Actualmente trabalha com Javscript, VB.net, AngularJS, Polymer e SASS para além de escrever artigos no seu blog. Tem muita vontade de partilhar o que aprende com outros desenvolvedores",
-      "company" : "Moovi",
-      "companyLogo" : "https://storage.googleapis.com/dfua17.appspot.com/images/logos/epam.svg",
-      "country" : "Maputo",
-      "id" : "dava",
-      "name" : "José Pedro Dava",
-      "order" : 6,
-      "photoUrl" : "https://scontent-jnb1-1.xx.fbcdn.net/v/t1.0-9/18767417_10209465836347514_4482235571143926730_n.jpg?_nc_cat=103&_nc_eui2=AeHYoMbO9Bip8XXKr_7LwbrhIMTsoXlzL_PYKM-50BMf4FKTQplkRbPsKfxdeKT4Ch2uLVTIo6l-Jn79I2-DqY4zTReanj8IoqKQCvUtZ5SpWg&_nc_ht=scontent-jnb1-1.xx&oh=1aeb974d060c71036a31d335b1fcd7b1&oe=5CAE36A8",
-      "sessions" : {
-        "2017" : [ {
-          "presentation" : "",
-          "tags" : [ "Web" ],
-          "title" : "Primeiros Passos para usar SASS",
-          "videoId" : ""
-        } ]
-      },
-      "socials" : [ {
-        "icon" : "github",
-        "link" : "https://github.com/PedroDava",
-        "name" : "github"
-      }, {
-        "icon" : "website",
-        "link" : "https://medium.com/@pedrodava",
-        "name" : "Medium"
-      } ],
-      "title" : "Web Developer"
-    }
-  }
+  }]
 }
