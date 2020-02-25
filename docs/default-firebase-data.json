@@ -102,29 +102,29 @@
         } ],
         "startTime" : "09:30"
       }, {
-        "endTime" : "10:25",
+        "endTime" : "10:15",
         "sessions" : [ {
           "items" : [ 140 ]
         } ],
         "startTime" : "09:45"
       }, {
-        "endTime" : "10:55",
+        "endTime" : "10:25",
         "sessions" : [ {
           "items" : [ 140 ]
         } ],
-        "startTime" : "10:25"
+        "startTime" : "10:15"
       }, {
-        "endTime" : "11:25",
+        "endTime" : "11:10",
         "sessions" : [ {
           "items" : [ 140]
         } ],
-        "startTime" : "10:55"
+        "startTime" : "10:25"
       }, {
         "endTime" : "12:00",
         "sessions" : [ {
           "items" : [ 140]
         } ],
-        "startTime" : "11:25"
+        "startTime" : "11:10"
       }, {
         "endTime" : "13:00",
         "sessions" : [ {
@@ -132,7 +132,7 @@
         } ],
         "startTime" : "12:00"
       }, {
-        "endTime" : "13:40",
+        "endTime" : "13:30",
         "sessions" : [ {
           "items" : [ 140 ]
         }, {
@@ -140,13 +140,13 @@
         } ],
         "startTime" : "13:00"
       }, {
-        "endTime" : "14:20",
+        "endTime" : "14:15",
         "sessions" : [ {
-          "items" : [ 140 ]
+          "items" : [ 105 ]
         }, {
-          "items" : [ 140 ]
+          "items" : [ 102 ]
         } ],
-        "startTime" : "13:40"
+        "startTime" : "13:30"
       }, {
         "endTime" : "15:00",
         "sessions" : [ {
@@ -154,25 +154,25 @@
         }, {
           "items" : [ 140 ]
         } ],
-        "startTime" : "14:20"
+        "startTime" : "14:15"
       }, {
-        "endTime" : "15:40",
+        "endTime" : "15:45",
         "sessions" : [ {
           "items" : [ 134 ]
         } ],
         "startTime" : "15:00"
       }, {
-        "endTime" : "16:20",
+        "endTime" : "16:15",
         "sessions" : [ {
           "items" : [ 140 ]
         } ],
-        "startTime" : "15:40"
+        "startTime" : "15:45"
       }, {
         "endTime" : "17:00",
         "sessions" : [ {
           "items" : [ 140 ]
         }],
-        "startTime" : "16:20"
+        "startTime" : "16:15"
       }, {
         "endTime" : "17:30",
         "sessions" : [ {
@@ -197,12 +197,12 @@
       "title" : "Blockchain e os beneficios para sector financeiro e FinTech"
     },
     "102" : {
-      "complexity" : "Iniciante",
-      "description" : "Mostrar as vantagens de desenvolver usando flutter e como é possível alcançar muito e maior desempenho sem precisar mexer muito para ambas plataformas iOS e Android",
+      "complexity" : "Intermédio",
+      "description" : "Flutter é tido para qualquer início de conversa como um framework que serve apenas como front-end, diminuindo aquilo que é o poder que o mesmo possui. Esta apresentação irá desmistificar sobre o quão flutter é poderoso e pode ser usado por completo em uma aplicação.",
       "language" : "PT",
       "speakers" : [ "igor_sambo" ],
       "tags" : [ "Flutter", "Android", "iOS" ],
-      "title" : "Construindo aplicações complexas com a simplicidade do Flutter"
+      "title" : "Flutter for Backend"
     },
     "103" : {
       "complexity" : "Intermédio",
@@ -222,11 +222,11 @@
     },
     "105" : {
       "complexity" : "Intermédio",
-      "description" : "Edilson irá explicar o que é o motionlayout, as suas vantagens e por que ele vem mudar o game das animações. Por fim, apresentar alguns exemplos de como utilizar o motionlayout.",
+      "description" : "Nesta apresentação, Edilson irá explicar como criar UIs utilizando o Jetpack Compose.",
       "language" : "PT",
       "speakers" : [ "edilson_ngulele" ],
-      "tags" : [ "Android" ],
-      "title" : "Conhecendo o MotionLayout"
+      "tags" : [ "Android", "Kotlin" ],
+      "title" : "Introdução ao Jetpack Compose"
     },
     "106" : {
       "complexity" : "Iniciante",
@@ -453,7 +453,7 @@
       "title" : "DNS - A infraestrutra da Internet"
     },
     "132" : {
-      "description" : "Pegue o seu crachá, camiseta e sticker.",
+      "description" : "Registre-se na entrada.",
       "icon" : "registration",
       "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fregistration.jpg?alt=media&token=27328646-d323-4cca-904c-75f021bc3ffe",
       "title" : "Chegada dos Participantes"
@@ -506,24 +506,59 @@
     }
   },
   "speakers": {
-    "coming_soon" : {
-      "bio" : "Em breve adicionaremos os speakers deste evento",
-      "company" : "GDG Maputo",
+    "igor_sambo" : {
+      "bio" : "Igor L Sambo is a passionate Mobile and Web Developer, working with Flutter, PHP and other web tools for development.\n\nHis philosophy in life is based on learning and sharing knowledge, which means he loves to be part of movements where he can learn through practice and be able to actually grow within a community.",
+      "company" : "ISUTC",
       "companyLogo" : "/images/logo.png",
       "companyLogoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfestmaputo.appspot.com/o/logo.png?alt=media&token=516663cb-88d6-45a5-a98d-eab5409dea58",
       "country" : "Maputo, Moçambique",
       "featured" : true,
-      "name" : "Brevemente",
-      "photo" : "/images/people/laice.jpg",
-      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfestmaputo.appspot.com/o/logo.png?alt=media&token=516663cb-88d6-45a5-a98d-eab5409dea58",
-      "shortBio" : "Em breve",
+      "name" : "Igor Sambo",
+      "photo" : "/images/people/sambo.jpg",
+      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfestmaputo.appspot.com/o/speakers2018%2Fsambo.jpg?alt=media&token=a8a38984-fe36-44c5-8d44-1af90691830f",
+      "shortBio" : "Igor L Sambo is a passionate Mobile and Web Developer, working with Flutter, ...",
       "socials" : [ {
         "icon" : "twitter",
-        "link" : "https://twitter.com/gdgmaputo",
+        "link" : "https://twitter.com/lsambo02",
         "name" : "Twitter"
+      }, {
+        "icon" : "github",
+        "link" : "https://github.com/lsambo02",
+        "name" : "GitHub"
+      }, {
+        "icon" : "medium",
+        "link" : "https://medium.com/lsambo02",
+        "name" : "Medium"
+      }, {
+        "icon" : "instagram",
+        "link" : "https://instagram.com/lsambo02",
+        "name" : "Instagram"
+      }, {
+        "icon" : "website",
+        "link" : "https://dev.to/lsambo02",
+        "name" : "dev.to"
+      }],
+      "order" : 1,
+      "title" : "Estudante"
+    },
+    "edilson_ngulele" : {
+      "bio" : "Android developer by passion. I enjoy coding, writing and talking about code. If i'm not doing one of these, i'm certainly reading about code or self-awareness.",
+      "company" : "ISUTC",
+      "companyLogo" : "/images/logo.png",
+      "companyLogoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfestmaputo.appspot.com/o/logo.png?alt=media&token=516663cb-88d6-45a5-a98d-eab5409dea58",
+      "country" : "Maputo, Moçambique",
+      "featured" : true,
+      "name" : "Edilson Ngulele",
+      "photo" : "/images/people/Edilson.jpeg",
+      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfestmaputo.appspot.com/o/speakers2018%2FEdilson.jpeg?alt=media&token=f6cc038f-29b4-4878-a4cf-71eb874ba90c",
+      "shortBio" : "Android developer by passion. I enjoy coding, writing and talking about code. If i'm not doing one of these, i'm certainly reading about code or self-awareness",
+      "socials" : [ {
+        "icon" : "github",
+        "link" : "https://github.com/EdNgulele",
+        "name" : "GitHub"
       } ],
-      "order" : 0,
-      "title" : "Developer"
+      "order" : 4,
+      "title" : "Estudante"
     }
   },
   "previousSpeakers" : {
@@ -545,29 +580,6 @@
       } ],
       "order" : 0,
       "title" : "Tech Enterpreneur, Desenvolvedor Full-Stack& Co-founder"
-    },
-    "igor_sambo" : {
-      "bio" : "Estudante de Engenharia Informática e de Telecomunicações, 3o ano no Instituto Superior de Transportes e Comunicação. Gosta de Programar e pretende ser expert arm Flutter e já apresentou um Study Jam sobre o assunto e continua fazendo pesquisas acerca.",
-      "company" : "ISUTC",
-      "companyLogo" : "/images/logo.png",
-      "companyLogoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfestmaputo.appspot.com/o/logo.png?alt=media&token=516663cb-88d6-45a5-a98d-eab5409dea58",
-      "country" : "Maputo, Moçambique",
-      "featured" : true,
-      "name" : "Igor Sambo",
-      "photo" : "/images/people/sambo.jpg",
-      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfestmaputo.appspot.com/o/speakers2018%2Fsambo.jpg?alt=media&token=a8a38984-fe36-44c5-8d44-1af90691830f",
-      "shortBio" : "Estudante de Engenharia Informática e de Telecomunicações, 3o ano no Instituto Superior de Transp...",
-      "socials" : [ {
-        "icon" : "twitter",
-        "link" : "https://twitter.com/lsambo02",
-        "name" : "Twitter"
-      }, {
-        "icon" : "github",
-        "link" : "https://github.com/lsambo02",
-        "name" : "GitHub"
-      }],
-      "order" : 1,
-      "title" : "Estudante"
     },
     "charmilo_narane" : {
       "bio" : "Charmilo é apenas um dos vários entusiastas da tecnologia que acreditam que com apenas um computador e uma conexão à internet as possibilidades e oportunidades para um mundo em constante crescimento são ilimitadas. Suas principais áreas de interesse são desenvolvimento, contabilidade e segurança cibernética.",
@@ -610,25 +622,6 @@
       } ],
       "order" : 3,
       "title" : ""
-    },
-    "edilson_ngulele" : {
-      "bio" : "Edilson é um desenvolvedor Android por paixão. Gosta de programar, escrever e falar sobre código. Quando não está a fazer uma destas coisas, ele está certamente a ler sobre código ou autoconsciência.",
-      "company" : "ISUTC",
-      "companyLogo" : "/images/logo.png",
-      "companyLogoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfestmaputo.appspot.com/o/logo.png?alt=media&token=516663cb-88d6-45a5-a98d-eab5409dea58",
-      "country" : "Maputo, Moçambique",
-      "featured" : true,
-      "name" : "Edilson Ngulele",
-      "photo" : "/images/people/Edilson.jpeg",
-      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfestmaputo.appspot.com/o/speakers2018%2FEdilson.jpeg?alt=media&token=f6cc038f-29b4-4878-a4cf-71eb874ba90c",
-      "shortBio" : "Edilson é um desenvolvedor Android por paixão. Gosta de programar, escrever e falar sobre código...",
-      "socials" : [ {
-        "icon" : "github",
-        "link" : "https://github.com/EdNgulele",
-        "name" : "GitHub"
-      } ],
-      "order" : 4,
-      "title" : "Estudante"
     },
     "richaldo_elias" : {
       "bio" : "Estudante de Engenharia Informática, que tem sonho de resolver problemas do mundo, e para que isso seja possível, acha que homens e máquinas trabalhando juntos seria mais rápido encontrar respostas para os problemas da humanidade e até descobrir problemas que não achamos que não temos. Completou o curso de Machine Learning da Standford University e Neural Network and Deep Learning da deeplearning.ai .",
