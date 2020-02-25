@@ -150,7 +150,7 @@
       }, {
         "endTime" : "15:00",
         "sessions" : [ {
-          "items" : [ 140 ]
+          "items" : [ 111 ]
         }, {
           "items" : [ 140 ]
         } ],
@@ -270,13 +270,12 @@
       "title" : "ML Kit para Desenvolvimento Android"
     },
     "111" : {
-      "complexity" : "Intermediate",
-      "description" : "It's beauty, it's handy, it's fast, it's easy - all about Dagger 2",
-      "language" : "English",
-      "presentation" : "https://speakerdeck.com/gdglviv/kseniia-shumelchyk-building-modular-architecture-apps-with-dagger-2",
-      "speakers" : [ "david_mayboroda" ],
+      "complexity" : "Iniciante",
+      "description" : "React Native é uma biblioteca Javascript criada pelo Facebook. É usada para desenvolver aplicativos para os sistemas Android e IOS de forma nativa.",
+      "language" : "PT",
+      "speakers" : [ "jose_machava" ],
       "tags" : [ "Android" ],
-      "title" : "Building modular architecture apps with Dagger 2"
+      "title" : "Introdução ao React Native para Desenvolvedores Android"
     },
     "112" : {
       "complexity" : "Intermediate",
@@ -596,6 +595,25 @@
         "name" : "GitHub"
       } ],
       "order" : 3,
+      "title" : "Estudante"
+    },
+    "jose_machava" : {
+      "bio" : "Desenvolvedor Full Stack e instrutor de programação na kutiva onde ensina sobre desenvolvimento de solftware.",
+      "company" : "Kutiva",
+      "companyLogo" : "/images/logo.png",
+      "companyLogoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfestmaputo.appspot.com/o/logo.png?alt=media&token=516663cb-88d6-45a5-a98d-eab5409dea58",
+      "country" : "Maputo, Moçambique",
+      "featured" : true,
+      "name" : "José Machava",
+      "photo" : "/images/people/Edilson.jpeg",
+      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfestmaputo.appspot.com/o/speakers2018%2FEdilson.jpeg?alt=media&token=f6cc038f-29b4-4878-a4cf-71eb874ba90c",
+      "shortBio" : "Desenvolvedor Full Stack e instrutor de programação na kutiva onde ensina sobre ...",
+      "socials" : [ {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/josesmachava",
+        "name" : "Twitter"
+      } ],
+      "order" : 5,
       "title" : "Estudante"
     }
   },
