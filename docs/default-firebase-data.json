@@ -104,7 +104,7 @@
       }, {
         "endTime" : "10:15",
         "sessions" : [ {
-          "items" : [ 140 ]
+          "items" : [ 108 ]
         } ],
         "startTime" : "09:45"
       }, {
@@ -116,7 +116,7 @@
       }, {
         "endTime" : "11:10",
         "sessions" : [ {
-          "items" : [ 140]
+          "items" : [ 109 ]
         } ],
         "startTime" : "10:25"
       }, {
@@ -246,23 +246,20 @@
       "title" : "Suporte na Linha de Cliente com Chatbot"
     },
     "108" : {
-      "complexity" : "Intermediate",
-      "description" : "Angular 2 introduces a new Data Architecture based on Reactive Programming using RxJS 5. We are really excited to see the new approach using Observable sequences aka Observables. We will cover a basic introduction of Angular 2 followed by RxJS 5 and the new HTTP API covering some basic use cases.",
-      "language" : "English",
-      "presentation" : "https://speakerdeck.com/gdglviv/gerard-sans-new-data-architecture-in-angular-2",
-      "speakers" : [ "gerard_sans" ],
-      "tags" : [ "Web" ],
-      "title" : "New Data Architecture in Angular 2",
-      "videoId" : "pgmLkwD-mqM"
+      "complexity" : "Iniciante",
+      "description" : "\"A apresentação inicia com a contextualização do que é Cloud e como funciona, com descrições históricas e com factos que façam com que iniciantes possam entender os conceitos transmitidos, junto com exemplos de gigantes da tecnologia que actualmente os seus serviços são baseados na cloud como a Netflix e o Spotify. Seguirá a apresentação da suite de serviços da Google Cloud Platform como exemplos práticos para os conceitos transmitidos anteriormente e finalmente uma demonstração prática de uma aplicação web hospedada na cloud.",
+      "language" : "PT",
+      "speakers" : [ "arnaldo_manuel" ],
+      "tags" : [ "Cloud" ],
+      "title" : "Cloud - O futuro da computação como conhecemos."
     },
     "109" : {
-      "complexity" : "Beginner",
-      "description" : "TBD",
-      "language" : "English",
-      "presentation" : "https://speakerdeck.com/gdglviv/jozef-vodicka-how-much-money-firebase-can-save-you",
-      "speakers" : [ "jozef_vodicka" ],
+      "complexity" : "Iniciante",
+      "description" : "Usando o  (Google Cloud Engine), irei instalar o servidor NGNIX para lançar um site simples programado em. HTML + css numa máquina virtual. E depois criar uma instância do Cloud SQL para MySQL e conectar as duas instâncias. Permitir assim que todos na sala usem a aplicação hospedada nos servidores do Google",
+      "language" : "PT",
+      "speakers" : [ "arnaldo_manuel" ],
       "tags" : [ "Cloud" ],
-      "title" : "How much money Firebase can save you"
+      "title" : "Como hospedar um site PHP e MySQL usando a Google Cloud Platform"
     },
     "110" : {
       "complexity" : "Intermediate",
@@ -551,13 +548,32 @@
       "name" : "Edilson Ngulele",
       "photo" : "/images/people/Edilson.jpeg",
       "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfestmaputo.appspot.com/o/speakers2018%2FEdilson.jpeg?alt=media&token=f6cc038f-29b4-4878-a4cf-71eb874ba90c",
-      "shortBio" : "Android developer by passion. I enjoy coding, writing and talking about code. If i'm not doing one of these, i'm certainly reading about code or self-awareness",
+      "shortBio" : "Android developer by passion. I enjoy coding, writing and talking about code. If i'm not doing ...",
       "socials" : [ {
         "icon" : "github",
         "link" : "https://github.com/EdNgulele",
         "name" : "GitHub"
       } ],
       "order" : 4,
+      "title" : "Estudante"
+    },
+    "arnaldo_manuel" : {
+      "bio" : "Jovem que acredita na democratização do acesso à tecnologia em Moçambique por todos, para que todo Moçambicano tenha o direito de ver sua vida impactada pela tecnologia ",
+      "company" : "ISUTC",
+      "companyLogo" : "/images/logo.png",
+      "companyLogoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfestmaputo.appspot.com/o/logo.png?alt=media&token=516663cb-88d6-45a5-a98d-eab5409dea58",
+      "country" : "Maputo, Moçambique",
+      "featured" : true,
+      "name" : "Arnaldo Manuel Nhaguilunguane",
+      "photo" : "/images/people/Edilson.jpeg",
+      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfestmaputo.appspot.com/o/speakers2018%2FEdilson.jpeg?alt=media&token=f6cc038f-29b4-4878-a4cf-71eb874ba90c",
+      "shortBio" : "Jovem que acredita na democratização do acesso à tecnologia em Moçambique por todos, para que ...",
+      "socials" : [ {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/arnaldo-manuel-515a51184",
+        "name" : "LinkedIn"
+      } ],
+      "order" : 2,
       "title" : "Estudante"
     }
   },
