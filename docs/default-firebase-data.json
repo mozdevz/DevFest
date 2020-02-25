@@ -122,7 +122,7 @@
       }, {
         "endTime" : "12:00",
         "sessions" : [ {
-          "items" : [ 140]
+          "items" : [ 114 ]
         } ],
         "startTime" : "11:10"
       }, {
@@ -295,11 +295,11 @@
     },
     "114" : {
       "complexity" : "Intermediate",
-      "description" : "Storing account information is a common challenge many app developers face, and is often tackled in tailored solutions. Isn't there some strategy to store account credentials in a centralized place?\n\nWhat about considerations for multiple accounts? Security concerns? And when should or could I synchronize data?\n\nAndroid offers a powerful—and underrated—account manager. Let's explore the possibilities together and lay out an architecture for engineering an Android app based on accounts.",
-      "language" : "English",
-      "speakers" : [ 12 ],
-      "tags" : [ "Android" ],
-      "title" : "I’ve been doing some syncing…"
+      "description" : "O objectivo da apresentação divide-se em:\n- Explicar a necessidade e a importancia de Testagem.\n- apresentar o role um Software Quality Assurance, \n- os tipos de testes existentes num ciclo de Desenvolvimento de Software. \n- Automacao de Testes \n\n",
+      "language" : "PT",
+      "speakers" : [ "priti_carsane" ],
+      "tags" : [ "Software", "Quality Assurance", "Tests" ],
+      "title" : "Testar em Produção"
     },
     "115" : {
       "complexity" : "Beginner",
@@ -634,6 +634,25 @@
       } ],
       "order" : 6,
       "title" : "Estudante"
+    },
+    "priti_carsane" : {
+      "bio" : "Licenciada em Engenharia Informatica, a trabalhar no Standard Bank a mais de 5 anos. \nCom mais de 6 anos de experiencia em programacao e mais de 1 ano na area de Software Quality Assurance.\n\nExperiente na gestao de equipas, suporte ao Clientes, processos de gestao de incindetes  e resolucao de problemas. Especializacao na area de Testagem. \n",
+      "company" : "Standard Bank",
+      "companyLogo" : "/images/logo.png",
+      "companyLogoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfestmaputo.appspot.com/o/logo.png?alt=media&token=516663cb-88d6-45a5-a98d-eab5409dea58",
+      "country" : "Maputo, Moçambique",
+      "featured" : true,
+      "name" : "Priti Carsane",
+      "photo" : "/images/people/Edilson.jpeg",
+      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfestmaputo.appspot.com/o/speakers2018%2FEdilson.jpeg?alt=media&token=f6cc038f-29b4-4878-a4cf-71eb874ba90c",
+      "shortBio" : "Licenciada em Engenharia Informatica, a trabalhar no Standard Bank a mais de ...",
+      "socials" : [ {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/priti-carsane/",
+        "name" : "LinkedIn"
+      } ],
+      "order" : 7,
+      "title" : "Bancária"
     }
   },
   "previousSpeakers" : {
