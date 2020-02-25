@@ -247,15 +247,15 @@
     },
     "108" : {
       "complexity" : "Iniciante",
-      "description" : "\"A apresentação inicia com a contextualização do que é Cloud e como funciona, com descrições históricas e com factos que façam com que iniciantes possam entender os conceitos transmitidos, junto com exemplos de gigantes da tecnologia que actualmente os seus serviços são baseados na cloud como a Netflix e o Spotify. Seguirá a apresentação da suite de serviços da Google Cloud Platform como exemplos práticos para os conceitos transmitidos anteriormente e finalmente uma demonstração prática de uma aplicação web hospedada na cloud.",
+      "description" : "A apresentação inicia com a contextualização do que é Cloud e como funciona, com descrições históricas e com factos que façam com que iniciantes possam entender os conceitos transmitidos, junto com exemplos de gigantes da tecnologia que actualmente os seus serviços são baseados na cloud como a Netflix e o Spotify. Seguirá a apresentação da suite de serviços da Google Cloud Platform como exemplos práticos para os conceitos transmitidos anteriormente e finalmente uma demonstração prática de uma aplicação web hospedada na cloud.",
       "language" : "PT",
       "speakers" : [ "arnaldo_manuel" ],
       "tags" : [ "Cloud" ],
-      "title" : "Cloud - O futuro da computação como conhecemos."
+      "title" : "Cloud - O futuro da computação como conhecemos"
     },
     "109" : {
       "complexity" : "Iniciante",
-      "description" : "Usando o  (Google Cloud Engine), irei instalar o servidor NGNIX para lançar um site simples programado em. HTML + css numa máquina virtual. E depois criar uma instância do Cloud SQL para MySQL e conectar as duas instâncias. Permitir assim que todos na sala usem a aplicação hospedada nos servidores do Google",
+      "description" : "Usando o Google Cloud Engine, Arnaldo irá instalar o servidor NGNIX para lançar um site simples programado em HTML + CSS numa máquina virtual. E depois criar uma instância do Cloud SQL para MySQL e conectar as duas instâncias. Permitir assim que todos na sala usem a aplicação hospedada nos servidores do Google",
       "language" : "PT",
       "speakers" : [ "arnaldo_manuel" ],
       "tags" : [ "Cloud" ],
@@ -263,7 +263,7 @@
     },
     "110" : {
       "complexity" : "Intermédio",
-      "description" : "A minha apresentação tem como tema ML Kit para Desenvolvimento Android. Darei o conceito de ML e sua utilidade, como funciona e as vantagem de sua implementação em aplicaçoes android e também exemplos de apps que usam ml. \nAs possibilidades que o ML Kit oferece  e como implementa-las em apps serão os pontos chaves da minha apresentação.\nO objectivo é fazer perceber que não precisamos ser experts em Matemática para termos ml em nossas apps android, e muito ao contrario , a sua implementação é fácil.",
+      "description" : "Calleb irá explicar o conceito de ML e sua utilidade, como funciona e as vantagens de sua implementação em aplicações android e também exemplos de apps que usam ML. \nAs possibilidades que o ML Kit oferece e como implementá-las em apps serão os pontos chaves da apresentação.\nO objectivo é fazer perceber que não precisamos ser experts em Matemática para termos ML em nossas apps android, e muito pelo contrário, a sua implementação é fácil.",
       "language" : "PT",
       "speakers" : [ "calleb" ],
       "tags" : [ "Android", "Machine Learning", "Firebase" ],
@@ -537,7 +537,7 @@
       "title" : "Estudante"
     },
     "edilson_ngulele" : {
-      "bio" : "Android developer by passion. I enjoy coding, writing and talking about code. If i'm not doing one of these, i'm certainly reading about code or self-awareness.",
+      "bio" : "Android developer by passion. I enjoy coding, writing and talking about code. If I'm not doing one of these, I'm certainly reading about code or self-awareness.",
       "company" : "ISUTC",
       "companyLogo" : "/images/logo.png",
       "companyLogoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfestmaputo.appspot.com/o/logo.png?alt=media&token=516663cb-88d6-45a5-a98d-eab5409dea58",
@@ -546,7 +546,7 @@
       "name" : "Edilson Ngulele",
       "photo" : "/images/people/Edilson.jpeg",
       "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfestmaputo.appspot.com/o/speakers2018%2FEdilson.jpeg?alt=media&token=f6cc038f-29b4-4878-a4cf-71eb874ba90c",
-      "shortBio" : "Android developer by passion. I enjoy coding, writing and talking about code. If i'm not doing ...",
+      "shortBio" : "Android developer by passion. I enjoy coding, writing and talking about code. If I'm not doing ...",
       "socials" : [ {
         "icon" : "github",
         "link" : "https://github.com/EdNgulele",
