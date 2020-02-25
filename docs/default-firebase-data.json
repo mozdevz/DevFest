@@ -164,7 +164,7 @@
       }, {
         "endTime" : "16:15",
         "sessions" : [ {
-          "items" : [ 140 ]
+          "items" : [ 112 ]
         } ],
         "startTime" : "15:45"
       }, {
@@ -278,12 +278,12 @@
       "title" : "Introdução ao React Native para Desenvolvedores Android"
     },
     "112" : {
-      "complexity" : "Intermediate",
-      "description" : "Last year brought a lot of new capabilities to browsers, fundamentally changing the way we will build web apps in 2016. 60FPS, push messages, offline support and background sync became a reality marking the birth of Progressive Web Apps.",
-      "language" : "English",
-      "speakers" : [ "konrad_dzwinel" ],
-      "tags" : [ "Web" ],
-      "title" : "Building web apps in 2016"
+      "complexity" : "Iniciante",
+      "description" : "Nesta apresentação será uma demostração em tempo real da computação fisica. Onde no final seremos capazes de controlar uma lampada usando celular.\nUsarei como ferramenta a plataforma arduino e esp8266. Arduino é uma plataforma usada para \"\"prototipagem\"\" de projectos electronicos, hoje é a plataforma mais popular para desenvolvimento de projectos ligados a IoT, automação, robotica, etc.\nO primeiro objectivo será dar os primeiros passos ao Arduino e depois iremos integrar ao Firebase que apartir de uma aplicação Android iremos poder ligar e desligar as lampadas.",
+      "language" : "PT",
+      "speakers" : [ "frederico" ],
+      "tags" : [ "IoT", "Android", "Firebase" ],
+      "title" : "IoT com recurso ao Firebase e Arduino"
     },
     "113" : {
       "complexity" : "Intermédio",
@@ -614,6 +614,25 @@
         "name" : "Twitter"
       } ],
       "order" : 5,
+      "title" : "Estudante"
+    },
+    "frederico" : {
+      "bio" : "Frederico Zile, é embaixador do projecto TME Education onde da treinamentos em programação de microcontroladores, sistemas embarcados, robotica, automação e Electronica.\nActualmente estuda engenharia Electronica na UEM.",
+      "company" : "UEM",
+      "companyLogo" : "/images/logo.png",
+      "companyLogoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfestmaputo.appspot.com/o/logo.png?alt=media&token=516663cb-88d6-45a5-a98d-eab5409dea58",
+      "country" : "Maputo, Moçambique",
+      "featured" : true,
+      "name" : "Frederico Zile",
+      "photo" : "/images/people/Edilson.jpeg",
+      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfestmaputo.appspot.com/o/speakers2018%2FEdilson.jpeg?alt=media&token=f6cc038f-29b4-4878-a4cf-71eb874ba90c",
+      "shortBio" : "Desenvolvedor Full Stack e instrutor de programação na kutiva onde ensina sobre ...",
+      "socials" : [ {
+        "icon" : "facebook",
+        "link" : "https://fb.com/fczile",
+        "name" : "Facebook"
+      } ],
+      "order" : 6,
       "title" : "Estudante"
     }
   },
