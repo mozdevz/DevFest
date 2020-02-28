@@ -136,7 +136,7 @@
         "sessions" : [ {
           "items" : [ 110 ]
         }, {
-          "items" : [ 140 ]
+          "items" : [ 115 ]
         } ],
         "startTime" : "13:00"
       }, {
@@ -152,7 +152,7 @@
         "sessions" : [ {
           "items" : [ 111 ]
         }, {
-          "items" : [ 140 ]
+          "items" : [ 118 ]
         } ],
         "startTime" : "14:15"
       }, {
@@ -302,14 +302,12 @@
       "title" : "Testar em Produção"
     },
     "115" : {
-      "complexity" : "Beginner",
-      "description" : "Upcoming Android N release will bring some interesting changes to both Android run-time and toolchain. Let's talk about JIT, AOT, hybrid JIT/AOT, Jack, Jill and other acronyms and codenames ;-) In this presentation we'll see how many awesome tricks are needed to make our apps start fast and run smoothly on modern Android devices. Hopefully we'll also answer the most important question -- what's next for Android after Java.",
-      "language" : "English",
-      "presentation" : "https://speakerdeck.com/gdglviv/aleksander-piotrowski-android-tool-chain-and-run-time-improvements-in-n",
-      "speakers" : [ "paul_lammertsma" ],
-      "tags" : [ "Android" ],
-      "title" : "Android tool-chain and run-time improvements in N",
-      "videoId" : "WqULb6bdwwg"
+      "complexity" : "Intermédio",
+      "description" : "Nesta apresentação, os participantes vão:\n\nAprender a optimizar como o navegador renderiza uma pagina desde HTML até JavaScript.\n\n- Optimizar imagens (raster e vector images), vídeos, áudio e fontes para a Web, usar formatos de imagem e vídeo modernos, como WebP, WebM e usar APIS como intersection Observer.\n\n- Optimizar código JavaScript\n- Optimizar código CSS\n- Usar service workers\n- Usar métricas de performance como: \n\nTime to First Byte\n\nVisual Metrics:\n - First Paint\n - First Contentful Paint\n - First Meaningful Paint\n - Largest Contentful Paint\n\nInteractivity metrics:\n - Time to Interactive\n - First Input Delay\n - Cumulative Layout Shift\n - Total Blocking Time\n",
+      "language" : "PT",
+      "speakers" : [ "ivan_bila" ],
+      "tags" : [ "Web" ],
+      "title" : "Measure twice cut once"
     },
     "116" : {
       "complexity" : "Intermédio",
@@ -328,13 +326,12 @@
       "title" : "Primeiros passos com a API do M-pesa"
     },
     "118" : {
-      "complexity" : "Intermediate",
-      "description" : "TBD",
-      "language" : "English",
-      "presentation" : "https://speakerdeck.com/gdglviv/dmytro-danylyk-kotlin-plus-android",
-      "speakers" : [ "sergii_khomenko" ],
-      "tags" : [ "Android" ],
-      "title" : "Kotlin + Android"
+      "complexity" : "Intermédio",
+      "description" : "Introdução a variáveis no CSS, vantagens, formas de uso e como integrá-las em seu fluxo de trabalho para tornar as suas folhas de estilo facéis de manter e DRY",
+      "language" : "PT",
+      "speakers" : [ "oly_mangue" ],
+      "tags" : [ "Web" ],
+      "title" : "CSS Custom Properties: escreva variáveis de forma nativa no CSS"
     },
     "119" : {
       "complexity" : "Beginner",
@@ -533,7 +530,7 @@
         "link" : "https://dev.to/lsambo02",
         "name" : "dev.to"
       }],
-      "order" : 1,
+      "order" : 7,
       "title" : "Estudante"
     },
     "edilson_ngulele" : {
@@ -651,8 +648,66 @@
         "link" : "https://www.linkedin.com/in/priti-carsane/",
         "name" : "LinkedIn"
       } ],
-      "order" : 7,
+      "order" : 1,
       "title" : "Bancária"
+    },
+    "oly_mangue" : {
+      "bio" : "Olímpio é um frontend web developer e técnico de informática com paixão em aprender novas técnologias e ver animes.",
+      "company" : "Tecnicol Moçambique lda",
+      "companyLogo" : "/images/logo.png",
+      "companyLogoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfestmaputo.appspot.com/o/logo.png?alt=media&token=516663cb-88d6-45a5-a98d-eab5409dea58",
+      "country" : "Maputo, Moçambique",
+      "featured" : true,
+      "name" : "Olímpio Adolfo",
+      "photo" : "/images/people/Oly.jpeg",
+      "photoUrl" : "https://avatars2.githubusercontent.com/u/26844915?s=460&v=4",
+      "shortBio" : "Olímpio é um frontend web developer e técnico de informática com paixão em ...",
+      "socials" : [ {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/olimpioadolfo",
+        "name" : "Twitter"
+      }, {
+        "icon" : "github",
+        "link" : "https://github.com/0limpi0",
+        "name" : "Github"
+      } ],
+      "order" : 8,
+      "title" : "Estudante e técnico de informática"
+    },
+    "ivan_bila" : {
+      "bio" : "Ivan Bila é UX designer e desenvolvedor de software, participou do desenvolvimento de produtos que foram usados por mais de 250 mil utilizadores.\n\nActualmente trabalha como desenvolvedor de software na UX Information Technologies, onde ajuda a manter e desenvolver produtos como emprego.co.mz, emprego.co.ao, douleuw.grr e biscate.co.mz. Ele também leccionou desenvolvimento de aplicações web mais especificamente front end para mais de 3000 alunos durante o programa GROW WITH GOOGLE da Google e Udacity.\n\nPartilha no seu blog, técnicas sobre como melhorar a experiência dos utilizadores nas aplicações mobile e web.",
+      "company" : "ItGest",
+      "companyLogo" : "/images/logo.png",
+      "companyLogoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfestmaputo.appspot.com/o/logo.png?alt=media&token=516663cb-88d6-45a5-a98d-eab5409dea58",
+      "country" : "Maputo, Moçambique",
+      "featured" : true,
+      "name" : "Ivan Bila",
+      "photo" : "/images/people/Ivan.jpeg",
+      "photoUrl" : "https://media-exp1.licdn.com/dms/image/C4D03AQEp55YhIKzQ4Q/profile-displayphoto-shrink_800_800/0?e=1588204800&v=beta&t=ahE8TknYaMLpsVeIFUzZlU_-JsVzgATXd7MLBrLSS3M",
+      "shortBio" : "Ivan Bila é UX designer e desenvolvedor de software, participou do desenvolvimento de ...",
+      "socials" : [ {
+        "icon" : "instagram",
+        "link" : "https://www.instagram.com/ivan_bila/",
+        "name" : "Instagram"
+      }, {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/ivanbila/",
+        "name" : "LinkedIn"
+      }, {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/ivanbila",
+        "name" : "Twitter"
+      }, {
+        "icon" : "facebook",
+        "link" : "https://web.facebook.com/ivanprod",
+        "name" : "Facebook"
+      }, {
+        "icon" : "github",
+        "link" : "https://github.com/IvanBila",
+        "name" : "GitHub"
+      } ],
+      "order" : 9,
+      "title" : "Developer"
     }
   },
   "previousSpeakers" : {
