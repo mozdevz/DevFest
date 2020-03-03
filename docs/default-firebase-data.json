@@ -170,7 +170,7 @@
       }, {
         "endTime" : "17:00",
         "sessions" : [ {
-          "items" : [ 140 ]
+          "items" : [ 119 ]
         }],
         "startTime" : "16:15"
       }, {
@@ -334,13 +334,13 @@
       "title" : "CSS Custom Properties: escreva variáveis de forma nativa no CSS"
     },
     "119" : {
-      "complexity" : "Beginner",
-      "description" : "Writing Android apps is usually fun because you are actually building something. But what about writing tests? Boring stuff. Errr, UI tests? I am a developer!\n\nIn this talk we will take a look at options for UI tests on Android, why you should write them and how they help you with your app development workflow. No more untested apps!",
-      "language" : "English",
-      "presentation" : "https://speakerdeck.com/gdglviv/jana-moudra-hands-on-with-ui-testing-for-android-developers",
-      "speakers" : [ "dmytro_danylyk" ],
-      "tags" : [ "Android" ],
-      "title" : "Hands-on with UI testing for Android developers"
+      "complexity" : "Intermédio",
+      "description" : "",
+      "language" : "PT",
+      "presentation" : "https://docs.google.com/presentation/d/108C6zZ76n0Pjg6Mq_3GCBYKV2X6c9mS4UD5zCynG7uE/edit?usp=sharing",
+      "speakers" : [ ],
+      "tags" : [ "Firebase" ],
+      "title" : "Introdução à Firebase Extensions"
     },
     "120" : {
       "complexity" : "Iniciante",
