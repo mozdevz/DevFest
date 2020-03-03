@@ -224,6 +224,7 @@
       "complexity" : "Intermédio",
       "description" : "Nesta apresentação, Edilson irá explicar como criar UIs utilizando o Jetpack Compose.",
       "language" : "PT",
+      "presentation": "https://docs.google.com/presentation/d/14rUqNM1Db1D7yu1vwjqCcTAye72bLgwcgzwMqqZoxlg/edit?usp=sharing",
       "speakers" : [ "edilson_ngulele" ],
       "tags" : [ "Android", "Kotlin" ],
       "title" : "Introdução ao Jetpack Compose"
@@ -250,6 +251,7 @@
       "description" : "A apresentação inicia com a contextualização do que é Cloud e como funciona, com descrições históricas e com factos que façam com que iniciantes possam entender os conceitos transmitidos, junto com exemplos de gigantes da tecnologia que actualmente os seus serviços são baseados na cloud como a Netflix e o Spotify. Seguirá a apresentação da suite de serviços da Google Cloud Platform como exemplos práticos para os conceitos transmitidos anteriormente e finalmente uma demonstração prática de uma aplicação web hospedada na cloud.",
       "language" : "PT",
       "speakers" : [ "arnaldo_manuel" ],
+      "presentation": "https://docs.google.com/presentation/d/1FdHc4PMCriTjGGMaDFIgLEEnPvlWAluMfvDs8c3uBcg/edit?usp=sharing",
       "tags" : [ "Cloud" ],
       "title" : "Cloud - O futuro da computação como conhecemos"
     },
@@ -265,6 +267,7 @@
       "complexity" : "Intermédio",
       "description" : "Calleb irá explicar o conceito de ML e sua utilidade, como funciona e as vantagens de sua implementação em aplicações android e também exemplos de apps que usam ML. \nAs possibilidades que o ML Kit oferece e como implementá-las em apps serão os pontos chaves da apresentação.\nO objectivo é fazer perceber que não precisamos ser experts em Matemática para termos ML em nossas apps android, e muito pelo contrário, a sua implementação é fácil.",
       "language" : "PT",
+      "presentation": "https://docs.google.com/presentation/d/1lgsgOaOxZoIiCeIGPlNPp5XV4gWRDaWR-9Cr8XBkdqU/edit?usp=sharing",
       "speakers" : [ "calleb" ],
       "tags" : [ "Android", "Machine Learning", "Firebase" ],
       "title" : "ML Kit para Desenvolvimento Android"
@@ -329,6 +332,7 @@
       "complexity" : "Intermédio",
       "description" : "Introdução a variáveis no CSS, vantagens, formas de uso e como integrá-las em seu fluxo de trabalho para tornar as suas folhas de estilo facéis de manter e DRY",
       "language" : "PT",
+      "presentation": "https://docs.google.com/presentation/d/1OnittgY_acB-Y3h84qcW6dz7msrj9T03wWvzhu426ps/edit?usp=sharing",
       "speakers" : [ "oly_mangue" ],
       "tags" : [ "Web" ],
       "title" : "CSS Custom Properties: escreva variáveis de forma nativa no CSS"
