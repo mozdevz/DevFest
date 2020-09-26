@@ -16,6 +16,7 @@ Configuration data is split into two files:
   "gallery": {..},
   ...
 ```
+
 and `data/resources.json` (texts and other configurations):
 
 ### Pages configuration
@@ -58,22 +59,11 @@ If you don't need some pages, don't forget to remove them (or comment out)
 in `hoverboard-app.html`
 
 ```html
-<iron-lazy-pages>
-  <home-page
-    data-route="home"
-    data-path="pages/home-page.html"
-  ></home-page>
-  <blog-page
-    data-route="blog"
-    data-path="pages/blog-page.html"
-    route="[[subroute]]"
-  ></blog-page>
-  <speakers-page
-    data-route="speakers"
-    data-path="pages/speakers-page.html"
-    route="[[subroute]]"
-  ></speakers-page>
-</iron-lazy-pages>
+<iron-pages>
+  <home-page data-route="home"></home-page>
+  <blog-page data-route="blog" route="[[subRoute]]"></blog-page>
+  <speakers-page data-route="speakers" route="[[subRoute]]"></speakers-page>
+</iron-pages>
 ```
 
 ### Toolbar Navigation
@@ -99,7 +89,6 @@ Define a page's label and url in `navigation` in `data/settings.json`
 ### "Become a partner" - how it works?
 
 `Become a partner` button opens a form with `company name`, `name` and `email` fields. After a user (potential partner) filled a form, this data is saved into Firestore DB, `potentialPartners` node. It gives the possibility to contact back those people who are interested to be a partner with you and collaborate earlier.
-
 
 # Next steps
 
